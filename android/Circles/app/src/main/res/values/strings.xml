@@ -10,5 +10,6 @@
     <string name="teach_me_pi">Lär mig mer om pi</string>
     <string name="about_app_name">Om Appnamn</string>
     <string name="about_pi">Fakta om pi</string>
+    <string name="hand_arrow_description">hand_arrow</string>
 
 </resources>

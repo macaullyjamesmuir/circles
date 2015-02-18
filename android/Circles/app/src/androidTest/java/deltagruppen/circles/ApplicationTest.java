@@ -2,6 +2,7 @@ package deltagruppen.circles;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
+import org.apache.commons.math3.*;
 
 /**
  * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>

@@ -4,5 +4,12 @@
     <string name="app_name">Circles</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="head_instructions">Frihandsritning av cirkel</string>
+    <string name="instruction_part_one">Försök att rita en så rund cirkel som möjligt till höger.</string>
+    <string name="instruction_part_two">Ett närmervärde på pi kommer att beräknas utefter den ritade cirkeln.</string>
+    <string name="teach_me_pi">Lär mig mer om pi</string>
+    <string name="about_app_name">Om Appnamn</string>
+    <string name="about_pi">Fakta om pi</string>
+    <string name="hand_arrow_description">hand_arrow</string>
 
 </resources>

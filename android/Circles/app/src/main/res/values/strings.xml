@@ -8,8 +8,44 @@
     <string name="instruction_part_one">Försök att rita en så rund cirkel som möjligt till höger.</string>
     <string name="instruction_part_two">Ett närmervärde på pi kommer att beräknas utefter den ritade cirkeln.</string>
     <string name="teach_me_pi">Lär mig mer om pi</string>
-    <string name="about_app_name">Om Appnamn</string>
+    <string name="about_app_name">Om Perfect Pi</string>
     <string name="about_pi">Fakta om pi</string>
     <string name="hand_arrow_description">hand_arrow</string>
+    <string name="title_activity_pi_info">Pi Info</string>
+    <string name="title_activity_app_info">App Info</string>
+    <string name="about_perfect_pi_header">Om Perfect Pi</string>
+    <string name="about_perfect_pi_description">Perfect Pi är ett samarbete mellan Stockholms Matematikcentrum (SMC) och studenter från programmet Civilingenjör Datateknik vid KTH i syfte att väcka intresse för matematik i allmänhet och pi i synnerhet. Projektet är ett Open Source-projekt licenserat under Apache License Version 2.0 (http://www.apache.org/license). Källkoden finns att tillgå på https://github.com/deltagruppen/circles/.</string>
+    <string name="head_projectleader">Projektledare</string>
+    <string name="info_projectleader">Veronica Randleff - randleff@kth.se</string>
+    <string name="head_students">Studenter</string>
+    <string name="head_math_center">Stockholms Matematikcentrum</string>
+    <string name="head_user_testing">Användartestning</string>
+    <string name="name_AM">Alfrida Mattison</string>
+    <string name="name_AE">Anna-Karin Ewert</string>
+    <string name="head_lead_programmer">Huvudprogrammerare</string>
+    <string name="name_MM">Macaully Muir</string>
+    <string name="name_JYI">Jamila Yusuf Isse</string>
+    <string name="name_DJ">Dante Johansson</string>
+    <string name="name_CA">Christoffer Alenskog</string>
+    <string name="name_CEG">Chaimae El Ghouch</string>
+    <string name="name_AKN">Aphia Kabata Nga-kabula</string>
+    <string name="head_programmers">Programmerare</string>
+    <string name="name_PS">Patrik Schwermer</string>
+    <string name="head_guiux">GUI/UX</string>
+    <string name="name_sl">Professor Svante Linusson</string>
+    <string name="contact_sl">director@math-stockholm.se</string>
+    <string name="about_pi_header">The Number Pi</string>
+    <string name="about_pi_description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat purus a urna blandit, placerat scelerisque eros gravida. Curabitur sit amet interdum lacus, a ornare purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi hendrerit libero quis risus ultrices, eget varius erat luctus. Donec iaculis varius elit, vitae lobortis arcu semper eu. Cras vestibulum aliquam tempor. Nunc tincidunt ut sapien at ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse justo tellus, interdum id nisi eu, iaculis congue dolor. Quisque condimentum commodo turpis vitae eleifend.
+        In dolor nisl, scelerisque posuere porta non, accumsan vel lacus. Phasellus elit felis, elementum sit amet augue vitae, efficitur accumsan odio. Sed tincidunt in quam in sagittis. Mauris dui libero, bibendum vel purus nec, commodo cursus ipsum. Vivamus in laoreet diam. Morbi nec massa blandit, vehicula risus sit amet, fermentum nisi.
+
+
+Aenean eget condimentum nisl, at consectetur justo. Aliquam in sapien et felis pulvinar ornare. Nullam interdum, nunc a suscipit condimentum, justo tellus auctor enim, nec porttitor leo mi in est. Morbi viverra ex eu justo porttitor pellentesque. Phasellus pretium nulla at condimentum suscipit. Sed vestibulum mollis urna, nec congue dolor. Morbi elit mi, tristique sit amet orci at, tristique convallis lectus. Duis posuere, nisl vitae cursus interdum, urna ligula imperdiet turpis, sed pulvinar dui nibh vitae nunc. Pellentesque risus ipsum, suscipit quis tincidunt id, tincidunt nec augue. Aenean nibh arcu, luctus sed feugiat a, ullamcorper in elit. Donec ut est eget magna ultrices eleifend a vitae dui. Maecenas vitae nibh mauris. Nam nulla magna, facilisis a risus eu, pretium pretium magna. Duis id dui metus.
+
+Nam id elit a mauris pharetra facilisis ut tempus ante. Nunc eu diam sit amet ex congue semper. Nam commodo facilisis scelerisque. Donec dictum nisl sit amet tempus porttitor. In sed massa in augue facilisis cursus et sed urna. Quisque rutrum sed nisl aliquet finibus. Nullam vehicula sed ipsum sed tempor. In id nisl commodo nisl auctor elementum.
+
+Mauris vestibulum enim malesuada eros viverra varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In tempor elit sed dolor tempus, id condimentum libero gravida. Aliquam luctus dolor at nibh scelerisque consectetur. Suspendisse interdum elementum nisi ut elementum. Nam volutpat, ligula sed cursus interdum, mi nulla vulputate metus, in eleifend est tellus ut quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas sit amet magna dolor. Vestibulum accumsan tempus ipsum at interdum. Donec lacus sapien, vestibulum quis lacus sed, ullamcorper condimentum metus. Proin nec mi mauris. Integer vitae finibus nulla, id elementum mauris. Suspendisse placerat tellus ligula, ac porttitor sem sodales auctor. Sed maximus ligula elementum viverra volutpat. </string>
+    <string name="title_activity_calculating_pi">CalculatingPi</string>
+    <string name="about_calculating_pi_header">Beräkning av pi</string>
+    <string name="title_activity_about_calculating_pi">AboutCalculatingPi</string>
 
 </resources>

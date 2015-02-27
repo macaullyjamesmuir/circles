@@ -1,8 +1,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
     android:layout_height="match_parent" tools:context=".MainActivity"
     android:id="@+id/main_layout"
     android:background="#eceff1">
+
+
+
 
     <LinearLayout
         android:orientation="horizontal"
@@ -14,16 +17,22 @@
         android:background="#ff93b6c5"
         android:id="@+id/linearLayout">
 
+
+
+
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="140dp"
             android:background="#ffbfd8dc"
             android:weightSum="1">
 
+
+
+
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="92dp"
+                android:layout_height="104dp"
                 android:id="@+id/imageView"
                 android:background="@drawable/hand_arrow"
                 android:layout_marginStart="18dp"
@@ -34,10 +43,14 @@
                 android:layout_marginEnd="36dp"
                 android:contentDescription="@string/hand_arrow_description" />
 
+
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -46,16 +59,17 @@
                     android:text="@string/head_instructions"
                     android:id="@+id/textView"
                     android:layout_marginTop="18dp"
-                    android:textSize="15sp" />
+                    android:textSize="17sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/instruction_part_one"
                     android:id="@+id/textView3"
-                    android:layout_marginTop="18dp"
-                    android:textSize="14sp"/>
+                    android:layout_marginTop="6dp"
+                    android:textSize="13sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -63,17 +77,74 @@
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/instruction_part_two"
                     android:id="@+id/textView2"
-                    android:layout_marginTop="18dp"
-                    android:textSize="14dp"/>
+                    android:textSize="13sp"
+                    android:layout_weight="0.91" />
+
+
+
             </LinearLayout>
+
 
         </LinearLayout>
 
+        <ImageButton
+            android:layout_width="47dp"
+            android:layout_height="134dp"
+            android:id="@+id/imageButton2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/textView31"
+            android:layout_gravity="bottom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/textView30"
+            android:layout_gravity="bottom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/textView29"
+            android:layout_gravity="bottom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView27"
+            android:layout_gravity="bottom" />
+
     </LinearLayout>
+
+    <ImageButton
+        android:layout_width="88dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/smc_logo"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true" />
+
 
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
+        android:id="@+id/relativeLayout"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/linearLayout"
         android:layout_toEndOf="@+id/linearLayout">
@@ -100,6 +171,34 @@
             android:layout_gravity="center_horizontal|bottom"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
+        <ImageView
+            android:layout_width="46dp"
+            android:layout_height="40dp"
+            android:background="@drawable/draw_circle"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="290dp"
+            android:layout_alignLeft="@+id/button"
+            android:layout_alignStart="@+id/button"
+
+            android:layout_toRightOf="@+id/button"
+            android:layout_toEndOf="@+id/button" />
     </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter"
+        android:id="@+id/textView33"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginStart="117dp"
+        android:layout_alignTop="@+id/imageButton"
+        android:layout_toLeftOf="@+id/relativeLayout"
+        android:layout_toStartOf="@+id/relativeLayout"
+        android:textColor="#ffffffff"
+        android:textSize="12sp" />
 
 </RelativeLayout>

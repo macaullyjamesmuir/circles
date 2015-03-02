@@ -48,5 +48,7 @@ Mauris vestibulum enim malesuada eros viverra varius. Vestibulum ante ipsum prim
     <string name="title_activity_calculating_pi">CalculatingPi</string>
     <string name="about_calculating_pi_header">Beräkning av pi</string>
     <string name="title_activity_about_calculating_pi">AboutCalculatingPi</string>
+    <string name="smc_logo_description">The SMC logo</string>
+    <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter</string>
 
 </resources>

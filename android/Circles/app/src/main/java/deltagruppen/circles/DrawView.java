@@ -53,7 +53,7 @@ public class DrawView extends View
             return true;
         }
         if (event.getAction() == MotionEvent.ACTION_MOVE) {
-            for (int i = event.getHistorySize() - 1; i >= 0; i--) {
+            for (int i = 0; i < event.getHistorySize(); i++) {
                 points.add(new PointF(event.getHistoricalX(i), event.getHistoricalY(i)));
             }
             points.add(new PointF(event.getX(), event.getY()));

@@ -8,6 +8,7 @@ import android.graphics.Path;
 import android.graphics.PointF;
 import android.support.annotation.NonNull;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -57,6 +58,15 @@ public class DrawView extends View
             path.lineTo(event.getX(), event.getY());
             invalidate();
             return true;
+        }
+        if (event.getAction() == MotionEvent.ACTION_UP) {
+            try {
+                new ImperfectCircle(points);
+                Log.i("DrawView", "Yay, circle!");
+            }
+            catch (IllegalArgumentException e) {
+                Log.i("DrawView", "Not a circle :(");
+            }
         }
         return false;
     }

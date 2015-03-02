@@ -7,6 +7,7 @@
     <string name="head_instructions">Frihandsritning av cirkel</string>
     <string name="instruction_part_one">Försök att rita en så rund cirkel som möjligt till höger.</string>
     <string name="instruction_part_two">Ett närmervärde på pi kommer att beräknas utefter den ritade cirkeln.</string>
+    <string name="logo_text">Ett samarbete mellan Stockholms Matemetikcentrum och KTH-studenter .</string>
     <string name="teach_me_pi">Lär mig mer om pi</string>
     <string name="about_app_name">Om Perfect Pi</string>
     <string name="about_pi">Fakta om pi</string>
@@ -24,10 +25,10 @@
     <string name="name_AE">Anna-Karin Ewert</string>
     <string name="head_lead_programmer">Huvudprogrammerare</string>
     <string name="name_MM">Macaully Muir</string>
+    <string name="name_CEG">Chaimae El Ghouch</string>
     <string name="name_JYI">Jamila Yusuf Isse</string>
     <string name="name_DJ">Dante Johansson</string>
     <string name="name_CA">Christoffer Alenskog</string>
-    <string name="name_CEG">Chaimae El Ghouch</string>
     <string name="name_AKN">Aphia Kabata Nga-kabula</string>
     <string name="head_programmers">Programmerare</string>
     <string name="name_PS">Patrik Schwermer</string>

@@ -10,51 +10,40 @@ import deltagruppen.circles.math.LineSegment;
 /**
  * Represents an imperfect circle drawn by the user.
  */
-public class ImperfectCircle {
+public class ImperfectCircle
+{
 
-    private final List<LineSegment> segments;
+    private final List<PointF> points;
 
     /**
      * Create a new imperfect circle from the given points.
      * Throws an IllegalArgumentException if the given set
      * of points can't be used.
-     * @param points A list of points.
+     * @param input A list of points.
      */
-    public ImperfectCircle(List<PointF> points)
+    public ImperfectCircle(List<PointF> input)
     {
-        // Generate the line segments.
+        // Generate a list of line segments from the input
         List<LineSegment> segments = new ArrayList<>();
-        for (int i = 1; i < points.size(); i++) {
-            segments.add(new LineSegment(points.get(i - 1), points.get(i)));
+        for (int i = 1; i < input.size(); i++) {
+            segments.add(new LineSegment(input.get(i-1), input.get(i)));
         }
 
-        // Try to find intersecting line segments.
+        // Find the first place two line segments intersect, and only
+        // use the points that are on that closed curve.
         for (int i = 0; i < segments.size(); i++) {
-            LineSegment segment = segments.get(i);
             for (int j = i + 2; j < segments.size(); j++) {
-                if (segment.getIntersection(segments.get(j)) != null) {
-                    this.segments = trim(segments, i, j);
+                LineSegment s1 = segments.get(i);
+                LineSegment s2 = segments.get(j);
+
+                PointF intersection = s1.getIntersection(s2);
+                if (intersection != null) {
+                    points = new ArrayList<>(input.subList(i, j + 1));
+                    points.add(intersection);
                     return;
                 }
             }
         }
-
-        // If we get here, nothing to do but bail.
-        throw new IllegalArgumentException("Not a circle");
-    }
-
-    /**
-     * Remove all elements in the list before and after the
-     * given start and end indexes (exclusive).
-     * @param list A list
-     * @param start A valid start index
-     * @param end A valid end index
-     * @return The same list, trimmed.
-     */
-    private List<LineSegment> trim(List<LineSegment> list, int start, int end)
-    {
-        for (int i = 0; i < start; i++)             list.remove(0);
-        for (int i = list.size() - 1; i > end; i--) list.remove(list.size() - 1);
-        return list;
+        throw new IllegalArgumentException("Can't create a circle from the given list.");
     }
 }

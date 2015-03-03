@@ -46,4 +46,13 @@ public class ImperfectCircle
         }
         throw new IllegalArgumentException("Can't create a circle from the given list.");
     }
+
+    /**
+     * Get the points that make up this imperfect circle.
+     * @return A list of points.
+     */
+    public List<PointF> getPoints()
+    {
+        return points;
+    }
 }

@@ -17,7 +17,7 @@ import java.util.LinkedList;
 public class DrawView extends View
 {
     private final LinkedList<PointF> points;
-    private final Path               path;
+    private Path               path;
     private final Paint              paint;
 
     public DrawView(Context context, AttributeSet attrs)
@@ -47,6 +47,11 @@ public class DrawView extends View
             path.reset();
             points.add(new PointF(event.getX(), event.getY()));
             path.moveTo(event.getX(), event.getY());
+
+            paint.setStyle(Paint.Style.STROKE);
+            paint.setStrokeWidth(10);
+            paint.setColor(Color.BLACK);
+
             return true;
         }
         if (event.getAction() == MotionEvent.ACTION_MOVE) {
@@ -61,7 +66,11 @@ public class DrawView extends View
         }
         if (event.getAction() == MotionEvent.ACTION_UP) {
             try {
-                new ImperfectCircle(points);
+                ImperfectCircle imperfectCircle = new ImperfectCircle(points);
+                path = new ImperfectCirclePath(imperfectCircle);
+                paint.setStyle(Paint.Style.FILL);
+                paint.setColor(Color.RED);
+                invalidate();
                 Log.i("DrawView", "Yay, circle!");
             }
             catch (IllegalArgumentException e) {

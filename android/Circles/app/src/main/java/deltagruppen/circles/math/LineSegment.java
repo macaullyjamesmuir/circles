@@ -39,8 +39,14 @@ public class LineSegment {
      *         that point. If the lines overlap, return an endpoint
      *         that lies in the overlap. Else return null.
      */
-    public Vector2D getIntersection(LineSegment segment)
+    public PointF getIntersection(LineSegment segment)
     {
-        return new LineSegmentPair(this, segment).getIntersection();
+        Vector2D intersection = (new LineSegmentPair(this, segment)).getIntersection();
+        if (intersection == null) {
+            return null;
+        }
+        else {
+            return new PointF((float) intersection.getX(), (float) intersection.getY());
+        }
     }
 }

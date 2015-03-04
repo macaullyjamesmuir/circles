@@ -3,4 +3,8 @@
     <declare-styleable name="DrawView">
 
     </declare-styleable>
+    <declare-styleable name="ImperfectCircleView">
+        <attr name="strokeColor" format="string"/>
+        <attr name="fillColor" format="string"/>
+    </declare-styleable>
 </resources>

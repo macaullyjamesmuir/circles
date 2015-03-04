@@ -1,6 +1,7 @@
 package deltagruppen.circles;
 
 import android.content.Context;
+import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -20,6 +21,9 @@ public class ImperfectCircleView
 {
     private final Path  path;
     private final Paint paint;
+    private final int   fillColor;
+    private final int   strokeColor;
+
 
     /**
      * Create a new ImperfectCircleView.
@@ -32,8 +36,20 @@ public class ImperfectCircleView
         path = new Path();
         paint = new Paint();
 
-        paint.setStyle(Paint.Style.FILL);
-        paint.setColor(Color.RED);
+        TypedArray styledAttributes = context.getTheme().obtainStyledAttributes(
+                attrs,
+                R.styleable.ImperfectCircleView,
+                0,
+                0
+        );
+
+        try {
+            fillColor   = Color.parseColor(styledAttributes.getString(R.styleable.ImperfectCircleView_fillColor));
+            strokeColor = Color.parseColor(styledAttributes.getString(R.styleable.ImperfectCircleView_strokeColor));
+        } finally {
+            styledAttributes.recycle();
+        }
+
     }
 
     /**
@@ -43,6 +59,12 @@ public class ImperfectCircleView
     @Override
     protected void onDraw(Canvas canvas)
     {
+        paint.setStyle(Paint.Style.STROKE);
+        paint.setColor(strokeColor);
+        canvas.drawPath(path, paint);
+
+        paint.setStyle(Paint.Style.FILL);
+        paint.setColor(fillColor);
         canvas.drawPath(path, paint);
     }
 
@@ -53,8 +75,6 @@ public class ImperfectCircleView
      */
     public void setImperfectCircle(@NonNull ImperfectCircle imperfectCircle)
     {
-        invalidate();
-
         List<PointF> points = imperfectCircle.getPoints();
 
         path.moveTo(points.get(0).x, points.get(0).y);

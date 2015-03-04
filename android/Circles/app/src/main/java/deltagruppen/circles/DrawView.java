@@ -19,7 +19,8 @@ public class DrawView extends RelativeLayout
     private final LinkedList<PointF>  points;
     private Path                      path;
     private final Paint               paint;
-    private final ImperfectCircleView imperfectCircleView;
+
+    private ImperfectCircleView imperfectCircleView;
 
     public DrawView(Context context, AttributeSet attrs)
     {
@@ -30,7 +31,11 @@ public class DrawView extends RelativeLayout
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(10);
         paint.setColor(Color.BLACK);
+    }
 
+    @Override
+    public void onFinishInflate()
+    {
         imperfectCircleView = (ImperfectCircleView)findViewById(R.id.imperfectCircleView);
     }
 

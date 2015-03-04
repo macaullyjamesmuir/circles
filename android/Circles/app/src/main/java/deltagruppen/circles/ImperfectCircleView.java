@@ -44,8 +44,9 @@ public class ImperfectCircleView
         );
 
         try {
-            fillColor   = Color.parseColor(styledAttributes.getString(R.styleable.ImperfectCircleView_fillColor));
-            strokeColor = Color.parseColor(styledAttributes.getString(R.styleable.ImperfectCircleView_strokeColor));
+            fillColor   = Color.parseColor(styledAttributes.getString(R.styleable.ImperfectCircleView_imperfectCircleFillColor));
+            strokeColor = Color.parseColor(styledAttributes.getString(R.styleable.ImperfectCircleView_imperfectCircleStrokeColor));
+            paint.setStrokeWidth(styledAttributes.getFloat(R.styleable.ImperfectCircleView_imperfectCircleStrokeWidth, 0));
         } finally {
             styledAttributes.recycle();
         }

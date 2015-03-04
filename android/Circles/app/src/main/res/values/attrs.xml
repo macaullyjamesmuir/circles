@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="DrawView">
-
     </declare-styleable>
     <declare-styleable name="ImperfectCircleView">
-        <attr name="strokeColor" format="string"/>
-        <attr name="fillColor" format="string"/>
+        <attr name="imperfectCircleStrokeWidth" format="float"/>
+        <attr name="imperfectCircleStrokeColor" format="string"/>
+        <attr name="imperfectCircleFillColor" format="string"/>
     </declare-styleable>
 </resources>

@@ -85,4 +85,28 @@ public class ImperfectCircle
 
         return length;
     }
+
+    /**
+     * Get the area of the imperfect circle.
+     * @return The area.
+     */
+    public double getArea()
+    {
+        double area = 0;
+
+        // Go through all the points and add the area they generate.
+        PointF p1, p2;
+        for (int i = 1; i < points.size(); i++) {
+            p1 = points.get(i-1);
+            p2 = points.get(i);
+            area += 0.5 * (p2.x + p1.x)*(p2.y - p1.y);
+        }
+
+        // Don't forget to add the area the first and last element generate.
+        p1 = points.get(points.size() - 1);
+        p2 = points.get(0);
+        area += 0.5 * (p2.x + p1.x)*(p2.y - p1.y);
+
+        return Math.abs(area);
+    }
 }

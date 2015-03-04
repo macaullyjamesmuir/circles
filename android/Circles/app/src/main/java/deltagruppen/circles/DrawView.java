@@ -10,15 +10,16 @@ import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
-import android.view.View;
+import android.widget.RelativeLayout;
 
 import java.util.LinkedList;
 
-public class DrawView extends View
+public class DrawView extends RelativeLayout
 {
-    private final LinkedList<PointF> points;
-    private Path               path;
-    private final Paint              paint;
+    private final LinkedList<PointF>  points;
+    private Path                      path;
+    private final Paint               paint;
+    private final ImperfectCircleView imperfectCircleView;
 
     public DrawView(Context context, AttributeSet attrs)
     {
@@ -29,6 +30,8 @@ public class DrawView extends View
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(10);
         paint.setColor(Color.BLACK);
+
+        imperfectCircleView = (ImperfectCircleView)findViewById(R.id.imperfectCircleView);
     }
 
     @Override
@@ -44,13 +47,10 @@ public class DrawView extends View
             invalidate();
 
             points.clear();
+            imperfectCircleView.clear();
             path.reset();
             points.add(new PointF(event.getX(), event.getY()));
             path.moveTo(event.getX(), event.getY());
-
-            paint.setStyle(Paint.Style.STROKE);
-            paint.setStrokeWidth(10);
-            paint.setColor(Color.BLACK);
 
             return true;
         }
@@ -66,12 +66,7 @@ public class DrawView extends View
         }
         if (event.getAction() == MotionEvent.ACTION_UP) {
             try {
-                ImperfectCircle imperfectCircle = new ImperfectCircle(points);
-                path = new ImperfectCirclePath(imperfectCircle);
-                paint.setStyle(Paint.Style.FILL);
-                paint.setColor(Color.RED);
-                invalidate();
-                Log.i("DrawView", "Yay, circle!");
+                imperfectCircleView.setImperfectCircle(new ImperfectCircle(points));
             }
             catch (IllegalArgumentException e) {
                 Log.i("DrawView", "Not a circle :(");

@@ -17,38 +17,52 @@
     <string name="about_perfect_pi_header">Om Perfect Pi</string>
     <string name="about_perfect_pi_description">Perfect Pi är ett samarbete mellan Stockholms Matematikcentrum (SMC) och studenter från programmet Civilingenjör Datateknik vid KTH i syfte att väcka intresse för matematik i allmänhet och pi i synnerhet. Projektet är ett Open Source-projekt licenserat under Apache License Version 2.0 (http://www.apache.org/license). Källkoden finns att tillgå på https://github.com/deltagruppen/circles/.</string>
     <string name="head_projectleader">Projektledare</string>
-    <string name="info_projectleader">Veronica Randleff - randleff@kth.se</string>
+    <string name="info_projectleader">Veronica Randleff \n randleff@kth.se</string>
+    <string name="head_secretary">Sekreterare</string>
+    <string name="name_JYI">Jamila Yussuf Isse</string>
     <string name="head_students">Studenter</string>
     <string name="head_math_center">Stockholms Matematikcentrum</string>
     <string name="head_user_testing">Användartestning</string>
     <string name="name_AM">Alfrida Mattison</string>
-    <string name="name_AE">Anna-Karin Ewert</string>
+    <string name="name_AE">Anna-Karin Evert</string>
     <string name="head_lead_programmer">Huvudprogrammerare</string>
     <string name="name_MM">Macaully Muir</string>
     <string name="name_CEG">Chaimae El Ghouch</string>
-    <string name="name_JYI">Jamila Yusuf Isse</string>
     <string name="name_DJ">Dante Johansson</string>
     <string name="name_CA">Christoffer Alenskog</string>
-    <string name="name_AKN">Aphia Kabata Nga-kabula</string>
+    <string name="name_AKN">Aphia Kabata</string>
     <string name="head_programmers">Programmerare</string>
     <string name="name_PS">Patrik Schwermer</string>
     <string name="head_guiux">GUI/UX</string>
     <string name="name_sl">Professor Svante Linusson</string>
     <string name="contact_sl">director@math-stockholm.se</string>
-    <string name="about_pi_header">The Number Pi</string>
-    <string name="about_pi_description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat purus a urna blandit, placerat scelerisque eros gravida. Curabitur sit amet interdum lacus, a ornare purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi hendrerit libero quis risus ultrices, eget varius erat luctus. Donec iaculis varius elit, vitae lobortis arcu semper eu. Cras vestibulum aliquam tempor. Nunc tincidunt ut sapien at ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse justo tellus, interdum id nisi eu, iaculis congue dolor. Quisque condimentum commodo turpis vitae eleifend.
-        In dolor nisl, scelerisque posuere porta non, accumsan vel lacus. Phasellus elit felis, elementum sit amet augue vitae, efficitur accumsan odio. Sed tincidunt in quam in sagittis. Mauris dui libero, bibendum vel purus nec, commodo cursus ipsum. Vivamus in laoreet diam. Morbi nec massa blandit, vehicula risus sit amet, fermentum nisi.
+    <string name="about_pi_header">Fakta om Pi</string>
+    <string name="about_pi_description">
+   Pi är förhållande mellan en cirkels omkrets och dess diameter alltså hur många gånger cirkelns diameter passar runt omkretsen. \n \n
+Exakta värdet på Pi kan inte beräknas.  \n \n
+3.14 är inte det riktiga värdet av Pi, detta gäller även för 22/7 utan de är bara approximationer.  \n \n
+”Pi-dagen" firas den 14 mars vilket valdes för att likna 3.14. Många väljer även att börja firandet vid 1:59 på dagen som kombinerat med datumet ger 3.14159.  \n \n
+Albert Einstein föddes på Pi dagen, 14:e mars. \n \n
+Pi används inom Astronomi och Astrofysik för att beräkna banor och storlekar av himlakroppar.  \n \n
+Elektricitet som genereras och levereras till ditt hem produceras i form av vågor, kallade sinusvågor. Dessa vågor har en period på 2 * Pi.  \n \n
+En flods “slingrande” kan beskrivas av dess sinuosity. Sinuosity ges av förhållandet mellan längden av en flod och dess avstånd fågelvägen från källan till mynningen, värdet av detta för den genomsnittliga floden går mot Pi.  \n \n
+Arkimedes var den första att beräkna en approximation av värdet på Pi genom att ta fram en algoritm som gick ut på att låsa in cirkeln mellan 2 polygoner och genom att beräkna omkretsen av dessa polygoner hittade han att  värdet för Pi låg mellan 223/71 och 22/7. Pi kallas även för arkimedes konstant. \n \n
+Eulers ekvation: e.^(i.pi) + 1 = 0 upptäcktes 1743. Denna formel använder sig utav de 5 mest fundamentala talen inom matematiken, 0,1,i ,e och pi. Genom att uppmärksamma Pi-symbolen i sina böcker gjorde han den populär.  \n \n
 
 
-Aenean eget condimentum nisl, at consectetur justo. Aliquam in sapien et felis pulvinar ornare. Nullam interdum, nunc a suscipit condimentum, justo tellus auctor enim, nec porttitor leo mi in est. Morbi viverra ex eu justo porttitor pellentesque. Phasellus pretium nulla at condimentum suscipit. Sed vestibulum mollis urna, nec congue dolor. Morbi elit mi, tristique sit amet orci at, tristique convallis lectus. Duis posuere, nisl vitae cursus interdum, urna ligula imperdiet turpis, sed pulvinar dui nibh vitae nunc. Pellentesque risus ipsum, suscipit quis tincidunt id, tincidunt nec augue. Aenean nibh arcu, luctus sed feugiat a, ullamcorper in elit. Donec ut est eget magna ultrices eleifend a vitae dui. Maecenas vitae nibh mauris. Nam nulla magna, facilisis a risus eu, pretium pretium magna. Duis id dui metus.
-
-Nam id elit a mauris pharetra facilisis ut tempus ante. Nunc eu diam sit amet ex congue semper. Nam commodo facilisis scelerisque. Donec dictum nisl sit amet tempus porttitor. In sed massa in augue facilisis cursus et sed urna. Quisque rutrum sed nisl aliquet finibus. Nullam vehicula sed ipsum sed tempor. In id nisl commodo nisl auctor elementum.
-
-Mauris vestibulum enim malesuada eros viverra varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In tempor elit sed dolor tempus, id condimentum libero gravida. Aliquam luctus dolor at nibh scelerisque consectetur. Suspendisse interdum elementum nisi ut elementum. Nam volutpat, ligula sed cursus interdum, mi nulla vulputate metus, in eleifend est tellus ut quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas sit amet magna dolor. Vestibulum accumsan tempus ipsum at interdum. Donec lacus sapien, vestibulum quis lacus sed, ullamcorper condimentum metus. Proin nec mi mauris. Integer vitae finibus nulla, id elementum mauris. Suspendisse placerat tellus ligula, ac porttitor sem sodales auctor. Sed maximus ligula elementum viverra volutpat. </string>
+    </string>
     <string name="title_activity_calculating_pi">CalculatingPi</string>
-    <string name="about_calculating_pi_header">Beräkning av pi</string>
+    <string name="about_calculating_pi_header">Beräkning av Pi</string>
     <string name="title_activity_about_calculating_pi">AboutCalculatingPi</string>
+    <string name="about_calculation_pi">
+    När användaren rör skärmen genereras ett antal pixlar som skapar en punkt x . När användaren sveper fingret över skärmen rör hon en serie av intilliggande pixlar, dessa genererar då en ritning. \n
+Denna ritning anses vara en "cirkel" om det finns 2 punkter i ritningen som delar samma koordinater. \n \n
+För att kunna beräkna Pi görs följande: \n\n
+1. Omkretsen av cirkeln beräknas genom att med pythagoratsats iterativt beräkna skillnaden mellan koordinaterna av alla 2 närliggande punkter och sedan tas roten ur detta resultat. \n \n
+2. Arean av cirkeln beräknas sedan genom att iterativt multiplicera skillnaden i y_axeln med summan i x_axeln och resultatet divideras sedan med 0,5. \n \n
+3. Approximeringen av Pi beräknas då genom att vi vänder på den så kallade isoperimetriska olikheten som säger att : Pi*A*4 &lt;= med  L^2, Där A är Arean och L  är Omkretsen. Genom att lösa ut Pi ur denna olikhet kan vi nu beräkna approximationen som då ges av: Pi = L &#94;2 / 4*A. \n
+    </string>
     <string name="smc_logo_description">The SMC logo</string>
-    <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter</string>
+    <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-studenter</string>
 
 </resources>

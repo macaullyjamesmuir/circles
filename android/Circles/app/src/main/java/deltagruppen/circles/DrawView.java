@@ -71,7 +71,11 @@ public class DrawView extends RelativeLayout
         }
         if (event.getAction() == MotionEvent.ACTION_UP) {
             try {
-                imperfectCircleView.setImperfectCircle(new ImperfectCircle(points));
+                ImperfectCircle imperfectCircle = new ImperfectCircle(points);
+                imperfectCircleView.setImperfectCircle(imperfectCircle);
+                double l = imperfectCircle.getPerimeterLength();
+                double a = imperfectCircle.getArea();
+                Log.i("DrawView", "pi ~= " + l*l / (4*a));
             }
             catch (IllegalArgumentException e) {
                 Log.i("DrawView", "Not a circle :(");

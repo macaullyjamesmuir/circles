@@ -51,4 +51,10 @@ Mauris vestibulum enim malesuada eros viverra varius. Vestibulum ante ipsum prim
     <string name="smc_logo_description">The SMC logo</string>
     <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter</string>
 
+    <string name="pi">3,14159265</string>
+    <string name="actual_pi">Pi</string>
+    <string name="your_pi">Ditt pi</string>
+    <string name="calc_pi">Beräkning av pi</string>
+
+
 </resources>

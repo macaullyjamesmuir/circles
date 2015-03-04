@@ -1,5 +1,6 @@
 package deltagruppen.circles;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -39,5 +40,15 @@ public class PiInfo extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void showAppInfo(MenuItem item) {
+        Intent intent = new Intent(this, AppInfo.class);
+        startActivity(intent);
+    }
+
+    public void showCalculatingPiInfo(MenuItem item) {
+        Intent intent = new Intent(this, CalculatingPi.class);
+        startActivity(intent);
     }
 }

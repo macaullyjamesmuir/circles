@@ -55,4 +55,34 @@ public class ImperfectCircle
     {
         return points;
     }
+
+    /**
+     * Get the perimeter length of the imperfect circle.
+     * @return The length of the perimeter.
+     */
+    public double getPerimeterLength()
+    {
+        double length = 0;
+
+        // Go through all the points and add the length between them
+        PointF p1, p2;
+        for (int i = 1; i < points.size(); i++) {
+            p1 = points.get(i-1);
+            p2 = points.get(i);
+            length += Math.sqrt(
+                (p2.x - p1.x) * (p2.x - p1.x) +
+                (p2.y - p1.y) * (p2.y - p1.y)
+            );
+        }
+
+        // Don't forget to add the length between the first and last element.
+        p1 = points.get(points.size() - 1);
+        p2 = points.get(0);
+        length += Math.sqrt(
+            (p2.x - p1.x) * (p2.x - p1.x) +
+            (p2.y - p1.y) * (p2.y - p1.y)
+        );
+
+        return length;
+    }
 }

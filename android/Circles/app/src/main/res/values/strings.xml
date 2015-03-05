@@ -67,5 +67,9 @@ För att kunna beräkna Pi görs följande: \n\n
 
     <string name="imperfectFillColor">#40d81b60</string>
     <string name="imperfectStrokeColor">#263238</string>
+    <string name="calculating_pi_title">Beräkning av pi</string>
+    <string name="app_title">Perfect Pi</string>
+    <string name="app_info_title">Om Perfect Pi</string>
+    <string name="about_pi_title">Fakta om Pi</string>
 
 </resources>

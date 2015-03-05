@@ -109,4 +109,35 @@ public class ImperfectCircle
 
         return area;
     }
+
+    /**
+     * Get the centroid of the imperfect circle. The algorithm used is
+     * described at http://en.wikipedia.org/wiki/Centroid#Centroid_of_polygon
+     * @return The centroid.
+     */
+    public PointF getCentroid()
+    {
+        float xCoordinate = 0;
+        float yCoordinate = 0;
+
+        PointF p1, p2;
+        for (int i = 1; i < points.size(); i++) {
+            p1 = points.get(i-1);
+            p2 = points.get(i);
+            xCoordinate += (p1.x + p2.x) * (p1.x * p2.y - p2.x * p1.y);
+            yCoordinate += (p1.y + p2.y) * (p1.x * p2.y - p2.x * p1.y);
+        }
+
+        // Don't forget the first and last coordinates
+        p1 = points.get(points.size() - 1);
+        p2 = points.get(0);
+        xCoordinate += (p1.x + p2.x) * (p1.x * p2.y - p2.x * p1.y);
+        yCoordinate += (p1.y + p2.y) * (p1.x * p2.y - p2.x * p1.y);
+
+        double area = getArea();
+        xCoordinate = xCoordinate / (6 * (float) area);
+        yCoordinate = yCoordinate / (6 * (float) area);
+
+        return new PointF(xCoordinate, yCoordinate);
+    }
 }

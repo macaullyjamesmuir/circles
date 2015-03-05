@@ -39,7 +39,12 @@ public class ImperfectCircle
                 PointF intersection = s1.getIntersection(s2);
                 if (intersection != null) {
                     points = new ArrayList<>(input.subList(i, j + 1));
+
+                    // The intersection should be in the list of points
                     points.add(intersection);
+
+                    // Add the first point to the end of the list
+                    points.add(new PointF((float) s1.p1.getX(), (float) s1.p1.getY()));
                     return;
                 }
             }
@@ -64,7 +69,6 @@ public class ImperfectCircle
     {
         double length = 0;
 
-        // Go through all the points and add the length between them
         PointF p1, p2;
         for (int i = 1; i < points.size(); i++) {
             p1 = points.get(i-1);
@@ -74,14 +78,6 @@ public class ImperfectCircle
                 (p2.y - p1.y) * (p2.y - p1.y)
             );
         }
-
-        // Don't forget to add the length between the first and last element.
-        p1 = points.get(points.size() - 1);
-        p2 = points.get(0);
-        length += Math.sqrt(
-            (p2.x - p1.x) * (p2.x - p1.x) +
-            (p2.y - p1.y) * (p2.y - p1.y)
-        );
 
         return length;
     }
@@ -94,18 +90,12 @@ public class ImperfectCircle
     {
         double area = 0;
 
-        // Go through all the points and add the area they generate.
         PointF p1, p2;
         for (int i = 1; i < points.size(); i++) {
             p1 = points.get(i-1);
             p2 = points.get(i);
             area += 0.5 * (p2.x + p1.x)*(p2.y - p1.y);
         }
-
-        // Don't forget to add the area the first and last element generate.
-        p1 = points.get(points.size() - 1);
-        p2 = points.get(0);
-        area += 0.5 * (p2.x + p1.x)*(p2.y - p1.y);
 
         return area;
     }
@@ -117,27 +107,21 @@ public class ImperfectCircle
      */
     public PointF getCentroid()
     {
-        float xCoordinate = 0;
-        float yCoordinate = 0;
+        float x     = 0;
+        float y     = 0;
+        double area = getArea();
 
         PointF p1, p2;
         for (int i = 1; i < points.size(); i++) {
             p1 = points.get(i-1);
             p2 = points.get(i);
-            xCoordinate += (p1.x + p2.x) * (p1.x * p2.y - p2.x * p1.y);
-            yCoordinate += (p1.y + p2.y) * (p1.x * p2.y - p2.x * p1.y);
+            x += (p1.x + p2.x) * (p1.x * p2.y - p2.x * p1.y);
+            y += (p1.y + p2.y) * (p1.x * p2.y - p2.x * p1.y);
         }
 
-        // Don't forget the first and last coordinates
-        p1 = points.get(points.size() - 1);
-        p2 = points.get(0);
-        xCoordinate += (p1.x + p2.x) * (p1.x * p2.y - p2.x * p1.y);
-        yCoordinate += (p1.y + p2.y) * (p1.x * p2.y - p2.x * p1.y);
+        x = x / (6 * (float) area);
+        y = y / (6 * (float) area);
 
-        double area = getArea();
-        xCoordinate = xCoordinate / (6 * (float) area);
-        yCoordinate = yCoordinate / (6 * (float) area);
-
-        return new PointF(xCoordinate, yCoordinate);
+        return new PointF(x, y);
     }
 }

@@ -7,4 +7,8 @@
         <attr name="imperfectCircleStrokeColor" format="string"/>
         <attr name="imperfectCircleFillColor" format="string"/>
     </declare-styleable>
+    <declare-styleable name="ClosestCircleView">
+        <attr name="closestCircleStrokeWidth" format="float"/>
+        <attr name="closestCircleStrokeColor" format="string"/>
+    </declare-styleable>
 </resources>

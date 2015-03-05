@@ -1,6 +1,7 @@
 package deltagruppen.circles;
 
 import android.content.Context;
+import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.DashPathEffect;
@@ -36,7 +37,23 @@ public class ClosestCircleView
         paint.setStrokeWidth(10);
         paint.setColor(Color.RED);
         paint.setStyle(Paint.Style.STROKE);
-        paint.setPathEffect(new DashPathEffect(new float[]{10, 20}, 0));
+        paint.setPathEffect(new DashPathEffect(new float[]{50, 20}, 0));
+
+        TypedArray styledAttributes = context.getTheme().obtainStyledAttributes(
+                attrs,
+                R.styleable.ClosestCircleView,
+                0,
+                0
+        );
+
+        try {
+            String colorString = styledAttributes.getString(R.styleable.ClosestCircleView_closestCircleStrokeColor);
+            float  strokeWidth = styledAttributes.getFloat(R.styleable.ClosestCircleView_closestCircleStrokeWidth, 0);
+            paint.setColor(Color.parseColor(colorString));
+            paint.setStrokeWidth(strokeWidth);
+        } finally {
+            styledAttributes.recycle();
+        }
     }
 
     /**

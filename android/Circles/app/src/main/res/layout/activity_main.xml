@@ -90,7 +90,7 @@
             android:layout_alignParentTop="true"
             circles:imperfectCircleStrokeWidth="10"
             circles:imperfectCircleStrokeColor="@string/imperfectStrokeColor"
-            circles:imperfectCircleFillColor="@string/imperfectFillColor"
+            circles:imperfectCircleFillColor="#00000000"
             android:id="@+id/imperfectCircleView"
         />
 
@@ -98,6 +98,8 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_alignParentTop="true"
+            circles:closestCircleStrokeColor="@string/closestStrokeColor"
+            circles:closestCircleStrokeWidth="15"
             android:id="@+id/closestCircleView"
         />
 

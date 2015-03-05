@@ -87,7 +87,7 @@ public class ImperfectCircle
     }
 
     /**
-     * Get the area of the imperfect circle.
+     * Get the signed area of the imperfect circle.
      * @return The area.
      */
     public double getArea()
@@ -107,6 +107,6 @@ public class ImperfectCircle
         p2 = points.get(0);
         area += 0.5 * (p2.x + p1.x)*(p2.y - p1.y);
 
-        return Math.abs(area);
+        return area;
     }
 }

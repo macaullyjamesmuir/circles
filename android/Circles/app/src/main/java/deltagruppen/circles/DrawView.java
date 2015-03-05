@@ -74,7 +74,7 @@ public class DrawView extends RelativeLayout
                 ImperfectCircle imperfectCircle = new ImperfectCircle(points);
                 imperfectCircleView.setImperfectCircle(imperfectCircle);
                 double l = imperfectCircle.getPerimeterLength();
-                double a = imperfectCircle.getArea();
+                double a = Math.abs(imperfectCircle.getArea());
                 Log.i("DrawView", "pi ~= " + l*l / (4*a));
             }
             catch (IllegalArgumentException e) {

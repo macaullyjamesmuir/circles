@@ -21,6 +21,7 @@ public class DrawView extends RelativeLayout
     private final Paint               paint;
 
     private ImperfectCircleView imperfectCircleView;
+    private ClosestCircleView   closestCircleView;
 
     public DrawView(Context context, AttributeSet attrs)
     {
@@ -36,7 +37,8 @@ public class DrawView extends RelativeLayout
     @Override
     public void onFinishInflate()
     {
-        imperfectCircleView = (ImperfectCircleView)findViewById(R.id.imperfectCircleView);
+        imperfectCircleView = (ImperfectCircleView) findViewById(R.id.imperfectCircleView);
+        closestCircleView   = (ClosestCircleView)   findViewById(R.id.closestCircleView);
     }
 
     @Override
@@ -53,6 +55,7 @@ public class DrawView extends RelativeLayout
 
             points.clear();
             imperfectCircleView.clear();
+            closestCircleView.clear();
             path.reset();
             points.add(new PointF(event.getX(), event.getY()));
             path.moveTo(event.getX(), event.getY());
@@ -73,6 +76,7 @@ public class DrawView extends RelativeLayout
             try {
                 ImperfectCircle imperfectCircle = new ImperfectCircle(points);
                 imperfectCircleView.setImperfectCircle(imperfectCircle);
+                closestCircleView.setImperfectCircle(imperfectCircle);
                 double l = imperfectCircle.getPerimeterLength();
                 double a = Math.abs(imperfectCircle.getArea());
                 Log.i("DrawView", "pi ~= " + l*l / (4*a));

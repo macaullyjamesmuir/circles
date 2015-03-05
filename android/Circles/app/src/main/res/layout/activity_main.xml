@@ -94,6 +94,13 @@
             android:id="@+id/imperfectCircleView"
         />
 
+        <deltagruppen.circles.ClosestCircleView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:id="@+id/closestCircleView"
+        />
+
     </deltagruppen.circles.DrawView>
 
     <ImageButton

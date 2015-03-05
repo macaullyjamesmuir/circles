@@ -8,16 +8,19 @@ import android.graphics.Path;
 import android.graphics.PointF;
 import android.support.annotation.NonNull;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
-import android.view.View;
+import android.widget.RelativeLayout;
 
 import java.util.LinkedList;
 
-public class DrawView extends View
+public class DrawView extends RelativeLayout
 {
-    private final LinkedList<PointF> points;
-    private final Path               path;
-    private final Paint              paint;
+    private final LinkedList<PointF>  points;
+    private Path                      path;
+    private final Paint               paint;
+
+    private ImperfectCircleView imperfectCircleView;
 
     public DrawView(Context context, AttributeSet attrs)
     {
@@ -28,6 +31,12 @@ public class DrawView extends View
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(10);
         paint.setColor(Color.BLACK);
+    }
+
+    @Override
+    public void onFinishInflate()
+    {
+        imperfectCircleView = (ImperfectCircleView)findViewById(R.id.imperfectCircleView);
     }
 
     @Override
@@ -43,9 +52,11 @@ public class DrawView extends View
             invalidate();
 
             points.clear();
+            imperfectCircleView.clear();
             path.reset();
             points.add(new PointF(event.getX(), event.getY()));
             path.moveTo(event.getX(), event.getY());
+
             return true;
         }
         if (event.getAction() == MotionEvent.ACTION_MOVE) {
@@ -57,6 +68,18 @@ public class DrawView extends View
             path.lineTo(event.getX(), event.getY());
             invalidate();
             return true;
+        }
+        if (event.getAction() == MotionEvent.ACTION_UP) {
+            try {
+                ImperfectCircle imperfectCircle = new ImperfectCircle(points);
+                imperfectCircleView.setImperfectCircle(imperfectCircle);
+                double l = imperfectCircle.getPerimeterLength();
+                double a = imperfectCircle.getArea();
+                Log.i("DrawView", "pi ~= " + l*l / (4*a));
+            }
+            catch (IllegalArgumentException e) {
+                Log.i("DrawView", "Not a circle :(");
+            }
         }
         return false;
     }

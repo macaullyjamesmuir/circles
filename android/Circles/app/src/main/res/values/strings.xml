@@ -19,7 +19,7 @@
     <string name="head_projectleader">Projektledare</string>
     <string name="info_projectleader">Veronica Randleff \n randleff@kth.se</string>
     <string name="head_secretary">Sekreterare</string>
-    <string name="name_JYI">Jamila Yussuf Isse</string>
+    <string name="name_JYI">Jamila Yusuf Isse</string>
     <string name="head_students">Studenter</string>
     <string name="head_math_center">Stockholms Matematikcentrum</string>
     <string name="head_user_testing">Användartestning</string>
@@ -37,30 +37,57 @@
     <string name="name_sl">Professor Svante Linusson</string>
     <string name="contact_sl">director@math-stockholm.se</string>
     <string name="about_pi_header">Fakta om Pi</string>
-    <string name="about_pi_description">
-   Pi är förhållande mellan en cirkels omkrets och dess diameter alltså hur många gånger cirkelns diameter passar runt omkretsen. \n \n
-Exakta värdet på Pi kan inte beräknas.  \n \n
-3.14 är inte det riktiga värdet av Pi, detta gäller även för 22/7 utan de är bara approximationer.  \n \n
-”Pi-dagen" firas den 14 mars vilket valdes för att likna 3.14. Många väljer även att börja firandet vid 1:59 på dagen som kombinerat med datumet ger 3.14159.  \n \n
-Albert Einstein föddes på Pi dagen, 14:e mars. \n \n
-Pi används inom Astronomi och Astrofysik för att beräkna banor och storlekar av himlakroppar.  \n \n
-Elektricitet som genereras och levereras till ditt hem produceras i form av vågor, kallade sinusvågor. Dessa vågor har en period på 2 * Pi.  \n \n
-En flods “slingrande” kan beskrivas av dess sinuosity. Sinuosity ges av förhållandet mellan längden av en flod och dess avstånd fågelvägen från källan till mynningen, värdet av detta för den genomsnittliga floden går mot Pi.  \n \n
-Arkimedes var den första att beräkna en approximation av värdet på Pi genom att ta fram en algoritm som gick ut på att låsa in cirkeln mellan 2 polygoner och genom att beräkna omkretsen av dessa polygoner hittade han att  värdet för Pi låg mellan 223/71 och 22/7. Pi kallas även för arkimedes konstant. \n \n
-Eulers ekvation: e.^(i.pi) + 1 = 0 upptäcktes 1743. Denna formel använder sig utav de 5 mest fundamentala talen inom matematiken, 0,1,i ,e och pi. Genom att uppmärksamma Pi-symbolen i sina böcker gjorde han den populär.  \n \n
+    <string name="about_pi_description1">
+        <b>1)</b> Pi är ett tal som ger förhållandet mellan en cirkels omkrets och dess diameter. \n \n
 
+        <b>2)</b> Pi är ett irrationellt tal och kan därför inte skrivas som ett bråk,dessutom är det oändligt. Två populära approximationer man brukar använda sig av är 3.14 och 22/7. \n \n
 
+        <b>3)</b> ”Pi-dagen" firas den 14 mars vilket valdes för att likna approximationen 3.14. Många väljer även att börja firandet vid 1:59 på dagen som kombinerat med datumet ger en ännu noggrannare approximation av pi: 3.14159. \n \n
+
+        <b>4)</b> Pi används inom Astronomi och Astrofysik för att beräkna banor och storlekar av himlakroppar. Copernius och Galileo använde sig utav Pi för att approximera storleken av jorden och dess avstånd till månen. \n
+        Ett exempel på hur Pi används inom astronomi är vid beräkning av   intensiteten av en stjärnas ljus med formeln: \n
+        I = L/ 4* Pi*D^2 \n
+        Där I är Intensiteten, L är ljusstyrkan och D är avståndet.  \n\n
+
+        <b>5)</b> Världsrekordet på att memorera värdet av Pi sattes senast år 2005 och ligger på 67 890 siffror. \n \n
+    </string>
+    <string name="about_pi_description2">
+        <b>6)</b> Eulers ekvation: e^(i*pi) + 1 = 0 upptäcktes 1743. Denna formel använder sig utav de fem mest fundamentala talen inom matematiken, 0,1,i ,e och pi. Genom att uppmärksamma Pi-symbolen i sina böcker gjorde han den populär. \n \n
+
+        <b>7)</b> Albert Einstein föddes på Pi-dagen, 14:e mars. \n \n
+
+        <b>8)</b> Arkimedes var den första att beräkna en approximation av värdet på Pi genom att ta fram en algoritm som gick ut på att låsa in en cirkel mellan två polygoner. Genom att beräkna omkretsen av dessa polygoner hittade han att värdet för Pi låg mellan 223/71 och 22/7. På grund av detta kallas Pi även för Arkimedes konstant. \n \n
+
+        <b>9)</b> Elektricitet som genereras och levereras till ditt hem produceras i form av vågor, så kallade sinusvågor. Dessa vågor har en period på 2 * Pi. \n \n
+
+        <b>10)</b> En flods “slingrande” kan beskrivas som en sinuskurva. Sinuskurvan ges av förhållandet mellan längden av en flod och dess avstånd fågelvägen från källan till mynningen. Värdet av sinuskurvan för den genomsnittliga floden går mot Pi. \n \n
     </string>
     <string name="title_activity_calculating_pi">CalculatingPi</string>
     <string name="about_calculating_pi_header">Beräkning av Pi</string>
     <string name="title_activity_about_calculating_pi">AboutCalculatingPi</string>
-    <string name="about_calculation_pi">
-    När användaren rör skärmen genereras ett antal pixlar som skapar en punkt x . När användaren sveper fingret över skärmen rör hon en serie av intilliggande pixlar, dessa genererar då en ritning. \n
-Denna ritning anses vara en "cirkel" om det finns 2 punkter i ritningen som delar samma koordinater. \n \n
-För att kunna beräkna Pi görs följande: \n\n
-1. Omkretsen av cirkeln beräknas genom att med pythagoratsats iterativt beräkna skillnaden mellan koordinaterna av alla 2 närliggande punkter och sedan tas roten ur detta resultat. \n \n
-2. Arean av cirkeln beräknas sedan genom att iterativt multiplicera skillnaden i y_axeln med summan i x_axeln och resultatet divideras sedan med 0,5. \n \n
-3. Approximeringen av Pi beräknas då genom att vi vänder på den så kallade isoperimetriska olikheten som säger att : Pi*A*4 &lt;= med  L^2, Där A är Arean och L  är Omkretsen. Genom att lösa ut Pi ur denna olikhet kan vi nu beräkna approximationen som då ges av: Pi = L &#94;2 / 4*A. \n
+    <string name="about_calculation_pi1">
+        När användaren rör skärmen genereras ett antal pixlar och genom att ett medelvärde av dessa beräknas representeras de som en enda punkt x. Genom ett svep över skärmen med fingret rör denne en serie av intilliggande pixlar som då genererar en figur. \n
+        Denna figur anses vara en "cirkel" om det finns två punkter i figuren som delar samma koordinater. \n \n
+        För att kunna beräkna Pi görs följande: \n
+        <b>1)</b> För varje par närliggande punkter p1 och p2 med koordinaterna (x1,y1) respektive (x2,y2) görs följande: \n
+         \t \t \t \t \t \t &#8730;(&#916;x^2 + &#916;y^2) \n
+
+        Man beräknar skillnaden för dessa par koordinater i både x-led och i y-led. Dessa skillnader kvadreras, därefter summeras de och man tar kvadratroten ur resultatet. \n
+        Detta görs för alla punkters koordinater i figuren, och sedan summeras alla dessa resultat, således får man omkretsen för cirkeln. \n \n
+    </string>
+    <string name="about_calculation_pi2">
+        <b>2)</b> För varje par närliggande punkter p1 och p2 med koordinaterna (x1,y1) respektive (x2,y2) görs följande: \n
+        \t \t \t \t \t \t ((x1 + x2) * &#916;y)/2 \n
+        Man beräknar skillnaden för koordinaterna i y-led och summerar koordinaterna i x-led. Dessa multipliceras och därefter divideras de med två. \n
+        Detta görs för alla punkters koordinater i figuren, och sedan summeras alla dessa resultat, således får man arean för cirkeln. \n \n
+
+        <b>3)</b> Approximationen av Pi beräknas då genom att vi vänder på den så kallade isoperimetriska olikheten som säger att: \n
+        \t \t \t  \t \t  \t Pi * A * 4 &#8804; med  L^2 \n
+        Där A är arean och L  är omkretsen av den ritade figuren som tagits fram i 1) och 2). \n
+
+        Genom att lösa ut Pi ur denna olikhet kan vi nu beräkna approximationen som då ges av: \n
+
+        \t \t \t \t \t \t Pi = L^2 / 4 * A \n
     </string>
     <string name="smc_logo_description">The SMC logo</string>
     <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter</string>

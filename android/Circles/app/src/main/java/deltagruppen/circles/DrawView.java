@@ -10,9 +10,14 @@ import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
+import android.view.View;
 import android.widget.RelativeLayout;
+import android.widget.TableLayout;
+import android.widget.TextView;
 
+import java.text.NumberFormat;
 import java.util.LinkedList;
+import java.util.Locale;
 
 public class DrawView extends RelativeLayout
 {
@@ -22,6 +27,7 @@ public class DrawView extends RelativeLayout
 
     private ImperfectCircleView imperfectCircleView;
     private ClosestCircleView   closestCircleView;
+    private TableLayout         piCalculationPopup;
 
     public DrawView(Context context, AttributeSet attrs)
     {
@@ -39,6 +45,7 @@ public class DrawView extends RelativeLayout
     {
         imperfectCircleView = (ImperfectCircleView) findViewById(R.id.imperfectCircleView);
         closestCircleView   = (ClosestCircleView)   findViewById(R.id.closestCircleView);
+        piCalculationPopup  = (TableLayout)         findViewById(R.id.piCalculationPopup);
     }
 
     @Override
@@ -56,6 +63,7 @@ public class DrawView extends RelativeLayout
             points.clear();
             imperfectCircleView.clear();
             closestCircleView.clear();
+            piCalculationPopup.setVisibility(View.INVISIBLE);
             path.reset();
             points.add(new PointF(event.getX(), event.getY()));
             path.moveTo(event.getX(), event.getY());
@@ -77,9 +85,21 @@ public class DrawView extends RelativeLayout
                 ImperfectCircle imperfectCircle = new ImperfectCircle(points);
                 imperfectCircleView.setImperfectCircle(imperfectCircle);
                 closestCircleView.setImperfectCircle(imperfectCircle);
+                piCalculationPopup.setVisibility(View.VISIBLE);
+                TextView approximationTextView = (TextView) piCalculationPopup.findViewById(R.id.piApproximation);
+
                 double l = imperfectCircle.getPerimeterLength();
                 double a = Math.abs(imperfectCircle.getArea());
-                Log.i("DrawView", "pi ~= " + l*l / (4*a));
+                double pi = l*l / (4*a);
+                String s = String.valueOf(pi);
+                s = s.replace('.', ',');
+
+                s = s.substring(0, Math.min(s.length(), 10));
+
+                approximationTextView.setText(s);
+
+
+
             }
             catch (IllegalArgumentException e) {
                 Log.i("DrawView", "Not a circle :(");

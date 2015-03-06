@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.WindowManager;
 
 
@@ -47,6 +48,11 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
+    public void showPiInfo(View view) {
+        Intent intent = new Intent(this, PiInfo.class);
+        startActivity(intent);
+    }
+
     public void showAppInfo(MenuItem item) {
         Intent intent = new Intent(this, AppInfo.class);
         startActivity(intent);
@@ -56,4 +62,10 @@ public class MainActivity extends ActionBarActivity {
         Intent intent = new Intent(this, CalculatingPi.class);
         startActivity(intent);
     }
+
+    public void showCalculatingPiInfo(View view) {
+        Intent intent = new Intent(this, CalculatingPi.class);
+        startActivity(intent);
+    }
+
 }

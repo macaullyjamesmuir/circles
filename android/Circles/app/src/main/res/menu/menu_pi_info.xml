@@ -1,6 +1,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context="deltagruppen.circles.PiInfo">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/textView" android:title="@string/about_calculating_pi_header"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:onClick="showCalculatingPiInfo"/>
+
+    <item android:id="@+id/textView1" android:title="@string/about_app_name"
+        android:orderInCategory="100" app:showAsAction="never"
+        android:onClick="showAppInfo"/>
+
 </menu>

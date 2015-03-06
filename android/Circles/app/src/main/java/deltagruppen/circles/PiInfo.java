@@ -1,5 +1,6 @@
 package deltagruppen.circles;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ public class PiInfo extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle(getString(R.string.about_pi_title));
         setContentView(R.layout.activity_pi_info);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -39,5 +41,15 @@ public class PiInfo extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void showAppInfo(MenuItem item) {
+        Intent intent = new Intent(this, AppInfo.class);
+        startActivity(intent);
+    }
+
+    public void showCalculatingPiInfo(MenuItem item) {
+        Intent intent = new Intent(this, CalculatingPi.class);
+        startActivity(intent);
     }
 }

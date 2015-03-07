@@ -37,31 +37,43 @@
     <string name="name_sl">Professor Svante Linusson</string>
     <string name="contact_sl">director@math-stockholm.se</string>
     <string name="about_pi_header">Fakta om Pi</string>
-    <string name="about_pi_description1">
-        <b>1)</b> Pi är ett tal som ger förhållandet mellan en cirkels omkrets och dess diameter. \n \n
 
-        <b>2)</b> Pi är ett irrationellt tal och kan därför inte skrivas som ett bråk,dessutom är det oändligt. Två populära approximationer man brukar använda sig av är 3.14 och 22/7. \n \n
-
-        <b>3)</b> ”Pi-dagen" firas den 14 mars vilket valdes för att likna approximationen 3.14. Många väljer även att börja firandet vid 1:59 på dagen som kombinerat med datumet ger en ännu noggrannare approximation av pi: 3.14159. \n \n
-
-        <b>4)</b> Pi används inom Astronomi och Astrofysik för att beräkna banor och storlekar av himlakroppar. Copernius och Galileo använde sig utav Pi för att approximera storleken av jorden och dess avstånd till månen. \n
-        Ett exempel på hur Pi används inom astronomi är vid beräkning av   intensiteten av en stjärnas ljus med formeln: \n
-        I = L/ 4* Pi*D^2 \n
-        Där I är Intensiteten, L är ljusstyrkan och D är avståndet.  \n\n
-
-        <b>5)</b> Världsrekordet på att memorera värdet av Pi sattes senast år 2005 och ligger på 67 890 siffror. \n \n
+    <string name="pi_fact_definition">
+        Pi är ett tal som ger förhållandet mellan en cirkels omkrets och dess diameter.
     </string>
-    <string name="about_pi_description2">
-        <b>6)</b> Eulers ekvation: e^(i*pi) + 1 = 0 upptäcktes 1743. Denna formel använder sig utav de fem mest fundamentala talen inom matematiken, 0,1,i ,e och pi. Genom att uppmärksamma Pi-symbolen i sina böcker gjorde han den populär. \n \n
-
-        <b>7)</b> Albert Einstein föddes på Pi-dagen, 14:e mars. \n \n
-
-        <b>8)</b> Arkimedes var den första att beräkna en approximation av värdet på Pi genom att ta fram en algoritm som gick ut på att låsa in en cirkel mellan två polygoner. Genom att beräkna omkretsen av dessa polygoner hittade han att värdet för Pi låg mellan 223/71 och 22/7. På grund av detta kallas Pi även för Arkimedes konstant. \n \n
-
-        <b>9)</b> Elektricitet som genereras och levereras till ditt hem produceras i form av vågor, så kallade sinusvågor. Dessa vågor har en period på 2 * Pi. \n \n
-
-        <b>10)</b> En flods “slingrande” kan beskrivas som en sinuskurva. Sinuskurvan ges av förhållandet mellan längden av en flod och dess avstånd fågelvägen från källan till mynningen. Värdet av sinuskurvan för den genomsnittliga floden går mot Pi. \n \n
+    <string name="pi_fact_pi_day">
+        Pi-dagen firas den 14 mars vilket valdes för att likna approximationen 3.14. Många väljer även att börja firandet vid 1:59 på dagen som kombinerat med datumet ger en ännu noggrannare approximation av pi: 3.14159.
     </string>
+    <string name="pi_fact_approximation">
+        Pi är ett irrationellt tal och kan därför inte skrivas som ett bråk,dessutom är det oändligt. Två populära approximationer man brukar använda sig av är 3.14 och 22/7.
+    </string>
+    <string name="pi_fact_astronomy_part_1">
+        Pi används inom Astronomi och Astrofysik för att beräkna banor och storlekar av himlakroppar. Copernius och Galileo använde sig utav Pi för att approximera storleken av jorden och dess avstånd till månen. Ett exempel på hur Pi används inom astronomi är vid beräkning av   intensiteten av en stjärnas ljus med formeln:
+    </string>
+    <string name="pi_fact_astronomy_formula">I = L/ 4*Pi*D^2</string>
+    <string name="pi_fact_astronomy_part_3">
+        Där I är Intensiteten, L är ljusstyrkan och D är avståndet.
+    </string>
+    <string name="pi_fact_world_record">
+        Världsrekordet på att memorera värdet av Pi sattes senast år 2005 och ligger på 67 890 siffror.
+    </string>
+    <string name="pi_fact_eulers_equation">
+        Eulers ekvation: e^(i*pi) + 1 = 0 upptäcktes 1743. Denna formel använder sig utav de fem mest fundamentala talen inom matematiken, 0,1,i ,e och pi. Genom att uppmärksamma Pi-symbolen i sina böcker gjorde han den populär.
+    </string>
+    <string name="pi_fact_einsteins_birthday">
+        Albert Einstein föddes på Pi-dagen, 14:e mars.
+    </string>
+    <string name="pi_fact_archimedes_approximation">
+        Arkimedes var den första att beräkna en approximation av värdet på Pi genom att ta fram en algoritm som gick ut på att låsa in en cirkel mellan två polygoner. Genom att beräkna omkretsen av dessa polygoner hittade han att värdet för Pi låg mellan 223/71 och 22/7. På grund av detta kallas Pi även för Arkimedes konstant.
+    </string>
+    <string name="pi_fact_electric_waves">
+        Elektricitet som genereras och levereras till ditt hem produceras i form av vågor, så kallade sinusvågor. Dessa vågor har en period på 2 * Pi.
+    </string>
+    <string name="pi_fact_rivers">
+        En flods “slingrande” kan beskrivas som en sinuskurva. Sinuskurvan ges av förhållandet mellan längden av en flod och dess avstånd fågelvägen från källan till mynningen. Värdet av sinuskurvan för den genomsnittliga floden går mot Pi.
+    </string>
+
+
     <string name="title_activity_calculating_pi">CalculatingPi</string>
     <string name="about_calculating_pi_header">Beräkning av Pi</string>
     <string name="title_activity_about_calculating_pi">AboutCalculatingPi</string>

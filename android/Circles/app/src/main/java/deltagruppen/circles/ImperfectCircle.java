@@ -4,6 +4,7 @@ import android.graphics.PointF;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.ListIterator;
 
 import deltagruppen.circles.math.LineSegment;
 
@@ -23,6 +24,9 @@ public class ImperfectCircle
      */
     public ImperfectCircle(List<PointF> input)
     {
+        // Clean the input (fixes issue #19)
+        cleanInput(input);
+
         // Generate a list of line segments from the input
         List<LineSegment> segments = new ArrayList<>();
         for (int i = 1; i < input.size(); i++) {
@@ -123,5 +127,29 @@ public class ImperfectCircle
         y = y / (6 * (float) area);
 
         return new PointF(x, y);
+    }
+
+    /**
+     * Some devices seem to register the same point twice in a
+     * row on touch move events, which messes with our algorithms
+     * because we get line segments of zero length. This method
+     * goes through the list and removes such duplicate points.
+     *
+     * See issue #19 (https://github.com/deltagruppen/circles/issues/19)
+     * for more info.
+     *
+     * @param input A list of points.
+     */
+    private void cleanInput(List<PointF> input)
+    {
+        PointF p1, p2;
+        ListIterator<PointF> iterator = input.listIterator();
+        while (iterator.nextIndex() < input.size() - 2) {
+            p1 = iterator.next();
+            p2 = iterator.next();
+
+            if (p1.equals(p2.x, p2.y)) iterator.remove();
+            iterator.previous();
+        }
     }
 }

@@ -26,7 +26,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="10 fakta om pi"
+                    android:text="@string/pi_info_title"
                     android:id="@+id/textView5"
                     android:textColor="#000000"
                     android:layout_centerHorizontal="true"
@@ -36,7 +36,7 @@
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="Talet pi har en flera tusen år gammal historia. Här kommer ett urval roliga fakta som vi stött på medans vi utvecklat appen."
+                    android:text="@string/pi_info_subtitle"
                     android:id="@+id/textView12"
                     android:layout_below="@+id/textView5"
                     android:layout_centerHorizontal="true"

@@ -117,4 +117,6 @@
     <string name="actual_pi">Pi</string>
     <string name="your_pi">Ditt pi</string>
     <string name="calc_pi">Beräkning av pi</string>
+    <string name="pi_info_title">10 fakta om pi</string>
+    <string name="pi_info_subtitle">Talet pi har en flera tusen år gammal historia. Här kommer ett urval roliga fakta som vi stött på medans vi utvecklat appen.</string>
 </resources>

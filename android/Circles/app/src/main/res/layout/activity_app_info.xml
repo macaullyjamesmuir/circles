@@ -4,30 +4,6 @@
     tools:context="deltagruppen.circles.PiInfo"
     android:id="@+id/pi_info_layout">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="fill_parent"
-        android:layout_height="85dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:background="#4fc3f7"
-        android:weightSum="1"
-        android:id="@+id/linearLayout2"
-        android:gravity="center_vertical">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/about_perfect_pi_header"
-            android:id="@+id/textView4"
-            android:textSize="65sp"
-            android:textColor="#ffffff"
-            android:layout_marginLeft="13dp"
-            android:layout_marginStart="13dp"/>
-
-
-    </LinearLayout>
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,7 +11,6 @@
         android:id="@+id/leftFactListTextView"
         android:textSize="13sp"
         android:textColor="#000000"
-        android:layout_below="@+id/linearLayout2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="13dp"

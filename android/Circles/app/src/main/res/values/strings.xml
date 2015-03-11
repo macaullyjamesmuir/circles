@@ -77,30 +77,41 @@
     <string name="title_activity_calculating_pi">CalculatingPi</string>
     <string name="about_calculating_pi_header">Beräkning av Pi</string>
     <string name="title_activity_about_calculating_pi">AboutCalculatingPi</string>
-    <string name="about_calculation_pi1">
-        När användaren rör skärmen genereras ett antal pixlar och genom att ett medelvärde av dessa beräknas representeras de som en enda punkt x. Genom ett svep över skärmen med fingret rör denne en serie av intilliggande pixlar som då genererar en figur. \n
-        Denna figur anses vara en "cirkel" om det finns två punkter i figuren som delar samma koordinater. \n \n
-        För att kunna beräkna Pi görs följande: \n
-        <b>1)</b> För varje par närliggande punkter p1 och p2 med koordinaterna (x1,y1) respektive (x2,y2) görs följande: \n
-         \t \t \t \t \t \t &#8730;(&#916;x^2 + &#916;y^2) \n
 
-        Man beräknar skillnaden för dessa par koordinater i både x-led och i y-led. Dessa skillnader kvadreras, därefter summeras de och man tar kvadratroten ur resultatet. \n
-        Detta görs för alla punkters koordinater i figuren, och sedan summeras alla dessa resultat, således får man omkretsen för cirkeln. \n \n
+            <string name="pi_calcultacion_step1_part1">
+         För varje par närliggande punkter p1 och p2 med koordinaterna (x1,y1) respektive (x2,y2) görs följande:
+                </string>
+     <string name="pi_calcultacion_formula_1">
+          &#8730;(&#916;x^2 + &#916;y^2)
+         </string>
+     <string name="pi_calcultacion_step1_part2">
+        Man beräknar skillnaden för dessa par koordinater i både x-led och i y-led. Dessa skillnader kvadreras, därefter summeras de och man tar kvadratroten ur resultatet.
+        Detta görs för alla punkters koordinater i figuren, och sedan summeras alla dessa resultat, således får man omkretsen för cirkeln.
     </string>
-    <string name="about_calculation_pi2">
-        <b>2)</b> För varje par närliggande punkter p1 och p2 med koordinaterna (x1,y1) respektive (x2,y2) görs följande: \n
-        \t \t \t \t \t \t ((x1 + x2) * &#916;y)/2 \n
-        Man beräknar skillnaden för koordinaterna i y-led och summerar koordinaterna i x-led. Dessa multipliceras och därefter divideras de med två. \n
-        Detta görs för alla punkters koordinater i figuren, och sedan summeras alla dessa resultat, således får man arean för cirkeln. \n \n
-
-        <b>3)</b> Approximationen av Pi beräknas då genom att vi vänder på den så kallade isoperimetriska olikheten som säger att: \n
-        \t \t \t  \t \t  \t Pi * A * 4 &#8804; med  L^2 \n
-        Där A är arean och L  är omkretsen av den ritade figuren som tagits fram i 1) och 2). \n
-
-        Genom att lösa ut Pi ur denna olikhet kan vi nu beräkna approximationen som då ges av: \n
-
-        \t \t \t \t \t \t Pi = L^2 / 4 * A \n
+    <string name="pi_calcultacion_step2_part1">
+        För varje par närliggande punkter p1 och p2 med koordinaterna (x1,y1) respektive (x2,y2) görs följande:
+        </string>
+    <string name="pi_calcultacion_formula_2">
+          ((x1 + x2) * &#916;y)/2
+        </string>
+    <string name="pi_calcultacion_step2_part2">
+        Man beräknar skillnaden för koordinaterna i y-led och summerar koordinaterna i x-led. Dessa multipliceras och därefter divideras de med två.
+        Detta görs för alla punkters koordinater i figuren, och sedan summeras alla dessa resultat, således får man arean för cirkeln.
+   </string>
+        <string name="pi_calcultacion_step3_part1">
+         Approximationen av Pi beräknas då genom att vi vänder på den så kallade isoperimetriska olikheten som säger att:
+            </string>
+        <string name="pi_calcultacion_step3_formula1">
+          Pi * A * 4 &#8804; med  L^2
+            </string>
+    <string name="pi_calcultacion_step3_part2">
+        Där A är arean och L  är omkretsen av den ritade figuren som tagits fram i 1) och 2).
+        Genom att lösa ut Pi ur denna olikhet kan vi nu beräkna approximationen som då ges av:
     </string>
+        <string name="pi_calcultacion_step3_formula2">
+        Pi = L^2 / 4 * A
+    </string>
+
     <string name="smc_logo_description">The SMC logo</string>
     <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter</string>
 
@@ -119,4 +130,7 @@
     <string name="calc_pi">Beräkning av pi</string>
     <string name="pi_info_title">10 fakta om pi</string>
     <string name="pi_info_subtitle">Talet pi har en flera tusen år gammal historia. Här kommer ett urval roliga fakta som vi stött på medans vi utvecklat appen.</string>
+    <string name="pi_intro_calculation"> När användaren rör skärmen genereras ett antal pixlar och genom att ett medelvärde av dessa beräknas representeras de som en enda punkt x. Genom ett svep över skärmen med fingret rör denne en serie av intilliggande pixlar som då genererar en figur.
+        Denna figur anses vara en "cirkel" om det finns två punkter i figuren som delar samma koordinater.
+        För att kunna beräkna Pi görs följande: </string>
 </resources>

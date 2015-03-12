@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Circles</string>
+    <string name="app_name">Perfect Pi</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="head_instructions">Frihandsritning av cirkel</string>
@@ -118,7 +118,6 @@
     <string name="imperfectFillColor">#00000000</string>
     <string name="imperfectStrokeColor">#263238</string>
     <string name="calculating_pi_title">Beräkning av pi</string>
-    <string name="app_title">Perfect Pi</string>
     <string name="app_info_title">Om Perfect Pi</string>
     <string name="about_pi_title">Fakta om Pi</string>
 

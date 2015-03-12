@@ -16,8 +16,8 @@
     <string name="title_activity_app_info">App Info</string>
     <string name="about_perfect_pi_header">Om Perfect Pi</string>
     <string name="about_perfect_pi_description">Perfect Pi är ett samarbete mellan Stockholms Matematikcentrum (SMC) och studenter från programmet Civilingenjör Datateknik vid KTH i syfte att väcka intresse för matematik i allmänhet och pi i synnerhet. Projektet är ett Open Source-projekt licenserat under Apache License Version 2.0 (http://www.apache.org/license). Källkoden finns att tillgå på https://github.com/deltagruppen/circles/.</string>
-    <string name="head_projectleader">Projektledare</string>
-    <string name="info_projectleader">Veronica Randleff \n randleff@kth.se</string>
+    <string name="head_project_leader">Projektledare</string>
+    <string name="project_leader_details">Veronica Randleff \n randleff@kth.se</string>
     <string name="head_secretary">Sekreterare</string>
     <string name="name_JYI">Jamila Yusuf Isse</string>
     <string name="head_students">Studenter</string>

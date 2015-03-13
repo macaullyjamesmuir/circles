@@ -12,9 +12,10 @@
 
         <RelativeLayout
             android:layout_width="fill_parent"
-            android:layout_height="130dp"
+            android:layout_height="@dimen/header_field"
             android:background="@color/about_header_background"
-            android:id="@+id/app_info_header_field">
+            android:id="@+id/app_info_header_field"
+            android:layout_marginBottom="@dimen/activity_vertical_margin_big">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -30,24 +31,33 @@
         <RelativeLayout
             android:layout_width="@dimen/about_page_width"
             android:layout_height="wrap_content"
+            android:id="@+id/app_info_text_field1"
+            android:layout_below="@+id/app_info_header_field"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/app_info_header_field">
+            android:layout_marginBottom="@dimen/activity_vertical_margin_big">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/app_info_text_view"
-                android:layout_marginBottom="@dimen/activity_vertical_margin_big"
-                android:layout_marginTop="@dimen/activity_vertical_margin_big"
                 android:text="@string/about_perfect_pi_description"
                 android:textSize="@dimen/font_size_medium"/>
+
+            </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/about_page_width2"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/app_info_text_field1">
+
+
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/app_info_big_text"
-                android:layout_below="@id/app_info_text_view"
                 android:layout_marginBottom="@dimen/activity_vertical_margin_big">
 
                 <LinearLayout

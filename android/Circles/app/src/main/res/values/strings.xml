@@ -37,7 +37,6 @@
     <string name="name_sl">Professor Svante Linusson</string>
     <string name="contact_sl">director@math-stockholm.se</string>
     <string name="about_pi_header">Fakta om Pi</string>
-
     <string name="pi_fact_definition">
         Pi är ett tal som ger förhållandet mellan en cirkels omkrets och dess diameter.
     </string>
@@ -72,12 +71,9 @@
     <string name="pi_fact_rivers">
         En flods “slingrande” kan beskrivas som en sinuskurva. Sinuskurvan ges av förhållandet mellan längden av en flod och dess avstånd fågelvägen från källan till mynningen. Värdet av sinuskurvan för den genomsnittliga floden går mot pi.
     </string>
-
-
     <string name="title_activity_calculating_pi">CalculatingPi</string>
     <string name="about_calculating_pi_header">Beräkning av Pi</string>
     <string name="title_activity_about_calculating_pi">AboutCalculatingPi</string>
-
             <string name="pi_calcultacion_step1_part1">
          För varje par närliggande punkter p1 och p2 med koordinaterna (x1,y1) respektive (x2,y2) görs följande:
                 </string>
@@ -111,24 +107,20 @@
         <string name="pi_calcultacion_step3_formula2">
         Pi = L^2 / 4 * A
     </string>
-
     <string name="smc_logo_description">The SMC logo</string>
     <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter</string>
-
     <string name="imperfectFillColor">#00000000</string>
     <string name="imperfectStrokeColor">#263238</string>
     <string name="calculating_pi_title">Beräkning av pi</string>
     <string name="app_info_title">Om Perfect Pi</string>
     <string name="about_pi_title">Fakta om Pi</string>
-
     <string name="closestStrokeColor">#40d81b60</string>
-
     <string name="pi">3,14159265</string>
     <string name="actual_pi">Pi</string>
     <string name="your_pi">Ditt pi</string>
     <string name="calc_pi">Beräkning av pi</string>
     <string name="pi_info_title">10 fakta om pi</string>
-    <string name="pi_info_subtitle">Talet pi har en flera tusen år gammal historia. Här kommer ett urval roliga fakta som vi stött på medans vi utvecklat appen.</string>
+    <string name="pi_info_subtitle">Talet pi har en flera tusen år gammal historia. Sedan Babylonerna ca 2000 år före år noll uppskattade pi till 25/8 så har matematiker och civilisationer kämpat för en mer precis uppskattning av pi ända tills idag då vi har uppskattningar av pi med flera biljoner decimalers noggrannhet. För att illustrera vilket oerhört fascinerande tal pi är så har vi samlat ett urval roliga fakta som vi stött på medan vi utvecklat appen.</string>
     <string name="pi_intro_calculation"> När användaren rör skärmen genereras ett antal pixlar och genom att ett medelvärde av dessa beräknas representeras de som en enda punkt x. Genom ett svep över skärmen med fingret rör denne en serie av intilliggande pixlar som då genererar en figur.
         Denna figur anses vara en "cirkel" om det finns två punkter i figuren som delar samma koordinater.
         För att kunna beräkna Pi görs följande: </string>

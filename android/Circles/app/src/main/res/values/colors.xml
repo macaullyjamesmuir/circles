@@ -4,5 +4,5 @@
     <color name="about_header_background">#4fc3f7</color>
     <color name="first_header_text">#ffffff</color>
     <color name="second_header_text">#000000</color>
-    <color name="third_header_text">#01579b</color>
+    <color name="third_header_text">#4fc3f7</color>
 </resources>

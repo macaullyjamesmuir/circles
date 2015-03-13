@@ -5,45 +5,58 @@
     android:id="@+id/pi_info_layout">
 
     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/header_field"
+        android:background="@color/about_header_background"
+        android:id="@+id/calculating_pi_header_field">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calc_pi"
+            android:id="@+id/textView5"
+            android:textColor="@color/first_header_text"
+            android:textSize="@dimen/font_header_text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
         android:orientation="horizontal"
         android:layout_width="1200dp"
         android:layout_height="fill_parent"
         android:layout_centerInParent="true"
-        android:baselineAligned="false">
+        android:baselineAligned="false"
+        android:layout_below="@id/calculating_pi_header_field">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/calculating_pi_text_field1"
+            android:layout_marginTop="@dimen/activity_vertical_margin_big">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pi_intro_calculation"
+                android:id="@+id/textView12"
+                android:textSize="@dimen/font_size_medium" />
+
+            </LinearLayout>
+
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/calculating_pi_text_field1">
+
             <RelativeLayout
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:layout_marginRight="20dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/calc_pi"
-                    android:id="@+id/textView5"
-                    android:textColor="#000000"
-                    android:layout_centerHorizontal="true"
-                    android:textSize="30sp"
-                    android:layout_marginBottom="10dp" />
-
-
-
-                <TextView
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/pi_intro_calculation"
-                    android:id="@+id/textView12"
-                    android:layout_below="@+id/textView5"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginLeft="50dp"
-                    android:layout_marginRight="50dp"
-                    android:gravity="center"
-                    android:layout_marginBottom="20dp"
-                    android:textSize="20sp" />
 
                 <TableLayout
                     android:layout_width="fill_parent"
@@ -51,8 +64,9 @@
                     android:layout_alignParentTop="false"
                     android:layout_alignParentLeft="false"
                     android:layout_alignParentStart="false"
-                    android:layout_below="@+id/textView12"
-                    android:shrinkColumns="1">
+                    android:shrinkColumns="1"
+                    android:id="@+id/tableLayout2">
+
                 <TableRow
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
@@ -66,11 +80,11 @@
                         android:layout_gravity="right"
                         android:textSize="18sp"
                         android:textColor="@color/actionbar_background" />
+
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content">
-
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -79,6 +93,7 @@
                         android:id="@+id/textView27"
                         android:paddingLeft="10dp"
                         android:textSize="18sp" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -88,6 +103,7 @@
                             android:layout_gravity="center_horizontal"
                             android:layout_marginBottom="10dp"
                             android:textSize="18sp" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -95,26 +111,20 @@
                             android:id="@+id/textView39"
                             android:paddingLeft="10dp"
                             android:textSize="18sp" />
+
                     </LinearLayout>
-
                 </TableRow>
-
                 </TableLayout>
-            </RelativeLayout>
-        <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:layout_marginLeft="20dp">
 
                 <TableLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:shrinkColumns="1"
-                    android:layout_alignParentTop="true"
+                    android:id="@+id/tableLayout"
+                    android:layout_below="@+id/tableLayout2"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:id="@+id/tableLayout">
+                    android:layout_alignParentStart="true">
+
                     <TableRow
                         android:layout_width="25dp"
                         android:layout_height="fill_parent"
@@ -137,8 +147,6 @@
                             android:paddingLeft="10dp"
                             android:textSize="18sp" />
 
-
-
                     </TableRow>
 
                     <TableRow
@@ -149,16 +157,14 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/pi_calcultacion_formula_2"
-
                             android:paddingLeft="10dp"
                             android:layout_gravity="center_horizontal"
                             android:layout_marginBottom="10dp"
                             android:textSize="18sp"
                             android:layout_column="1" />
 
-
-
                     </TableRow>
+
                     <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent">
@@ -167,84 +173,87 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/pi_calcultacion_step2_part2"
-
                             android:paddingLeft="10dp"
                             android:layout_gravity="center_horizontal"
                             android:layout_marginBottom="10dp"
                             android:textSize="18sp"
                             android:layout_column="1" />
 
-
                     </TableRow>
+
                       <TableRow
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:layout_marginBottom="10dp" >
 
-                    <TextView
-                        android:layout_width="30dp"
-                        android:layout_height="wrap_content"
-                        android:text="3)"
-                        android:id="@+id/textView32"
-                        android:layout_gravity="right"
-                        android:textSize="18sp"
-                        android:textColor="@color/actionbar_background" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/pi_calcultacion_step3_part1"
-                        android:id="@+id/textView34"
-                        android:paddingLeft="10dp"
-                        android:textSize="18sp" />
                       </TableRow>
                </TableLayout>
+            </RelativeLayout>
 
-            <TextView
+            <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp">
+
+                <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/pi_calcultacion_step3_formula1"
-
                 android:paddingLeft="10dp"
                 android:layout_gravity="center_horizontal"
                 android:textSize="18sp"
-                android:layout_below="@+id/tableLayout"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginRight="168dp"
-                android:layout_marginEnd="168dp"
-                android:id="@+id/textView49" />
+                    android:id="@+id/textView49"
+                    android:layout_below="@+id/textView34"
+                    android:layout_centerHorizontal="true" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/pi_calcultacion_step3_part2"
-
                 android:paddingLeft="10dp"
                 android:layout_gravity="center_horizontal"
                 android:textSize="18sp"
+                android:id="@+id/textView50"
                 android:layout_below="@+id/textView49"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_marginLeft="43dp"
-                android:layout_marginStart="43dp"
-                android:id="@+id/textView50" />
+                android:layout_alignLeft="@+id/textView34"
+                android:layout_alignStart="@+id/textView34" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/pi_calcultacion_step3_formula2"
-
                 android:paddingLeft="50dp"
                 android:layout_gravity="center_horizontal"
                 android:textSize="18sp"
                 android:layout_below="@+id/textView50"
-                android:layout_alignRight="@+id/textView49"
-                android:layout_alignEnd="@+id/textView49" />
+                android:layout_alignLeft="@+id/textView49"
+                android:layout_alignStart="@+id/textView49" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pi_calcultacion_step3_part1"
+                    android:id="@+id/textView34"
+                    android:paddingLeft="10dp"
+                    android:textSize="18sp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/textView32"
+                    android:layout_toEndOf="@+id/textView32" />
 
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="3)"
+                    android:id="@+id/textView32"
+                    android:layout_gravity="right"
+                    android:textSize="18sp"
+                    android:textColor="@color/actionbar_background"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
 
+            </RelativeLayout>
+            </LinearLayout>
         </RelativeLayout>
-        </LinearLayout>
-
-        </RelativeLayout>
-
-</RelativeLayout>
+    </RelativeLayout>

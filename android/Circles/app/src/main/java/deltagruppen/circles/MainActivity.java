@@ -59,6 +59,11 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
+    public void showAppInfo(View view) {
+        Intent intent = new Intent(this, AppInfo.class);
+        startActivity(intent);
+    }
+
     public void showCalculatingPiInfo(MenuItem item) {
         Intent intent = new Intent(this, CalculatingPi.class);
         startActivity(intent);

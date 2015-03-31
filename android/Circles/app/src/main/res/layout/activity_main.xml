@@ -17,13 +17,12 @@
         android:background="#ff93b6c5"
         android:id="@+id/linearLayout">
 
-        <GridLayout
+        <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="140dp"
             android:background="#ffbfd8dc"
-            android:weightSum="1"
-            android:id="@+id/shortdesc">
+            android:weightSum="1">
 
             <ImageView
                 android:layout_width="92dp"
@@ -34,14 +33,14 @@
                 android:layout_marginLeft="18dp"
                 android:layout_margin="18dp"
                 android:layout_marginTop="18dp"
-                android:layout_marginRight="18dp"
+                android:layout_marginRight="36dp"
                 android:layout_marginEnd="36dp"
                 android:contentDescription="@string/hand_arrow_description" />
 
-            <GridLayout
+            <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="190dp"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:weightSum="1">
 
                 <TextView
@@ -51,9 +50,7 @@
                     android:text="@string/head_instructions"
                     android:id="@+id/textView"
                     android:layout_marginTop="18dp"
-                    android:textSize="17sp"
-                    android:layout_row="0"
-                    android:layout_column="0" />
+                    android:textSize="17sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -62,23 +59,19 @@
                     android:text="@string/instruction_part_one"
                     android:id="@+id/textView3"
                     android:layout_marginTop="6dp"
-                    android:textSize="13sp"
-                    android:layout_row="2"
-                    android:layout_column="0" />
+                    android:textSize="13sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="0dp"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/instruction_part_two"
                     android:id="@+id/textView2"
                     android:textSize="13sp"
-                    android:layout_weight="0.91"
-                    android:layout_row="4"
-                    android:layout_column="0" />
-            </GridLayout>
+                    android:layout_weight="0.91" />
+            </LinearLayout>
 
-        </GridLayout>
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -256,156 +249,5 @@
         android:layout_toStartOf="@+id/linearLayout8"
         android:layout_alignTop="@+id/imageButton"
         android:layout_toLeftOf="@+id/linearLayout8" />
-
-    <TableLayout
-        android:layout_width="320dp"
-        android:layout_height="750dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/textView33"
-        android:layout_alignEnd="@+id/textView33"
-        android:layout_marginTop="150dp">
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_marginBottom="10dp">
-
-            <ImageButton
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/imageButton2"
-                android:layout_column="0"
-                android:background="#ff4caf50"
-                android:cropToPadding="false"
-                android:src="@drawable/ic_trophy_white_24dp" />
-
-            <Button
-                android:layout_width="280dp"
-                android:layout_height="40dp"
-                android:textSize="20sp"
-                android:text="@string/highscore"
-                android:id="@+id/button"
-                android:layout_column="1"
-                android:background="#ff4caf50"
-                android:singleLine="true"
-                android:textColor="#ffffffff"
-                android:gravity="center_vertical" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
-
-            <ImageButton
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/imageButton3"
-                android:layout_column="0"
-                android:background="#ff26a69a"
-                android:cropToPadding="false"
-                android:src="@drawable/ic_format_list_numbers_white_24dp"
-                android:onClick="showPiInfo" />
-
-            <Button
-                android:layout_width="280dp"
-                android:layout_height="40dp"
-                android:textSize="20sp"
-                android:text="@string/about_pi"
-                android:id="@+id/button2"
-                android:layout_column="1"
-                android:background="#ff26a69a"
-                android:singleLine="true"
-                android:layout_marginBottom="10dp"
-                android:textColor="#ffffffff"
-                android:gravity="center_vertical"
-                android:nestedScrollingEnabled="false"
-                android:onClick="showPiInfo" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
-
-            <ImageButton
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/imageButton4"
-                android:layout_column="0"
-                android:background="#ff0097a7"
-                android:cropToPadding="false"
-                android:src="@drawable/ic_math_compass_white_24dp"
-                android:onClick="showCalculatingPiInfo" />
-
-            <Button
-                android:layout_width="280dp"
-                android:layout_height="40dp"
-                android:textSize="20sp"
-                android:text="@string/calc_pi"
-                android:id="@+id/button3"
-                android:layout_column="1"
-                android:background="#ff0097a7"
-                android:layout_marginBottom="10dp"
-                android:singleLine="true"
-                android:textColor="#ffffffff"
-                android:gravity="center_vertical"
-                android:onClick="showCalculatingPiInfo" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
-
-            <ImageButton
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/imageButton5"
-                android:layout_column="0"
-                android:background="#ff5c6bc0"
-                android:cropToPadding="false"
-                android:src="@drawable/ic_earth_white_24dp" />
-
-            <Button
-                android:layout_width="280dp"
-                android:layout_height="40dp"
-                android:textSize="20sp"
-                android:text="@string/language"
-                android:id="@+id/button4"
-                android:layout_column="1"
-                android:background="#ff5c6bc0"
-                android:layout_marginBottom="10dp"
-                android:singleLine="true"
-                android:textColor="#ffffffff"
-                android:gravity="center_vertical" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
-
-            <ImageButton
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/imageButton6"
-                android:layout_column="0"
-                android:background="#ff7e57c2"
-                android:cropToPadding="false"
-                android:src="@drawable/ic_information_white_24dp"
-                android:onClick="showAppInfo" />
-
-            <Button
-                android:layout_width="280dp"
-                android:layout_height="40dp"
-                android:textSize="20sp"
-                android:text="@string/about_app_name"
-                android:id="@+id/button5"
-                android:layout_column="1"
-                android:background="#ff7e57c2"
-                android:layout_marginBottom="10dp"
-                android:singleLine="true"
-                android:textColor="#ffffffff"
-                android:gravity="center_vertical"
-                android:onClick="showAppInfo" />
-        </TableRow>
-    </TableLayout>
 
 </RelativeLayout>

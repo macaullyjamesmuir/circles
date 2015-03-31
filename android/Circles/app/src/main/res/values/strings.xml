@@ -124,4 +124,6 @@
     <string name="pi_intro_calculation"> När användaren rör skärmen genereras ett antal pixlar och genom att ett medelvärde av dessa beräknas representeras de som en enda punkt x. Genom ett svep över skärmen med fingret rör denne en serie av intilliggande pixlar som då genererar en figur.
         Denna figur anses vara en "cirkel" om det finns två punkter i figuren som delar samma koordinater.
         För att kunna beräkna Pi görs följande: </string>
+    <string name="highscore">High score</string>
+    <string name="language">Språk/Language</string>
 </resources>

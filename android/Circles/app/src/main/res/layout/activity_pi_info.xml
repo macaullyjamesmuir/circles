@@ -322,7 +322,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/pi_fact_electric_waves"
+                            android:text="@string/pi_fact_reflection"
                             android:id="@+id/textView48"
                             android:paddingLeft="10dp"
                             android:layout_marginBottom="10dp"
@@ -344,13 +344,39 @@
                             android:textSize="18sp"
                             android:textColor="@color/actionbar_background" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/pi_fact_rivers"
-                            android:id="@+id/textView52"
-                            android:paddingLeft="10dp"
-                            android:textSize="18sp" />
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pi_fact_eulermengoli"
+                                android:id="@+id/textView36"
+                                android:paddingLeft="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pi_fact_mengoli_formula"
+                                android:id="@+id/textView38"
+                                android:paddingLeft="10dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="10dp"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/pi_fact_eulermengoli_2"
+                                android:id="@+id/textView39"
+                                android:paddingLeft="10dp"
+                                android:textSize="18sp" />
+                        </LinearLayout>
                     </TableRow>
                 </TableLayout>
             </RelativeLayout>

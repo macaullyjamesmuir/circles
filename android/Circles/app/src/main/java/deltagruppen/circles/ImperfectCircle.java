@@ -16,6 +16,8 @@ public class ImperfectCircle
 
     private final List<PointF> points;
 
+
+
     /**
      * Create a new imperfect circle from the given points.
      * Throws an IllegalArgumentException if the given set
@@ -51,8 +53,18 @@ public class ImperfectCircle
                     points.add(new PointF((float) s1.p1.getX(), (float) s1.p1.getY()));
                     return;
                 }
+                if (intersection == null) {
+                    if(segmentsInProximity(s1,s2)) {
+                        points = new ArrayList<>(input.subList(i, j + 1));
+                        //points.add(new PointF((float) s1.p1.getX()/2, (float) s1.p1.getY()/2));
+                        return;
+                    }
+                }
             }
         }
+
+
+
         throw new IllegalArgumentException("Can't create a circle from the given list.");
     }
 
@@ -151,5 +163,27 @@ public class ImperfectCircle
             if (p1.equals(p2.x, p2.y)) iterator.remove();
             iterator.previous();
         }
+    }
+
+    /**
+     * Check to se if the line segments are in accepted proximity of each other.
+     * @param s1 First line segment
+     * @param s2 Second line segment
+     * @return True or false
+     */
+    public boolean segmentsInProximity(LineSegment s1, LineSegment s2) {
+
+        float DMax = 10, D;
+        double dX, dY;
+
+        dX = s1.p1.getX() - s2.p2.getX();
+        dY = s1.p1.getY() - s2.p2.getY();
+
+        D = (float) Math.sqrt(Math.pow(dX, 2) + Math.pow(dY, 2));
+
+        if (D < DMax) {
+            return true;
+        }
+        return false;
     }
 }

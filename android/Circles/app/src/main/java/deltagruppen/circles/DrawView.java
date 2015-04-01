@@ -84,8 +84,6 @@ public class DrawView extends RelativeLayout
             try {
                 ImperfectCircle imperfectCircle = new ImperfectCircle(points);
                 imperfectCircleView.setImperfectCircle(imperfectCircle);
-                closestCircleView.setImperfectCircle(imperfectCircle);
-                piCalculationPopup.setVisibility(View.VISIBLE);
                 TextView approximationTextView = (TextView) piCalculationPopup.findViewById(R.id.piApproximation);
 
                 double l = imperfectCircle.getPerimeterLength();
@@ -98,6 +96,11 @@ public class DrawView extends RelativeLayout
 
                 approximationTextView.setText(s);
 
+                //Only show closest circle and the popup when pi is below 3.8
+                if (pi < 3.8) {
+                    closestCircleView.setImperfectCircle(imperfectCircle);
+                    piCalculationPopup.setVisibility(View.VISIBLE);
+                }
 
 
             }

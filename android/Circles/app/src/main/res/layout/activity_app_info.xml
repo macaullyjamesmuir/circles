@@ -298,7 +298,7 @@
                             android:layout_alignParentRight="true"
                             android:layout_alignParentEnd="true"
                             android:layout_marginRight="206dp"
-                            android:layout_marginTop="200dp" />
+                            android:layout_marginTop="100dp" />
 
                     </LinearLayout>
                     </LinearLayout>

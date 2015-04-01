@@ -56,7 +56,7 @@ public class ImperfectCircle
                 if (intersection == null) {
                     if(segmentsInProximity(s1,s2)) {
                         points = new ArrayList<>(input.subList(i, j + 1));
-                        //points.add(new PointF((float) s1.p1.getX()/2, (float) s1.p1.getY()/2));
+                        points.add(new PointF((float) s1.p1.getX(), (float) s1.p1.getY()));
                         return;
                     }
                 }

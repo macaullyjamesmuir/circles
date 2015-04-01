@@ -2,131 +2,84 @@
 <resources>
 
     <string name="app_name">Perfect Pi</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="head_instructions">Frihandsritning av cirkel</string>
-    <string name="instruction_part_one">Försök att rita en så rund cirkel som möjligt till höger.</string>
-    <string name="instruction_part_two">Ett närmervärde på pi kommer att beräknas utefter den ritade cirkeln.</string>
-    <string name="logo_text">Ett samarbete mellan Stockholms Matemetikcentrum och KTH-studenter .</string>
-    <string name="teach_me_pi">Läs mer om pi</string>
     <string name="about_app_name">Om Perfect Pi</string>
-    <string name="about_pi">Fakta om pi</string>
-    <string name="hand_arrow_description">hand_arrow</string>
-    <string name="title_activity_pi_info">Pi Info</string>
-    <string name="title_activity_app_info">App Info</string>
-    <string name="about_perfect_pi_header">Om Perfect Pi</string>
-    <string name="about_perfect_pi_description">Perfect Pi är ett samarbete mellan Stockholms Matematikcentrum (SMC) och studenter från programmet Civilingenjör Datateknik vid KTH i syfte att väcka intresse för matematik i allmänhet och pi i synnerhet. Projektet är ett Open Source-projekt licenserat under Apache License Version 2.0 (http://www.apache.org/license). Källkoden finns att tillgå på https://github.com/deltagruppen/circles/.</string>
-    <string name="head_project_leader">Projektledare</string>
-    <string name="project_leader_details">Veronica Randleff \n randleff@kth.se</string>
-    <string name="head_secretary">Sekreterare</string>
-    <string name="name_JYI">Jamila Yusuf Isse</string>
-    <string name="head_students">Studenter</string>
-    <string name="head_math_center">Stockholms Matematikcentrum</string>
-    <string name="head_user_testing">Användartestning</string>
-    <string name="name_AM">Alfrida Mattison</string>
-    <string name="name_AE">Anna-Karin Evert</string>
-    <string name="head_lead_programmer">Huvudprogrammerare</string>
-    <string name="name_MM">Macaully James Muir</string>
-    <string name="name_CEG">Chaimae El Ghouch</string>
-    <string name="name_DJ">Dante Johansson</string>
-    <string name="name_CA">Christoffer Alenskog</string>
-    <string name="name_AKN">Aphia Kabata</string>
-    <string name="head_programmers">Programmerare</string>
-    <string name="name_PS">Patrik Schwermer</string>
-    <string name="head_guiux">GUI/UX</string>
-    <string name="name_sl">Professor Svante Linusson</string>
-    <string name="contact_sl">director@math-stockholm.se</string>
-    <string name="about_pi_header">Fakta om Pi</string>
-    <string name="pi_fact_definition">
-        Pi är ett tal som ger förhållandet mellan en cirkels omkrets och dess diameter.
-    </string>
-    <string name="pi_fact_pi_day">
-        Pi-dagen firas den 14 mars vilket valdes för att likna närmevärdet 3,14. Många väljer även att börja firandet vid 1:59 på dagen som kombinerat med datumet ger en ännu noggrannare approximation av pi: 3,14159.
-    </string>
-    <string name="pi_fact_approximation">
-        Pi är ett irrationellt tal och kan därför inte skrivas som ett bråk och har en oändlig decimalutveckling. Två populära approximationer man brukar använda sig av är 3,14 och 22/7.
-    </string>
-    <string name="pi_fact_astronomy_part_1">
-        Pi används inom astronomi och astrofysik för att beräkna banor och storlekar av himlakroppar. Copernicus och Galileo använde sig utav pi för att approximera storleken av jorden och dess avstånd till månen. Ett exempel på hur pi används inom astronomi är vid beräkning av intensiteten av en stjärnas ljus, vilket görs med formeln:
-    </string>
-    <string name="pi_fact_astronomy_formula">I = L/ (4*pi*d²)</string>
-    <string name="pi_fact_astronomy_part_3">
-        Där I är stjärnans ljusintensitet i W/m², L är ljusstyrkan i W och d är avståndet till stjärnan i m.
-    </string>
-    <string name="pi_fact_world_record">
-        Världsrekordet på att memorera decimalutvecklingen av pi sattes senast år 2005 av kinesen Chao Lu, då han från minnet läste upp de 67 890 första decimalplatserna.
-    </string>
-    <string name="pi_fact_eulers_equation">
-        Identiteten e^(i*pi) + 1 = 0 kallas för Eulers identitet och upptäcktes av Leonhard Euler 1743. Denna identitet anses av många vara den vackraste ekvationen i hela matematiken eftersom det kopplar ihop fem av matematikens mest fundamentala tal: 0, 1, den imiginära enheten i, basen för den naturliga logaritmen e och, såklart, pi.
-    </string>
-    <string name="pi_fact_einsteins_birthday">
-        Albert Einstein föddes på pi-dagen, den 14 mars.
-    </string>
-    <string name="pi_fact_archimedes_approximation">
-        Ca 250 år f.kr beräknade Arkimedes en approximation av pi genom att ta fram en algoritm som gick ut på att låsa in en cirkel mellan två polygoner. Genom att beräkna omkretsen av dessa polygoner hittade han att värdet för Pi låg mellan 223/71 och 22/7. På grund av detta kallas Pi även för Arkimedes konstant.
-    </string>
-    <string name="pi_fact_reflection">
-       Om man skriver “3.14” på en pappersbit och håller upp mot en spegel så återspeglas ordet “PIE”, detta är hur man uttalar Pi på engelska.
-    </string>
-    <string name="pi_fact_eulermengoli">
-        Runt 1644 formulerade Pietro Mengoli det som kallas för baselproblemet, problemet gick ut på att man skulle beräkna värdet av summan för oändliga serier nämligen:
-    </string>
-    <string name="pi_fact_mengoli_formula">∑(1/n^2)</string>
-     <string name="pi_fact_eulermengoli_2">
-       Detta löstes vid 1743 av Euler som bevisade att ∑(1/n^2) går mot Pi^2/6 då n → ∞.
-    </string>
-
-    <string name="title_activity_calculating_pi">CalculatingPi</string>
     <string name="about_calculating_pi_header">Beräkning av Pi</string>
-    <string name="title_activity_about_calculating_pi">AboutCalculatingPi</string>
-            <string name="pi_calcultacion_step1_part1">
-         För varje par närliggande punkter p1 och p2 med koordinaterna (x1,y1) respektive (x2,y2) görs följande:
-                </string>
-     <string name="pi_calcultacion_formula_1">
-          &#8730;(&#916;x^2 + &#916;y^2)
-         </string>
-     <string name="pi_calcultacion_step1_part2">
-        Man beräknar skillnaden för dessa par koordinater i både x-led och i y-led. Dessa skillnader kvadreras, därefter summeras de och man tar kvadratroten ur resultatet.
-        Detta görs för alla punkters koordinater i figuren, och sedan summeras alla dessa resultat, således får man omkretsen för cirkeln.
-    </string>
-    <string name="pi_calcultacion_step2_part1">
-        För varje par närliggande punkter p1 och p2 med koordinaterna (x1,y1) respektive (x2,y2) görs följande:
-        </string>
-    <string name="pi_calcultacion_formula_2">
-          ((x1 + x2) * &#916;y)/2
-        </string>
-    <string name="pi_calcultacion_step2_part2">
-        Man beräknar skillnaden för koordinaterna i y-led och summerar koordinaterna i x-led. Dessa multipliceras och därefter divideras de med två.
-        Detta görs för alla punkters koordinater i figuren, och sedan summeras alla dessa resultat, således får man arean för cirkeln.
-   </string>
-        <string name="pi_calcultacion_step3_part1">
-         Approximationen av Pi beräknas då genom att vi vänder på den så kallade isoperimetriska olikheten som säger att:
-            </string>
-        <string name="pi_calcultacion_step3_formula1">
-          Pi * A * 4 &#8804; med  L^2
-            </string>
-    <string name="pi_calcultacion_step3_part2">
-        Där A är arean och L  är omkretsen av den ritade figuren som tagits fram i 1) och 2).
-        Genom att lösa ut Pi ur denna olikhet kan vi nu beräkna approximationen som då ges av:
-    </string>
-        <string name="pi_calcultacion_step3_formula2">
-        Pi = L^2 / 4 * A
-    </string>
-    <string name="smc_logo_description">The SMC logo</string>
-    <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter</string>
+    <string name="about_perfect_pi_description">Perfect Pi är ett samarbete mellan Stockholms Matematikcentrum (SMC) och studenter från programmet Civilingenjör Datateknik vid KTH i syfte att väcka intresse för matematik i allmänhet och pi i synnerhet. Projektet är ett Open Source-projekt licenserat under Apache License Version 2.0 (http://www.apache.org/license). Källkoden finns att tillgå på https://github.com/deltagruppen/circles/.</string>
+    <string name="about_perfect_pi_header">Om Perfect Pi</string>
+    <string name="about_pi_header">Fakta om Pi</string>
+    <string name="about_pi_title">Fakta om Pi</string>
+    <string name="about_pi">Fakta om pi</string>
+    <string name="action_settings">Settings</string>
+    <string name="actual_pi">Pi</string>
+    <string name="app_info_title">Om Perfect Pi</string>
+    <string name="calc_pi">Beräkning av pi</string>
+    <string name="calculating_pi_title">Beräkning av pi</string>
+    <string name="closestStrokeColor">#40d81b60</string>
+    <string name="contact_sl">director@math-stockholm.se</string>
+    <string name="hand_arrow_description">hand_arrow</string>
+    <string name="head_guiux">GUI/UX</string>
+    <string name="head_instructions">Frihandsritning av cirkel</string>
+    <string name="head_lead_programmer">Huvudprogrammerare</string>
+    <string name="head_math_center">Stockholms Matematikcentrum</string>
+    <string name="head_programmers">Programmerare</string>
+    <string name="head_project_leader">Projektledare</string>
+    <string name="head_secretary">Sekreterare</string>
+    <string name="head_students">Studenter</string>
+    <string name="head_user_testing">Användartestning</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="highscore">High score</string>
     <string name="imperfectFillColor">#00000000</string>
     <string name="imperfectStrokeColor">#263238</string>
-    <string name="calculating_pi_title">Beräkning av pi</string>
-    <string name="app_info_title">Om Perfect Pi</string>
-    <string name="about_pi_title">Fakta om Pi</string>
-    <string name="closestStrokeColor">#40d81b60</string>
-    <string name="pi">3,14159265</string>
-    <string name="actual_pi">Pi</string>
-    <string name="your_pi">Ditt pi</string>
-    <string name="calc_pi">Beräkning av pi</string>
-    <string name="pi_info_title">10 fakta om pi</string>
+    <string name="instruction_part_one">Försök att rita en så rund cirkel som möjligt till höger.</string>
+    <string name="instruction_part_two">Ett närmervärde på pi kommer att beräknas utefter den ritade cirkeln.</string>
+    <string name="language">Språk/Language</string>
+    <string name="logo_text">Ett samarbete mellan Stockholms Matemetikcentrum och KTH-studenter .</string>
+    <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter</string>
+    <string name="name_AE">Anna-Karin Evert</string>
+    <string name="name_AKN">Aphia Kabata</string>
+    <string name="name_AM">Alfrida Mattison</string>
+    <string name="name_CA">Christoffer Alenskog</string>
+    <string name="name_CEG">Chaimae El Ghouch</string>
+    <string name="name_DJ">Dante Johansson</string>
+    <string name="name_JYI">Jamila Yusuf Isse</string>
+    <string name="name_MM">Macaully James Muir</string>
+    <string name="name_PS">Patrik Schwermer</string>
+    <string name="name_sl">Professor Svante Linusson</string>
+    <string name="pi_calcultacion_formula_1"> &#8730;(&#916;x^2 + &#916;y^2) </string>
+    <string name="pi_calcultacion_formula_2">((x1 + x2) * &#916;y)/2 </string>
+    <string name="pi_calcultacion_step1_part1"> För varje par närliggande punkter p1 och p2 med koordinaterna (x1,y1) respektive (x2,y2) görs följande: </string>
+    <string name="pi_calcultacion_step1_part2"> Man beräknar skillnaden för dessa par koordinater i både x-led och i y-led. Dessa skillnader kvadreras, därefter summeras de och man tar kvadratroten ur resultatet. Detta görs för alla punkters koordinater i figuren, och sedan summeras alla dessa resultat, således får man omkretsen för cirkeln. </string>
+    <string name="pi_calcultacion_step2_part1"> För varje par närliggande punkter p1 och p2 med koordinaterna (x1,y1) respektive (x2,y2) görs följande: </string>
+    <string name="pi_calcultacion_step2_part2">Man beräknar skillnaden för koordinaterna i y-led och summerar koordinaterna i x-led. Dessa multipliceras och därefter divideras de med två. Detta görs för alla punkters koordinater i figuren, och sedan summeras alla dessa resultat, således får man arean för cirkeln.</string>
+    <string name="pi_calcultacion_step3_formula1">Pi * A * 4 &#8804; med  L^2</string>
+    <string name="pi_calcultacion_step3_formula2"> Pi = L^2 / 4 * A </string>
+    <string name="pi_calcultacion_step3_part1"> Approximationen av Pi beräknas då genom att vi vänder på den så kallade isoperimetriska olikheten som säger att:</string>
+    <string name="pi_calcultacion_step3_part2">Där A är arean och L  är omkretsen av den ritade figuren som tagits fram i 1) och 2). Genom att lösa ut Pi ur denna olikhet kan vi nu beräkna approximationen som då ges av:</string>
+    <string name="pi_fact_approximation">Pi är ett irrationellt tal och kan därför inte skrivas som ett bråk och har en oändlig decimalutveckling. Två populära approximationer man brukar använda sig av är 3,14 och 22/7. </string>
+    <string name="pi_fact_archimedes_approximation">Ca 250 år f.kr beräknade Arkimedes en approximation av pi genom att ta fram en algoritm som gick ut på att låsa in en cirkel mellan två polygoner. Genom att beräkna omkretsen av dessa polygoner hittade han att värdet för Pi låg mellan 223/71 och 22/7. På grund av detta kallas Pi även för Arkimedes konstant. </string>
+    <string name="pi_fact_astronomy_formula">I = L/ (4*pi*d²)</string>
+    <string name="pi_fact_astronomy_part_1">Pi används inom astronomi och astrofysik för att beräkna banor och storlekar av himlakroppar. Copernicus och Galileo använde sig utav pi för att approximera storleken av jorden och dess avstånd till månen. Ett exempel på hur pi används inom astronomi är vid beräkning av intensiteten av en stjärnas ljus, vilket görs med formeln: </string>
+    <string name="pi_fact_astronomy_part_3"> Där I är stjärnans ljusintensitet i W/m², L är ljusstyrkan i W och d är avståndet till stjärnan i m. </string>
+    <string name="pi_fact_definition"> Pi är ett tal som ger förhållandet mellan en cirkels omkrets och dess diameter. </string>
+    <string name="pi_fact_einsteins_birthday"> Albert Einstein föddes på pi-dagen, den 14 mars. </string>
+    <string name="pi_fact_reflection">Om man skriver “3.14” på en pappersbit och håller upp mot en spegel så återspeglas ordet “PIE”, detta är hur man uttalar Pi på engelska.</string>
+    <string name="pi_fact_eulers_equation"> Identiteten e^(i*pi) + 1 = 0 kallas för Eulers identitet och upptäcktes av Leonhard Euler 1743. Denna identitet anses av många vara den vackraste ekvationen i hela matematiken eftersom det kopplar ihop fem av matematikens mest fundamentala tal: 0, 1, den imiginära enheten i, basen för den naturliga logaritmen e och, såklart, pi. </string>
+    <string name="pi_fact_pi_day"> Pi-dagen firas den 14 mars vilket valdes för att likna närmevärdet 3,14. Många väljer även att börja firandet vid 1:59 på dagen som kombinerat med datumet ger en ännu noggrannare approximation av pi: 3,14159. </string>
+    <string name="pi_fact_eulermengoli">Runt 1644 formulerade Pietro Mengoli det som kallas för baselproblemet, problemet gick ut på att man skulle beräkna värdet av summan för oändliga serier nämligen:</string>
+    <string name="pi_fact_mengoli_formula">∑(1/n^2)</string>
+    <string name="pi_fact_eulermengoli_2">Detta löstes vid 1743 av Euler som bevisade att ∑(1/n^2) går mot Pi^2/6 då n → ∞.</string>
+    <string name="pi_fact_world_record"> Världsrekordet på att memorera decimalutvecklingen av pi sattes senast år 2005 av kinesen Chao Lu, då han från minnet läste upp de 67 890 första decimalplatserna. </string>
     <string name="pi_info_subtitle">Talet pi har en flera tusen år gammal historia. Sedan Babylonerna ca 2000 år före år noll uppskattade pi till 25/8 så har matematiker och civilisationer kämpat för en mer precis uppskattning av pi ända tills idag då vi har uppskattningar av pi med flera biljoner decimalers noggrannhet. För att illustrera vilket oerhört fascinerande tal pi är så har vi samlat ett urval roliga fakta som vi stött på medan vi utvecklat appen.</string>
-    <string name="pi_intro_calculation"> När användaren rör skärmen genereras ett antal pixlar och genom att ett medelvärde av dessa beräknas representeras de som en enda punkt x. Genom ett svep över skärmen med fingret rör denne en serie av intilliggande pixlar som då genererar en figur.
-        Denna figur anses vara en "cirkel" om det finns två punkter i figuren som delar samma koordinater.
-        För att kunna beräkna Pi görs följande: </string>
+    <string name="pi_info_title">10 fakta om pi</string>
+    <string name="pi_intro_calculation"> När användaren rör skärmen genereras ett antal pixlar och genom att ett medelvärde av dessa beräknas representeras de som en enda punkt x. Genom ett svep över skärmen med fingret rör denne en serie av intilliggande pixlar som då genererar en figur. Denna figur anses vara en "cirkel" om det finns två punkter i figuren som delar samma koordinater. För att kunna beräkna Pi görs följande: </string>
+    <string name="pi">3,14159265</string>
+    <string name="project_leader_details">Veronica Randleff \n randleff@kth.se</string>
+    <string name="smc_logo_description">The SMC logo</string>
+    <string name="teach_me_pi">Läs mer om pi</string>
+    <string name="title_activity_about_calculating_pi">AboutCalculatingPi</string>
+    <string name="title_activity_app_info">App Info</string>
+    <string name="title_activity_calculating_pi">CalculatingPi</string>
+    <string name="title_activity_pi_info">Pi Info</string>
+    <string name="your_pi">Ditt pi</string>
+
 </resources>

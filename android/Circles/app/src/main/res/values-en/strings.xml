@@ -1,0 +1,84 @@
+<resources>
+
+    <string name="app_name">Perfect Pi</string>
+    <string name="about_app_name">About Perfect Pi</string>
+    <string name="about_calculating_pi_header">Calculation of Pi</string>
+    <string name="about_perfect_pi_description">Perfect Pi is a collaboration between Stockholm Mathematics Central(SMC) and students from the computer science faculty at KTH in order to arise interest for mathematics in general and pi especially. The project is an Open source project licensed under Apache License Version 2.0 (http://www.apache.org/license). Källkoden finns att tillgå på https://github.com/deltagruppen/circles/.</string>
+    <string name="about_perfect_pi_header">About Perfect Pi</string>
+    <string name="about_pi_header">Facts about Pi</string>
+    <string name="about_pi_title">Facts about Pi</string>
+    <string name="about_pi">Facts about pi</string>
+    <string name="action_settings">Settings</string>
+    <string name="actual_pi">Pi</string>
+    <string name="app_info_title">About Perfect Pi</string>
+    <string name="calc_pi">Calculation of pi</string>
+    <string name="calculating_pi_title">Calculation of pi</string>
+    <string name="closestStrokeColor">#40d81b60</string>
+    <string name="contact_sl">director@math-stockholm.se</string>
+    <string name="hand_arrow_description">hand_arrow</string>
+    <string name="head_guiux">GUI/UX</string>
+    <string name="head_instructions">Freehand drawing of circle</string>
+    <string name="head_lead_programmer">Chief programmer</string>
+    <string name="head_math_center">Stockholms Mathematics central</string>
+    <string name="head_programmers">Programmer</string>
+    <string name="head_project_leader">Project leader</string>
+    <string name="head_secretary">Secretary</string>
+    <string name="head_students">Students</string>
+    <string name="head_user_testing">User testning</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="highscore">High score</string>
+    <string name="imperfectFillColor">#00000000</string>
+    <string name="imperfectStrokeColor">#263238</string>
+    <string name="instruction_part_one">Try to draw a circle as round as possible</string>
+    <string name="instruction_part_two">An approximation of pi will be computed from the drawn circle.</string>
+    <string name="language">Språk/Language</string>
+    <string name="logo_text">A collaboration between Stockholm matemathic central and students at Royal technical institute(KTH).</string>
+    <string name="main_sidebar_attribution">A collaboration between Stockholm matemathic central and students at Royal technical institute(KTH).</string>
+    <string name="name_AE">Anna-Karin Evert</string>
+    <string name="name_AKN">Aphia Kabata</string>
+    <string name="name_AM">Alfrida Mattison</string>
+    <string name="name_CA">Christoffer Alenskog</string>
+    <string name="name_CEG">Chaimae El Ghouch</string>
+    <string name="name_DJ">Dante Johansson</string>
+    <string name="name_JYI">Jamila Yusuf Isse</string>
+    <string name="name_MM">Macaully James Muir</string>
+    <string name="name_PS">Patrik Schwermer</string>
+    <string name="name_sl">Professor Svante Linusson</string>
+    <string name="pi_calcultacion_formula_1"> &#8730;(&#916;x^2 + &#916;y^2) </string>
+    <string name="pi_calcultacion_formula_2">((x1 + x2) * &#916;y)/2 </string>
+    <string name="pi_calcultacion_step1_part1"> For every couple of adjacent points p1 and p2, with the coordinates (x1,y1) and (x2,y2), the following is done: </string>
+    <string name="pi_calcultacion_step1_part2"> The difference for the coordinates of the couples in both x and y is calculated. These differences are squared, then summed up and then the square root is taken of the sum.This is done for the coordinates of all points in the figure and lastly all the results are summed up in which finally gives the circumference of the circle. </string>
+    <string name="pi_calcultacion_step2_part1"> For every couple of adjacent points p1 and p2, with the coordinates (x1,y1) and (x2,y2), the following is done: </string>
+    <string name="pi_calcultacion_step2_part2">The difference of the coordinates in y and the sum of the coordinates in x is calculated. The result of these are then multiplied with each other and then divided by two. This is done for the coordinates of all points in the figure and lastly all the results are summed up in which finally gives the area of the circle.</string>
+    <string name="pi_calcultacion_step3_formula1">Pi * A * 4 &#8804; med  L^2</string>
+    <string name="pi_calcultacion_step3_formula2"> Pi = L^2 / 4 * A </string>
+    <string name="pi_calcultacion_step3_part1"> The approximation of Pi is then calculated by using so called isoperimetric inequality through:</string>
+    <string name="pi_calcultacion_step3_part2">Where A is the area and L is the circumference of the drawn circle which was calculated in 1) and 2). By taking out Pi in the equality we can finally calculate the approximation by:</string>
+    <string name="pi_fact_approximation">Pi is an irrational number, therefore it cannot be written as a fraction and it has an infinite decimal expansion. Two well-used approximations of Pi are 3,14 and 22/7.</string>
+    <string name="pi_fact_archimedes_approximation">About 250 years b.c Archimedes calculated an approximation of Pi by using an algorithm that consists of engraving a circle in between two polygons. By computing the circumference he found that the value of Pi was between 223/71 and 22/7. Because of this Pi is also called archimedes constant.</string>
+    <string name="pi_fact_astronomy_formula">I = L/ (4*pi*d²)</string>
+    <string name="pi_fact_astronomy_part_1">Pi is used in astronomy and astrology to calculate paths and celestial bodies. Copernius and Galileo used pi to approximate the size of the earth and the distance to the moon. An example on how pi is used in astronomy is when calculating the apparent brightness (intensity) of a star using the following formula:</string>
+    <string name="pi_fact_astronomy_part_3">  Where I is the apparent brightness of the star in W/m²,  L is the luminosity of the star in  W,D is the distance to the star in m.</string>
+    <string name="pi_fact_definition"> Pi is defined as the ratio of a circle\'s circumference to its diameter.</string>
+    <string name="pi_fact_einsteins_birthday">Albert Einstein was born on Pi-day, March the 14th.</string>
+    <string name="pi_fact_reflection">If you write "3.14" on piece of papper and hold it up to a mirror, it reflects the word "PIE".</string>
+    <string name="pi_fact_eulers_equation"> The identity e^(i*pi) + 1 = 0  is called Eulers identity and was discovered by Leonhard Euler in 1743. The identity is considered to be one the most beautiful equation in mathematics as it assembles the five most fundamentals numbers in mathematics: 0, 1, the unit of imaginary numbers ´i´, the base of natural logarithm ´e´ and ofcourse pi.</string>
+    <string name="pi_fact_pi_day"> "Pi-day" is celebrated on March the 14th which was chosen to ressemble the approximation 3,14. Many people like to start the celebration around 1:59 pm which combined with the date ressembles 3.14159, which is an even better approximation of Pi.</string>
+    <string name="pi_fact_eulermengoli">Around year 1644 Pietro Mengoli posed what is called the basel problem. the problem consisted of calculating the sum of infinite series:</string>
+    <string name="pi_fact_mengoli_formula">∑(1/n^2)</string>
+    <string name="pi_fact_eulermengoli_2">This problem was solved by Leonhard Euler in 1743, who showed that ∑(1/n^2) → Pi^2/6 as n → ∞.</string>
+    <string name="pi_fact_world_record"> The worlds record for memorizing the value of Pi was won by the Chinese Chao Lu, whom in 2005 memorized and recited the value up to the 67 890 first decimal places.</string>
+    <string name="pi_info_subtitle">The number Pi has a thousand year old story. Ever since the babylonians around 2000 years b.c estimated the value of pi to 25/8, mathematicians and civilizations have struggled and attempted to get a more precise value and today we have estimations of pi with several billions decimal places. In order to illustrate what an amazing and fascinating number pi is, we have collected some fun facts that we have encountered during the development of the app.</string>
+    <string name="pi_info_title">10 facts about pi</string>
+    <string name="pi_intro_calculation"> When the user touches the screen, several pixels are generated and by calculating a mean of the pixels they can be expressed av one point x. With a sweep across the screen with the finger several adjacent pixels are touched and with this a figure is generated. This figure is deemed to be a circle if there exists two points in the figure that share the same coordinates. To calculate Pi the following is done: </string>
+    <string name="pi">3,14159265</string>
+    <string name="project_leader_details">Veronica Randleff \n randleff@kth.se</string>
+    <string name="smc_logo_description">The SMC logo</string>
+    <string name="teach_me_pi">Read more about pi</string>
+    <string name="title_activity_about_calculating_pi">AboutCalculatingPi</string>
+    <string name="title_activity_app_info">App Info</string>
+    <string name="title_activity_calculating_pi">CalculatingPi</string>
+    <string name="title_activity_pi_info">Pi Info</string>
+    <string name="your_pi">Your pi</string>
+
+</resources>

@@ -87,7 +87,7 @@
                             android:text="1)"
                             android:id="@+id/textView13"
                             android:layout_gravity="right"
-                            android:textSize="18sp"
+                            android:textSize="@dimen/font_size_xsmall"
                             android:textColor="@color/actionbar_background" />
 
                         <TextView
@@ -96,7 +96,7 @@
                             android:text="@string/pi_fact_definition"
                             android:id="@+id/textView18"
                             android:paddingLeft="10dp"
-                            android:textSize="18sp" />
+                            android:textSize="@dimen/font_size_xsmall" />
 
                     </TableRow>
 
@@ -111,7 +111,7 @@
                             android:text="2)"
                             android:id="@+id/textView27"
                             android:layout_gravity="right"
-                            android:textSize="18sp"
+                            android:textSize="@dimen/font_size_xsmall"
                             android:textColor="@color/actionbar_background" />
 
                         <TextView
@@ -120,7 +120,7 @@
                             android:text="@string/pi_fact_approximation"
                             android:id="@+id/textView31"
                             android:paddingLeft="10dp"
-                            android:textSize="18sp" />
+                            android:textSize="@dimen/font_size_xsmall" />
                     </TableRow>
 
                     <TableRow
@@ -134,7 +134,7 @@
                             android:text="3)"
                             android:id="@+id/textView32"
                             android:layout_gravity="right"
-                            android:textSize="18sp"
+                            android:textSize="@dimen/font_size_xsmall"
                             android:textColor="@color/actionbar_background" />
 
                         <TextView
@@ -143,7 +143,7 @@
                             android:text="@string/pi_fact_pi_day"
                             android:id="@+id/textView34"
                             android:paddingLeft="10dp"
-                            android:textSize="18sp" />
+                            android:textSize="@dimen/font_size_xsmall" />
                     </TableRow>
 
                     <TableRow
@@ -157,7 +157,7 @@
                             android:text="4)"
                             android:id="@+id/textView35"
                             android:layout_gravity="right"
-                            android:textSize="18sp"
+                            android:textSize="@dimen/font_size_xsmall"
                             android:textColor="@color/actionbar_background" />
 
                         <LinearLayout
@@ -172,7 +172,7 @@
                                 android:id="@+id/textView36"
                                 android:paddingLeft="10dp"
                                 android:layout_marginBottom="10dp"
-                                android:textSize="18sp" />
+                                android:textSize="@dimen/font_size_xsmall" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -182,7 +182,7 @@
                                 android:paddingLeft="10dp"
                                 android:layout_gravity="center_horizontal"
                                 android:layout_marginBottom="10dp"
-                                android:textSize="18sp" />
+                                android:textSize="@dimen/font_size_xsmall" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -190,7 +190,7 @@
                                 android:text="@string/pi_fact_astronomy_part_3"
                                 android:id="@+id/textView39"
                                 android:paddingLeft="10dp"
-                                android:textSize="18sp" />
+                                android:textSize="@dimen/font_size_xsmall" />
                         </LinearLayout>
 
                     </TableRow>
@@ -206,7 +206,7 @@
                             android:text="5)"
                             android:id="@+id/textView40"
                             android:layout_gravity="right"
-                            android:textSize="18sp"
+                            android:textSize="@dimen/font_size_xsmall"
                             android:textColor="@color/actionbar_background" />
 
                         <TextView
@@ -215,7 +215,7 @@
                             android:text="@string/pi_fact_world_record"
                             android:id="@+id/textView41"
                             android:paddingLeft="10dp"
-                            android:textSize="18sp" />
+                            android:textSize="@dimen/font_size_xsmall" />
                     </TableRow>
 
                 </TableLayout>
@@ -247,7 +247,7 @@
                             android:text="6)"
                             android:id="@+id/textView37"
                             android:layout_gravity="right"
-                            android:textSize="18sp"
+                            android:textSize="@dimen/font_size_xsmall"
                             android:textColor="@color/actionbar_background" />
 
                         <TextView
@@ -256,7 +256,7 @@
                             android:text="@string/pi_fact_eulers_equation"
                             android:id="@+id/textView42"
                             android:paddingLeft="10dp"
-                            android:textSize="18sp" />
+                            android:textSize="@dimen/font_size_xsmall" />
                     </TableRow>
 
                     <TableRow
@@ -270,7 +270,7 @@
                             android:text="7)"
                             android:id="@+id/textView43"
                             android:layout_gravity="right"
-                            android:textSize="18sp"
+                            android:textSize="@dimen/font_size_xsmall"
                             android:textColor="@color/actionbar_background" />
 
                         <TextView
@@ -279,7 +279,7 @@
                             android:text="@string/pi_fact_einsteins_birthday"
                             android:id="@+id/textView44"
                             android:paddingLeft="10dp"
-                            android:textSize="18sp" />
+                            android:textSize="@dimen/font_size_xsmall" />
                     </TableRow>
 
                     <TableRow
@@ -293,7 +293,7 @@
                             android:text="8)"
                             android:id="@+id/textView45"
                             android:layout_gravity="right"
-                            android:textSize="18sp"
+                            android:textSize="@dimen/font_size_xsmall"
                             android:textColor="@color/actionbar_background" />
 
                         <TextView
@@ -302,7 +302,7 @@
                             android:text="@string/pi_fact_archimedes_approximation"
                             android:id="@+id/textView46"
                             android:paddingLeft="10dp"
-                            android:textSize="18sp" />
+                            android:textSize="@dimen/font_size_xsmall" />
                     </TableRow>
 
                     <TableRow
@@ -316,7 +316,7 @@
                             android:text="9)"
                             android:id="@+id/textView47"
                             android:layout_gravity="right"
-                            android:textSize="18sp"
+                            android:textSize="@dimen/font_size_xsmall"
                             android:textColor="@color/actionbar_background" />
 
                         <TextView
@@ -326,7 +326,7 @@
                             android:id="@+id/textView48"
                             android:paddingLeft="10dp"
                             android:layout_marginBottom="10dp"
-                            android:textSize="18sp" />
+                            android:textSize="@dimen/font_size_xsmall" />
 
                     </TableRow>
 
@@ -341,7 +341,7 @@
                             android:text="10)"
                             android:id="@+id/textView51"
                             android:layout_gravity="right"
-                            android:textSize="18sp"
+                            android:textSize="@dimen/font_size_xsmall"
                             android:textColor="@color/actionbar_background" />
 
 
@@ -357,7 +357,7 @@
                                 android:id="@+id/textView36"
                                 android:paddingLeft="10dp"
                                 android:layout_marginBottom="10dp"
-                                android:textSize="18sp" />
+                                android:textSize="@dimen/font_size_xsmall" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -367,7 +367,7 @@
                                 android:paddingLeft="10dp"
                                 android:layout_gravity="center_horizontal"
                                 android:layout_marginBottom="10dp"
-                                android:textSize="18sp" />
+                                android:textSize="@dimen/font_size_xsmall" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -375,7 +375,7 @@
                                 android:text="@string/pi_fact_eulermengoli_2"
                                 android:id="@+id/textView39"
                                 android:paddingLeft="10dp"
-                                android:textSize="18sp" />
+                                android:textSize="@dimen/font_size_xsmall" />
                         </LinearLayout>
                     </TableRow>
                 </TableLayout>

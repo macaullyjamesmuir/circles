@@ -216,7 +216,6 @@
                                 android:id="@+id/name_name_MM_text_view"
                                 android:text="@string/name_MM"
                                 android:textSize="@dimen/font_size_small"/>
-
                             </LinearLayout>
                         </LinearLayout>
 
@@ -315,7 +314,7 @@
                             android:layout_alignParentRight="true"
                             android:layout_alignParentEnd="true"
                             android:layout_marginRight="206dp"
-                            android:layout_marginTop="200dp" />
+                            android:layout_marginTop="90dp" />
 
                     </LinearLayout>
                     </LinearLayout>

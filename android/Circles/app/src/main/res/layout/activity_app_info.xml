@@ -200,22 +200,23 @@
                             android:layout_width="fill_parent"
                             android:layout_height="fill_parent"
                             android:layout_weight="1">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:id="@+id/head_lead_programmer_text_view"
-                                android:text="@string/head_lead_programmer"
-                                android:textSize="@dimen/font_size_small"
-                                android:textStyle="bold"
-                                android:textColor="@color/third_header_text"/>
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:id="@+id/name_name_MM_text_view"
-                                android:text="@string/name_MM"
-                                android:textSize="@dimen/font_size_small"/>
-                            </LinearLayout>
 
+                            <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/head_lead_programmer_text_view"
+                            android:text="@string/head_lead_programmer"
+                            android:textSize="@dimen/font_size_small"
+                            android:textStyle="bold"
+                            android:textColor="@color/third_header_text"/>
+                            <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/name_name_MM_text_view"
+                            android:text="@string/name_MM"
+                            android:textSize="@dimen/font_size_small"/>
+
+                            </LinearLayout>
                         </LinearLayout>
 
                     <LinearLayout
@@ -239,11 +240,26 @@
                                 android:textSize="@dimen/font_size_small"
                                 android:textStyle="bold"
                                 android:textColor="@color/third_header_text"/>
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:id="@+id/name_CA_text_view"
-                                android:text="@string/name_CA"
+                                android:id="@+id/name_name_AM_text_view2"
+                                android:text="@string/name_AM"
+                                android:textSize="@dimen/font_size_small"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/name_AL_text_view"
+                                android:text="@string/name_AE"
+                                android:textSize="@dimen/font_size_small"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/name_name_AKN_text_view"
+                                android:text="@string/name_AKN"
                                 android:textSize="@dimen/font_size_small"/>
 
                             <TextView
@@ -251,6 +267,13 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/name_name_CEG_text_view"
                                 android:text="@string/name_CEG"
+                                android:textSize="@dimen/font_size_small"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/name_nameCA_text_view"
+                                android:text="@string/name_CA"
                                 android:textSize="@dimen/font_size_small"/>
 
                             <TextView
@@ -265,13 +288,6 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/name_name_JYI_text_view"
                                 android:text="@string/name_JYI"
-                                android:textSize="@dimen/font_size_small"/>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:id="@+id/name_name_AKN_text_view"
-                                android:text="@string/name_AKN"
                                 android:textSize="@dimen/font_size_small"/>
 
                             </LinearLayout>
@@ -318,6 +334,5 @@
                     </LinearLayout>
                 </LinearLayout>
             </RelativeLayout>
-
-    </RelativeLayout>
+        </RelativeLayout>
     </RelativeLayout>

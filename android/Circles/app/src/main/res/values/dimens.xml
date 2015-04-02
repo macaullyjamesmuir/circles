@@ -14,5 +14,6 @@
     <dimen name="font_size_big">33sp</dimen>
     <dimen name="font_size_medium">20sp</dimen>
     <dimen name="font_size_small">18sp</dimen>
+    <dimen name="font_size_xsmall">16sp</dimen>
     <dimen name="header_field">130dp</dimen>
 </resources>

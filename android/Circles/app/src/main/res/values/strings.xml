@@ -32,6 +32,7 @@
     <string name="instruction_part_two">Ett närmervärde på &#x3c0; kommer att beräknas utefter den ritade cirkeln.</string>
     <string name="language">Språk/Language</string>
     <string name="logo_text">Ett samarbete mellan Stockholms Matemetikcentrum och KTH-studenter .</string>
+    <string name="main_circle_drawing_message1">Inte en tillräckligt bra cirkel, försök igen.</string>
     <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter</string>
     <string name="name_AE">Anna-Karin Evert</string>
     <string name="name_AKN">Aphia Kabata</string>
@@ -43,14 +44,14 @@
     <string name="name_MM">Macaully James Muir</string>
     <string name="name_PS">Patrik Schwermer</string>
     <string name="name_sl">Professor Svante Linusson</string>
-    <string name="pi_calculation_intro"> &#x3c0; är förhållandet mellan en cirkels omkrets och diameter. I Perfect Pi är målet att försöka rita en cirkel med samma förhållande. Det är tyvär omöjligt. &#x3c0; är till att börja med en oändlig decimalutveckling så hur nära man än kommer kan man alltid att komma lite närmre. Det finns också tekniska begränsningar. Displayen består av pixlar uppdelade i ett rutnät. Alla figurer man skapar består därmed av kantiga former. Zoomar man ut kan man inte längre urskilja kanterna och saker ser istället runda, raka och fina ut. Men är man riktigt duktig så kan man trots dessa begränsningar få ett värde nära &#x3c0;! </string>
+    <string name="pi_calculation_intro"> &#x3c0; är förhållandet mellan en cirkels omkrets och diameter. I Perfect Pi är målet att rita en cirkel med samma förhållande. Det är tyvär omöjligt. &#x3c0; är till att börja med en oändlig decimalutveckling så hur nära man än kommer kan man alltid att komma lite närmre. Det finns också tekniska begränsningar. Displayen består av pixlar uppdelade i ett rutnät. Alla figurer man skapar består därmed av kantiga former. Zoomar man ut kan man inte längre urskilja kanterna och saker ser istället runda, raka och fina ut. Men är man riktigt duktig så kan man trots dessa begränsningar få ett värde nära &#x3c0;! </string>
     <string name="pi_calculation_part1"> Beräkningarna för cirklarna som ritas bygger på den isoperimetriska olikheten. Den isoperimetriska olikheten säger att det är sant för alla cirklar att 4&#x3c0;A ≤ L&#xb2;. Det betyder att om man multiplicerar en sluten kurvas area (A) med 4&#x3c0; så kommer resultatet alltid att vara mindre eller lika med omkretsen (L) kvadrerat.  </string>
     <string name="pi_calculation_part2"> Genom att skriva om den isoperimetriska olikheten fås ett samband för att beräkna en cirkels &#x3c0;-värde.  </string>
     <string name="pi_calculation_part3"> När användaren drar sitt finger över skärmen samlas information om fingrets rörelse in av enheten. Informationen består av koordinater lagrade i en lista. Från varje punkt skapas en linje till följande punkt och när användaren lyfter sitt finger från skärmen sätter beräkningarna igång.</string>
     <string name="pi_calculation_part4"> Att beräkna omkretsen är trivialt och görs genom att addera längden av alla linjer som skapats mellan punkterna. Att beräkna arean kräver mer försiktighet ifall man önskar ett bra resultat.</string>
     <string name="pi_calculation_part5"> För beräkning av arean används Greens sats. Den utrycker arean av en polygon som en kurvintegral av dess omkrets, observera: </string>
     <string name="pi_calculation_part6"> Slutligen sätts cirkelns area och omkrets in i den isoperimetriska olikheten och ut kommer ett väl uppskattat &#x3c0;-värde för den ritade cirkeln! </string>
-    <string name="pi_calculation_title">Beräkning av &#x3c0;</string>
+    <string name="pi_calculation_title">Beräkning av pi</string>
     <string name="pi_fact_approximation">Pi är ett irrationellt tal och kan därför inte skrivas som ett bråk och har en oändlig decimalutveckling. Två populära approximationer man brukar använda sig av är 3,14 och 22/7. </string>
     <string name="pi_fact_archimedes_approximation">Ca 250 år f.kr beräknade Arkimedes en approximation av pi genom att ta fram en algoritm som gick ut på att låsa in en cirkel mellan två polygoner. Genom att beräkna omkretsen av dessa polygoner hittade han att värdet för Pi låg mellan 223/71 och 22/7. På grund av detta kallas Pi även för Arkimedes konstant. </string>
     <string name="pi_fact_astronomy_formula">I = L/ (4*pi*d²)</string>

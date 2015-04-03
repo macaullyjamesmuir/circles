@@ -11,7 +11,6 @@
     <string name="action_settings">Settings</string>
     <string name="actual_pi">Pi</string>
     <string name="app_info_title">About Perfect Pi</string>
-    <string name="calc_pi">Calculation of pi</string>
     <string name="calculating_pi_title">Calculation of pi</string>
     <string name="closestStrokeColor">#40d81b60</string>
     <string name="contact_sl">director@math-stockholm.se</string>
@@ -33,6 +32,7 @@
     <string name="instruction_part_two">An approximation of pi will be computed from the drawn circle.</string>
     <string name="language">Språk/Language</string>
     <string name="logo_text">A collaboration between Stockholm matemathic central and students at Royal technical institute(KTH).</string>
+    <string name="main_circle_drawing_message1">Not a good enough circle try again.</string>
     <string name="main_sidebar_attribution">A collaboration between Stockholm matemathic central and students at Royal technical institute(KTH).</string>
     <string name="name_AE">Anna-Karin Evert</string>
     <string name="name_AKN">Aphia Kabata</string>
@@ -48,10 +48,10 @@
     <string name="pi_calculation_part1">The computations are based on the isoperimetric inequality. It says that for all circles the inequality 4&#x3c0;A ≤ L&#xb2; is true. This means that if you multiply a closed curve\'s area (A) with 4&#x3c0; the result will always be less or equal to the perimeter (L) squared.</string>
     <string name="pi_calculation_part2">By rewriting the isoperimetric inequality we end up with a relationship that can be used to compute the &#x3c0;-value for a circle (I).</string>
     <string name="pi_calculation_part3">When a user drags his finger on the display data is collected. This data is made up of points in an array. From every point a line is drawn to the subsequent point and when the user lifts his finger the computing starts.</string>
-    <string name="pi_calculation_part4">Getting the lenght of the perimeter is easily done by adding the lenght of all the lines together. Calculating the area is a bit more tricky if you want a good result.</string>
+    <string name="pi_calculation_part4">Getting the length of the perimeter is easily done by adding the length of all the lines together. Calculating the area is a bit more tricky if you want a good result.</string>
     <string name="pi_calculation_part5">To calculate the area we use Green\'s theorem which expresses the area of a polygon as a line integral over it\'s perimeter, observe:</string>
     <string name="pi_calculation_part6">Finally the values are put into the isoperimetric inequality and out pops an incredibly accurate &#x3c0;-value for the drawn circle.</string>
-    <string name="pi_calculation_title">Calculating &#x3c0;</string>
+    <string name="pi_calculation_title">Calculating pi</string>
     <string name="pi_fact_approximation">Pi is an irrational number, therefore it cannot be written as a fraction and it has an infinite decimal expansion. Two well-used approximations of Pi are 3,14 and 22/7.</string>
     <string name="pi_fact_archimedes_approximation">About 250 years b.c Archimedes calculated an approximation of Pi by using an algorithm that consists of engraving a circle in between two polygons. By computing the circumference he found that the value of Pi was between 223/71 and 22/7. Because of this Pi is also called archimedes constant.</string>
     <string name="pi_fact_astronomy_formula">I = L/ (4*pi*d²)</string>
@@ -61,7 +61,7 @@
     <string name="pi_fact_einsteins_birthday">Albert Einstein was born on Pi-day, March the 14th.</string>
     <string name="pi_fact_reflection">If you write "3.14" on piece of papper and hold it up to a mirror, it reflects the word "PIE".</string>
     <string name="pi_fact_eulers_equation"> The identity e^(i*pi) + 1 = 0  is called Eulers identity and was discovered by Leonhard Euler in 1743. The identity is considered to be one the most beautiful equation in mathematics as it assembles the five most fundamentals numbers in mathematics: 0, 1, the unit of imaginary numbers ´i´, the base of natural logarithm ´e´ and ofcourse pi.</string>
-    <string name="pi_fact_pi_day"> "Pi-day" is celebrated on March the 14th which was chosen to ressemble the approximation 3,14. Many people like to start the celebration around 1:59 pm which combined with the date ressembles 3.14159, which is an even better approximation of Pi.</string>
+    <string name="pi_fact_pi_day"> "Pi-day" is celebrated on March the 14th which was chosen to resemble the approximation 3,14. Many people like to start the celebration around 1:59 pm which combined with the date ressembles 3.14159, which is an even better approximation of Pi.</string>
     <string name="pi_fact_eulermengoli">Around year 1644 Pietro Mengoli posed what is called the basel problem. the problem consisted of calculating the sum of infinite series:</string>
     <string name="pi_fact_mengoli_formula">∑(1/n^2)</string>
     <string name="pi_fact_eulermengoli_2">This problem was solved by Leonhard Euler in 1743, who showed that ∑(1/n^2) → Pi^2/6 as n → ∞.</string>

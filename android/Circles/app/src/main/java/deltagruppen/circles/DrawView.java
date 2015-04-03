@@ -28,6 +28,7 @@ public class DrawView extends RelativeLayout
     private ImperfectCircleView imperfectCircleView;
     private ClosestCircleView   closestCircleView;
     private TableLayout         piCalculationPopup;
+    private TextView            piMessagePopup;
 
     public DrawView(Context context, AttributeSet attrs)
     {
@@ -46,6 +47,7 @@ public class DrawView extends RelativeLayout
         imperfectCircleView = (ImperfectCircleView) findViewById(R.id.imperfectCircleView);
         closestCircleView   = (ClosestCircleView)   findViewById(R.id.closestCircleView);
         piCalculationPopup  = (TableLayout)         findViewById(R.id.piCalculationPopup);
+        piMessagePopup      = (TextView)            findViewById(R.id.piMessagePopup);
     }
 
     @Override
@@ -64,6 +66,7 @@ public class DrawView extends RelativeLayout
             imperfectCircleView.clear();
             closestCircleView.clear();
             piCalculationPopup.setVisibility(View.INVISIBLE);
+            piMessagePopup.setVisibility(View.INVISIBLE);
             path.reset();
             points.add(new PointF(event.getX(), event.getY()));
             path.moveTo(event.getX(), event.getY());
@@ -107,6 +110,9 @@ public class DrawView extends RelativeLayout
             catch (IllegalArgumentException e) {
                 Log.i("DrawView", "Not a circle :(");
             }
+        }
+        if (!piCalculationPopup.isShown()) {
+            piMessagePopup.setVisibility(View.VISIBLE);
         }
         return false;
     }

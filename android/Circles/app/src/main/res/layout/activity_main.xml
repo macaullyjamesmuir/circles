@@ -108,26 +108,28 @@
             circles:closestCircleStrokeWidth="15"
             android:id="@+id/closestCircleView"/>
 
-        <TableLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView
             android:id="@+id/piMessagePopup"
-            android:layout_alignParentTop="true"
-            android:layout_toRightOf="@+id/linearLayout"
-            android:layout_toEndOf="@+id/linearLayout"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="100dp"
-            android:visibility="gone"/>
+            android:layout_width="108dp"
+            android:layout_height="50dp"
+            android:text="@string/main_circle_drawing_message1"
+            android:background="#ff03a9f4"
+            android:textColor="#ffffffff"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/activity_vertical_margin_big"
+            android:padding="10dp"/>
 
         <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/piCalculationPopup"
-            android:layout_alignParentTop="true"
-            android:layout_toRightOf="@+id/linearLayout"
-            android:layout_toEndOf="@+id/linearLayout"
-            android:layout_marginLeft="100dp"
-            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/activity_vertical_margin_big"
             android:visibility="gone">
 
             <TableRow
@@ -160,7 +162,7 @@
                 <Button
                     android:layout_width="108dp"
                     android:layout_height="fill_parent"
-                    android:text="@string/calc_pi"
+                    android:text="@string/pi_calculation_title"
                     android:id="@+id/button_calc"
                     android:onClick="showCalculatingPiInfo"
                     android:layout_column="2"
@@ -228,7 +230,8 @@
                     android:textColor="#ffffffff"
                     android:gravity="center"
                     android:textSize="12sp"
-                    android:onClick="showPiInfo"/>
+                    android:onClick="showPiInfo"
+                    android:padding="10dp"/>
             </TableRow>
         </TableLayout>
 
@@ -348,7 +351,7 @@
                 android:layout_width="280dp"
                 android:layout_height="40dp"
                 android:textSize="20sp"
-                android:text="@string/calc_pi"
+                android:text="@string/pi_calculation_title"
                 android:id="@+id/button3"
                 android:layout_column="1"
                 android:background="#ff0097a7"
@@ -356,7 +359,7 @@
                 android:singleLine="true"
                 android:textColor="#ffffffff"
                 android:gravity="center_vertical"
-                android:onClick="showCalculatingPiInfo" />
+                android:onClick="showCalculatingPiInfo"/>
         </TableRow>
 
         <TableRow

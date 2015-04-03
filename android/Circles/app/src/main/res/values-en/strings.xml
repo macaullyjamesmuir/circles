@@ -44,16 +44,14 @@
     <string name="name_MM">Macaully James Muir</string>
     <string name="name_PS">Patrik Schwermer</string>
     <string name="name_sl">Professor Svante Linusson</string>
-    <string name="pi_calcultacion_formula_1"> &#8730;(&#916;x^2 + &#916;y^2) </string>
-    <string name="pi_calcultacion_formula_2">((x1 + x2) * &#916;y)/2 </string>
-    <string name="pi_calcultacion_step1_part1"> For every couple of adjacent points p1 and p2, with the coordinates (x1,y1) and (x2,y2), the following is done: </string>
-    <string name="pi_calcultacion_step1_part2"> The difference for the coordinates of the couples in both x and y is calculated. These differences are squared, then summed up and then the square root is taken of the sum.This is done for the coordinates of all points in the figure and lastly all the results are summed up in which finally gives the circumference of the circle. </string>
-    <string name="pi_calcultacion_step2_part1"> For every couple of adjacent points p1 and p2, with the coordinates (x1,y1) and (x2,y2), the following is done: </string>
-    <string name="pi_calcultacion_step2_part2">The difference of the coordinates in y and the sum of the coordinates in x is calculated. The result of these are then multiplied with each other and then divided by two. This is done for the coordinates of all points in the figure and lastly all the results are summed up in which finally gives the area of the circle.</string>
-    <string name="pi_calcultacion_step3_formula1">Pi * A * 4 &#8804; med  L^2</string>
-    <string name="pi_calcultacion_step3_formula2"> Pi = L^2 / 4 * A </string>
-    <string name="pi_calcultacion_step3_part1"> The approximation of Pi is then calculated by using so called isoperimetric inequality through:</string>
-    <string name="pi_calcultacion_step3_part2">Where A is the area and L is the circumference of the drawn circle which was calculated in 1) and 2). By taking out Pi in the equality we can finally calculate the approximation by:</string>
+    <string name="pi_calculation_intro">&#x3c0; is the ratio between a circles perimeter and it\'s diameter. In Perfect Pi the goal is to draw a circle with that same ratio. Begrudgingly this is impossible. To begin with &#x3c0; has an infinite amount of decimals so however close you get it\'s always possible to get even closer. There are also technical limitations. The display consists of pixels which form a grid. So all figures drawn are represented by patterns of horizontal and vertical lines which when zoomed out can be made to look like round shapes. But if you\'re really good and witty you can still get a value close to &#x3c0;.</string>
+    <string name="pi_calculation_part1">The computations are based on the isoperimetric inequality. It says that for all circles the inequality 4&#x3c0;A ≤ L&#xb2; is true. This means that if you multiply a closed curve\'s area (A) with 4&#x3c0; the result will always be less or equal to the perimeter (L) squared.</string>
+    <string name="pi_calculation_part2">By rewriting the isoperimetric inequality we end up with a relationship that can be used to compute the &#x3c0;-value for a circle (I).</string>
+    <string name="pi_calculation_part3">When a user drags his finger on the display data is collected. This data is made up of points in an array. From every point a line is drawn to the subsequent point and when the user lifts his finger the computing starts.</string>
+    <string name="pi_calculation_part4">Getting the lenght of the perimeter is easily done by adding the lenght of all the lines together. Calculating the area is a bit more tricky if you want a good result.</string>
+    <string name="pi_calculation_part5">To calculate the area we use Green\'s theorem which expresses the area of a polygon as a line integral over it\'s perimeter, observe:</string>
+    <string name="pi_calculation_part6">Finally the values are put into the isoperimetric inequality and out pops an incredibly accurate &#x3c0;-value for the drawn circle.</string>
+    <string name="pi_calculation_title">Calculating &#x3c0;</string>
     <string name="pi_fact_approximation">Pi is an irrational number, therefore it cannot be written as a fraction and it has an infinite decimal expansion. Two well-used approximations of Pi are 3,14 and 22/7.</string>
     <string name="pi_fact_archimedes_approximation">About 250 years b.c Archimedes calculated an approximation of Pi by using an algorithm that consists of engraving a circle in between two polygons. By computing the circumference he found that the value of Pi was between 223/71 and 22/7. Because of this Pi is also called archimedes constant.</string>
     <string name="pi_fact_astronomy_formula">I = L/ (4*pi*d²)</string>
@@ -70,7 +68,6 @@
     <string name="pi_fact_world_record"> The worlds record for memorizing the value of Pi was won by the Chinese Chao Lu, whom in 2005 memorized and recited the value up to the 67 890 first decimal places.</string>
     <string name="pi_info_subtitle">The number Pi has a thousand year old story. Ever since the babylonians around 2000 years b.c estimated the value of pi to 25/8, mathematicians and civilizations have struggled and attempted to get a more precise value and today we have estimations of pi with several billions decimal places. In order to illustrate what an amazing and fascinating number pi is, we have collected some fun facts that we have encountered during the development of the app.</string>
     <string name="pi_info_title">10 facts about pi</string>
-    <string name="pi_intro_calculation"> When the user touches the screen, several pixels are generated and by calculating a mean of the pixels they can be expressed av one point x. With a sweep across the screen with the finger several adjacent pixels are touched and with this a figure is generated. This figure is deemed to be a circle if there exists two points in the figure that share the same coordinates. To calculate Pi the following is done: </string>
     <string name="pi">3,14159265</string>
     <string name="project_leader_details">Veronica Randleff \n randleff@kth.se</string>
     <string name="smc_logo_description">The SMC logo</string>

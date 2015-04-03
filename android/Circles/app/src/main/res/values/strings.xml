@@ -12,8 +12,6 @@
     <string name="action_settings">Settings</string>
     <string name="actual_pi">Pi</string>
     <string name="app_info_title">Om Perfect Pi</string>
-    <string name="calc_pi">Beräkning av pi</string>
-    <string name="calculating_pi_title">Beräkning av pi</string>
     <string name="closestStrokeColor">#40d81b60</string>
     <string name="contact_sl">director@math-stockholm.se</string>
     <string name="hand_arrow_description">hand_arrow</string>
@@ -31,7 +29,7 @@
     <string name="imperfectFillColor">#00000000</string>
     <string name="imperfectStrokeColor">#263238</string>
     <string name="instruction_part_one">Försök att rita en så rund cirkel som möjligt till höger.</string>
-    <string name="instruction_part_two">Ett närmervärde på pi kommer att beräknas utefter den ritade cirkeln.</string>
+    <string name="instruction_part_two">Ett närmervärde på &#x3c0; kommer att beräknas utefter den ritade cirkeln.</string>
     <string name="language">Språk/Language</string>
     <string name="logo_text">Ett samarbete mellan Stockholms Matemetikcentrum och KTH-studenter .</string>
     <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter</string>
@@ -45,16 +43,14 @@
     <string name="name_MM">Macaully James Muir</string>
     <string name="name_PS">Patrik Schwermer</string>
     <string name="name_sl">Professor Svante Linusson</string>
-    <string name="pi_calcultacion_formula_1"> &#8730;(&#916;x^2 + &#916;y^2) </string>
-    <string name="pi_calcultacion_formula_2">((x1 + x2) * &#916;y)/2 </string>
-    <string name="pi_calcultacion_step1_part1"> För varje par närliggande punkter p1 och p2 med koordinaterna (x1,y1) respektive (x2,y2) görs följande: </string>
-    <string name="pi_calcultacion_step1_part2"> Man beräknar skillnaden för dessa par koordinater i både x-led och i y-led. Dessa skillnader kvadreras, därefter summeras de och man tar kvadratroten ur resultatet. Detta görs för alla punkters koordinater i figuren, och sedan summeras alla dessa resultat, således får man omkretsen för cirkeln. </string>
-    <string name="pi_calcultacion_step2_part1"> För varje par närliggande punkter p1 och p2 med koordinaterna (x1,y1) respektive (x2,y2) görs följande: </string>
-    <string name="pi_calcultacion_step2_part2">Man beräknar skillnaden för koordinaterna i y-led och summerar koordinaterna i x-led. Dessa multipliceras och därefter divideras de med två. Detta görs för alla punkters koordinater i figuren, och sedan summeras alla dessa resultat, således får man arean för cirkeln.</string>
-    <string name="pi_calcultacion_step3_formula1">Pi * A * 4 &#8804; med  L^2</string>
-    <string name="pi_calcultacion_step3_formula2"> Pi = L^2 / 4 * A </string>
-    <string name="pi_calcultacion_step3_part1"> Approximationen av Pi beräknas då genom att vi vänder på den så kallade isoperimetriska olikheten som säger att:</string>
-    <string name="pi_calcultacion_step3_part2">Där A är arean och L  är omkretsen av den ritade figuren som tagits fram i 1) och 2). Genom att lösa ut Pi ur denna olikhet kan vi nu beräkna approximationen som då ges av:</string>
+    <string name="pi_calculation_intro"> &#x3c0; är förhållandet mellan en cirkels omkrets och diameter. I Perfect Pi är målet att försöka rita en cirkel med samma förhållande. Det är tyvär omöjligt. &#x3c0; är till att börja med en oändlig decimalutveckling så hur nära man än kommer kan man alltid att komma lite närmre. Det finns också tekniska begränsningar. Displayen består av pixlar uppdelade i ett rutnät. Alla figurer man skapar består därmed av kantiga former. Zoomar man ut kan man inte längre urskilja kanterna och saker ser istället runda, raka och fina ut. Men är man riktigt duktig så kan man trots dessa begränsningar få ett värde nära &#x3c0;! </string>
+    <string name="pi_calculation_part1"> Beräkningarna för cirklarna som ritas bygger på den isoperimetriska olikheten. Den isoperimetriska olikheten säger att det är sant för alla cirklar att 4&#x3c0;A ≤ L&#xb2;. Det betyder att om man multiplicerar en sluten kurvas area (A) med 4&#x3c0; så kommer resultatet alltid att vara mindre eller lika med omkretsen (L) kvadrerat.  </string>
+    <string name="pi_calculation_part2"> Genom att skriva om den isoperimetriska olikheten fås ett samband för att beräkna en cirkels &#x3c0;-värde.  </string>
+    <string name="pi_calculation_part3"> När användaren drar sitt finger över skärmen samlas information om fingrets rörelse in av enheten. Informationen består av koordinater lagrade i en lista. Från varje punkt skapas en linje till följande punkt och när användaren lyfter sitt finger från skärmen sätter beräkningarna igång.</string>
+    <string name="pi_calculation_part4"> Att beräkna omkretsen är trivialt och görs genom att addera längden av alla linjer som skapats mellan punkterna. Att beräkna arean kräver mer försiktighet ifall man önskar ett bra resultat.</string>
+    <string name="pi_calculation_part5"> För beräkning av arean används Greens sats. Den utrycker arean av en polygon som en kurvintegral av dess omkrets, observera: </string>
+    <string name="pi_calculation_part6"> Slutligen sätts cirkelns area och omkrets in i den isoperimetriska olikheten och ut kommer ett väl uppskattat &#x3c0;-värde för den ritade cirkeln! </string>
+    <string name="pi_calculation_title">Beräkning av &#x3c0;</string>
     <string name="pi_fact_approximation">Pi är ett irrationellt tal och kan därför inte skrivas som ett bråk och har en oändlig decimalutveckling. Två populära approximationer man brukar använda sig av är 3,14 och 22/7. </string>
     <string name="pi_fact_archimedes_approximation">Ca 250 år f.kr beräknade Arkimedes en approximation av pi genom att ta fram en algoritm som gick ut på att låsa in en cirkel mellan två polygoner. Genom att beräkna omkretsen av dessa polygoner hittade han att värdet för Pi låg mellan 223/71 och 22/7. På grund av detta kallas Pi även för Arkimedes konstant. </string>
     <string name="pi_fact_astronomy_formula">I = L/ (4*pi*d²)</string>
@@ -71,7 +67,6 @@
     <string name="pi_fact_world_record"> Världsrekordet på att memorera decimalutvecklingen av pi sattes senast år 2005 av kinesen Chao Lu, då han från minnet läste upp de 67 890 första decimalplatserna. </string>
     <string name="pi_info_subtitle">Talet pi har en flera tusen år gammal historia. Sedan Babylonerna ca 2000 år före år noll uppskattade pi till 25/8 så har matematiker och civilisationer kämpat för en mer precis uppskattning av pi ända tills idag då vi har uppskattningar av pi med flera biljoner decimalers noggrannhet. För att illustrera vilket oerhört fascinerande tal pi är så har vi samlat ett urval roliga fakta som vi stött på medan vi utvecklat appen.</string>
     <string name="pi_info_title">10 fakta om pi</string>
-    <string name="pi_intro_calculation"> När användaren rör skärmen genereras ett antal pixlar och genom att ett medelvärde av dessa beräknas representeras de som en enda punkt x. Genom ett svep över skärmen med fingret rör denne en serie av intilliggande pixlar som då genererar en figur. Denna figur anses vara en "cirkel" om det finns två punkter i figuren som delar samma koordinater. För att kunna beräkna Pi görs följande: </string>
     <string name="pi">3,14159265</string>
     <string name="project_leader_details">Veronica Randleff \n randleff@kth.se</string>
     <string name="smc_logo_description">The SMC logo</string>

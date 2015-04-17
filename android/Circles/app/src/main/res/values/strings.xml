@@ -32,7 +32,7 @@
     <string name="instruction_part_two">Ett närmervärde på &#x3c0; kommer att beräknas utefter den ritade cirkeln.</string>
     <string name="language">Språk/Language</string>
     <string name="logo_text">Ett samarbete mellan Stockholms Matemetikcentrum och KTH-studenter .</string>
-    <string name="main_circle_drawing_message1">Inte en tillräckligt bra cirkel, försök igen.</string>
+    <string name="main_circle_drawing_message1">Försök igen!</string>
     <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter</string>
     <string name="name_AE">Anna-Karin Evert</string>
     <string name="name_AKN">Aphia Kabata</string>

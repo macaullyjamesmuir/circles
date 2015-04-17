@@ -14,14 +14,14 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#ff93b6c5"
+        android:background="@color/medium_gray"
         android:id="@+id/linearLayout">
 
         <GridLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            android:background="#ffbfd8dc"
+            android:background="@color/light_gray"
             android:weightSum="1"
             android:id="@+id/shortdesc">
 
@@ -113,127 +113,83 @@
             android:layout_width="108dp"
             android:layout_height="50dp"
             android:text="@string/main_circle_drawing_message1"
-            android:background="#ff03a9f4"
-            android:textColor="#ffffffff"
+            android:background="@color/medium_gray"
+            android:textColor="@color/darker_gray"
             android:gravity="center"
-            android:textSize="12sp"
+            android:textSize="@dimen/font_size_medium"
             android:visibility="gone"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="@dimen/activity_vertical_margin_big"
             android:padding="10dp"/>
 
-        <TableLayout
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="181dp"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:id="@+id/piCalculationPopup"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
             android:paddingBottom="@dimen/activity_vertical_margin_big"
             android:visibility="gone">
 
-            <TableRow
+            <LinearLayout
                 android:layout_width="fill_parent"
-                android:layout_height="39dp">
+                android:layout_height="39dp"
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="65dp"
                     android:layout_height="fill_parent"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/your_pi"
                     android:id="@+id/textView29"
-                    android:layout_column="0"
-                    android:background="#ffb0bec5"
-                    android:textColor="#ff263238"
+                    android:background="@color/medium_gray"
+                    android:textColor="@color/darker_gray"
                     android:gravity="center" />
 
                 <TextView
+                    android:id="@+id/pi_approximation_field"
                     android:layout_width="116dp"
                     android:layout_height="fill_parent"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:id="@+id/piApproximation"
-                    android:layout_column="1"
-                    android:background="#ffcfd8dc"
-                    android:textColor="#ff78909c"
+                    android:background="@color/light_gray"
+                    android:textColor="@color/maybe_medium_gray"
                     android:layout_marginRight="4dp"
-                    android:text="updateUserPi"
                     android:gravity="center" />
+            </LinearLayout>
 
-                <Button
-                    android:layout_width="108dp"
-                    android:layout_height="fill_parent"
-                    android:text="@string/pi_calculation_title"
-                    android:id="@+id/button_calc"
-                    android:onClick="showCalculatingPiInfo"
-                    android:layout_column="2"
-                    android:background="#ff03a9f4"
-                    android:textColor="#ffffffff"
-                    android:gravity="center"
-                    android:textSize="12sp"/>
-            </TableRow>
+            <LinearLayout
+                android:id="@+id/score_popup_dividing_line"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:orientation="horizontal"
+                android:background="@color/dark_gray"></LinearLayout>
 
-            <TableRow
+            <LinearLayout
                 android:layout_width="fill_parent"
-                android:layout_height="1dp"
-                android:layout_margin="0dp">
-
-                <TextView
-                    android:layout_width="65dp"
-                    android:layout_height="1dp"
-                    android:background="#ff90a4ac"/>
-
-                <TextView
-                    android:layout_width="116dp"
-                    android:layout_height="1dp"
-                    android:background="#ff90a4ac"/>
-
-                <TextView
-                    android:layout_width="108dp"
-                    android:layout_height="1dp"
-                    android:background="#ff0288d1"/>
-            </TableRow>
-
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="39dp">
+                android:layout_height="39dp"
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="65dp"
                     android:layout_height="fill_parent"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/actual_pi"
                     android:id="@+id/textView28"
-                    android:layout_column="0"
-                    android:background="#ffb0bec5"
-                    android:textColor="#ff263238"
+                    android:background="@color/medium_gray"
+                    android:textColor="@color/darker_gray"
                     android:gravity="center" />
 
                 <TextView
                     android:layout_width="116dp"
                     android:layout_height="fill_parent"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/pi"
                     android:id="@+id/textView30"
-                    android:layout_column="1"
-                    android:background="#ffcfd8dc"
-                    android:textColor="#ff78909c"
+                    android:background="@color/light_gray"
+                    android:textColor="@color/maybe_medium_gray"
                     android:layout_marginRight="4dp"
                     android:gravity="center" />
 
-                <Button
-                    android:layout_width="108dp"
-                    android:layout_height="fill_parent"
-                    android:text="@string/teach_me_pi"
-                    android:id="@+id/button_teach"
-                    android:layout_column="2"
-                    android:background="#ff03a9f4"
-                    android:textColor="#ffffffff"
-                    android:gravity="center"
-                    android:textSize="12sp"
-                    android:onClick="showPiInfo"
-                    android:padding="10dp"/>
-            </TableRow>
-        </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
 
     </deltagruppen.circles.DrawView>
 

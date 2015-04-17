@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pi_info_title"
+            android:text="@string/pi_fact_title"
             android:id="@+id/textView5"
             android:textColor="@color/first_header_text"
             android:layout_centerHorizontal="true"
@@ -23,6 +23,10 @@
             android:textSize="@dimen/font_header_text"/>
 
     </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <RelativeLayout
         android:orientation="horizontal"
@@ -38,12 +42,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/pi_info_text_field1"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin_big"
+            android:layout_marginStart="@dimen/activity_horizontal_margin_big"
+            android:layout_marginRight="@dimen/activity_horizontal_margin_big"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin_big"
             android:layout_marginBottom="@dimen/activity_vertical_margin_big">
 
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/pi_info_subtitle"
+                android:text="@string/pi_fact_intro"
                 android:id="@+id/textView12"
                 android:layout_below="@+id/textView5"
                 android:layout_centerHorizontal="true"
@@ -73,7 +81,6 @@
                     android:layout_alignParentTop="false"
                     android:layout_alignParentLeft="false"
                     android:layout_alignParentStart="false"
-                    android:layout_below="@+id/textView12"
                     android:shrinkColumns="1">
 
                     <TableRow
@@ -93,7 +100,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/pi_fact_definition"
+                            android:text="@string/pi_fact_1"
                             android:id="@+id/textView18"
                             android:paddingLeft="10dp"
                             android:textSize="@dimen/font_size_xsmall" />
@@ -117,7 +124,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/pi_fact_approximation"
+                            android:text="@string/pi_fact_2"
                             android:id="@+id/textView31"
                             android:paddingLeft="10dp"
                             android:textSize="@dimen/font_size_xsmall" />
@@ -140,7 +147,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/pi_fact_pi_day"
+                            android:text="@string/pi_fact_3"
                             android:id="@+id/textView34"
                             android:paddingLeft="10dp"
                             android:textSize="@dimen/font_size_xsmall" />
@@ -168,7 +175,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/pi_fact_astronomy_part_1"
+                                android:text="@string/pi_fact_4"
                                 android:id="@+id/textView36"
                                 android:paddingLeft="10dp"
                                 android:layout_marginBottom="10dp"
@@ -177,7 +184,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/pi_fact_astronomy_formula"
+                                android:text="@string/pi_fact_5"
                                 android:id="@+id/textView38"
                                 android:paddingLeft="10dp"
                                 android:layout_gravity="center_horizontal"
@@ -187,7 +194,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/pi_fact_astronomy_part_3"
+                                android:text="@string/pi_fact_6"
                                 android:id="@+id/textView39"
                                 android:paddingLeft="10dp"
                                 android:textSize="@dimen/font_size_xsmall" />
@@ -212,7 +219,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/pi_fact_world_record"
+                            android:text="@string/pi_fact_7"
                             android:id="@+id/textView41"
                             android:paddingLeft="10dp"
                             android:textSize="@dimen/font_size_xsmall" />
@@ -253,7 +260,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/pi_fact_eulers_equation"
+                            android:text="@string/pi_fact_8"
                             android:id="@+id/textView42"
                             android:paddingLeft="10dp"
                             android:textSize="@dimen/font_size_xsmall" />
@@ -276,7 +283,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/pi_fact_einsteins_birthday"
+                            android:text="@string/pi_fact_9"
                             android:id="@+id/textView44"
                             android:paddingLeft="10dp"
                             android:textSize="@dimen/font_size_xsmall" />
@@ -299,7 +306,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/pi_fact_archimedes_approximation"
+                            android:text="@string/pi_fact_10"
                             android:id="@+id/textView46"
                             android:paddingLeft="10dp"
                             android:textSize="@dimen/font_size_xsmall" />
@@ -322,7 +329,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/pi_fact_reflection"
+                            android:text="@string/pi_fact_11"
                             android:id="@+id/textView48"
                             android:paddingLeft="10dp"
                             android:layout_marginBottom="10dp"
@@ -353,8 +360,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/pi_fact_eulermengoli"
-                                android:id="@+id/textView36"
+                                android:text="@string/pi_fact_12"
                                 android:paddingLeft="10dp"
                                 android:layout_marginBottom="10dp"
                                 android:textSize="@dimen/font_size_xsmall" />
@@ -362,8 +368,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/pi_fact_mengoli_formula"
-                                android:id="@+id/textView38"
+                                android:text="@string/pi_fact_13"
                                 android:paddingLeft="10dp"
                                 android:layout_gravity="center_horizontal"
                                 android:layout_marginBottom="10dp"
@@ -372,8 +377,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/pi_fact_eulermengoli_2"
-                                android:id="@+id/textView39"
+                                android:text="@string/pi_fact_14"
                                 android:paddingLeft="10dp"
                                 android:textSize="@dimen/font_size_xsmall" />
                         </LinearLayout>
@@ -381,8 +385,15 @@
                 </TableLayout>
             </RelativeLayout>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/n"/>
+
         </LinearLayout>
 
     </RelativeLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

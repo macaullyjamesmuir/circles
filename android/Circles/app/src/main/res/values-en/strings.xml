@@ -52,22 +52,22 @@
     <string name="pi_calculation_part5">To calculate the area we use Green\'s theorem which expresses the area of a polygon as a line integral over it\'s perimeter, observe:</string>
     <string name="pi_calculation_part6">Finally the values are put into the isoperimetric inequality and out pops an incredibly accurate &#x3c0;-value for the drawn circle.</string>
     <string name="pi_calculation_title">Calculating pi</string>
-    <string name="pi_fact_approximation">Pi is an irrational number, therefore it cannot be written as a fraction and it has an infinite decimal expansion. Two well-used approximations of Pi are 3,14 and 22/7.</string>
-    <string name="pi_fact_archimedes_approximation">About 250 years b.c Archimedes calculated an approximation of Pi by using an algorithm that consists of engraving a circle in between two polygons. By computing the circumference he found that the value of Pi was between 223/71 and 22/7. Because of this Pi is also called archimedes constant.</string>
-    <string name="pi_fact_astronomy_formula">I = L/ (4*pi*d²)</string>
-    <string name="pi_fact_astronomy_part_1">Pi is used in astronomy and astrology to calculate paths and celestial bodies. Copernius and Galileo used pi to approximate the size of the earth and the distance to the moon. An example on how pi is used in astronomy is when calculating the apparent brightness (intensity) of a star using the following formula:</string>
-    <string name="pi_fact_astronomy_part_3">  Where I is the apparent brightness of the star in W/m²,  L is the luminosity of the star in  W,D is the distance to the star in m.</string>
-    <string name="pi_fact_definition"> Pi is defined as the ratio of a circle\'s circumference to its diameter.</string>
-    <string name="pi_fact_einsteins_birthday">Albert Einstein was born on Pi-day, March the 14th.</string>
-    <string name="pi_fact_reflection">If you write "3.14" on piece of papper and hold it up to a mirror, it reflects the word "PIE".</string>
-    <string name="pi_fact_eulers_equation"> The identity e^(i*pi) + 1 = 0  is called Eulers identity and was discovered by Leonhard Euler in 1743. The identity is considered to be one the most beautiful equation in mathematics as it assembles the five most fundamentals numbers in mathematics: 0, 1, the unit of imaginary numbers ´i´, the base of natural logarithm ´e´ and ofcourse pi.</string>
-    <string name="pi_fact_pi_day"> "Pi-day" is celebrated on March the 14th which was chosen to resemble the approximation 3,14. Many people like to start the celebration around 1:59 pm which combined with the date ressembles 3.14159, which is an even better approximation of Pi.</string>
-    <string name="pi_fact_eulermengoli">Around year 1644 Pietro Mengoli posed what is called the basel problem. the problem consisted of calculating the sum of infinite series:</string>
-    <string name="pi_fact_mengoli_formula">∑(1/n^2)</string>
-    <string name="pi_fact_eulermengoli_2">This problem was solved by Leonhard Euler in 1743, who showed that ∑(1/n^2) → Pi^2/6 as n → ∞.</string>
-    <string name="pi_fact_world_record"> The worlds record for memorizing the value of Pi was won by the Chinese Chao Lu, whom in 2005 memorized and recited the value up to the 67 890 first decimal places.</string>
-    <string name="pi_info_subtitle">The number Pi has a thousand year old story. Ever since the babylonians around 2000 years b.c estimated the value of pi to 25/8, mathematicians and civilizations have struggled and attempted to get a more precise value and today we have estimations of pi with several billions decimal places. In order to illustrate what an amazing and fascinating number pi is, we have collected some fun facts that we have encountered during the development of the app.</string>
-    <string name="pi_info_title">10 facts about pi</string>
+    <string name="pi_fact_2">Pi is an irrational number, therefore it cannot be written as a fraction and it has an infinite decimal expansion. Two well-used approximations of Pi are 3,14 and 22/7.</string>
+    <string name="pi_fact_10">About 250 years b.c Archimedes calculated an approximation of Pi by using an algorithm that consists of engraving a circle in between two polygons. By computing the circumference he found that the value of Pi was between 223/71 and 22/7. Because of this Pi is also called archimedes constant.</string>
+    <string name="pi_fact_5">I = L/ (4*pi*d²)</string>
+    <string name="pi_fact_4">Pi is used in astronomy and astrology to calculate paths and celestial bodies. Copernius and Galileo used pi to approximate the size of the earth and the distance to the moon. An example on how pi is used in astronomy is when calculating the apparent brightness (intensity) of a star using the following formula:</string>
+    <string name="pi_fact_6">  Where I is the apparent brightness of the star in W/m²,  L is the luminosity of the star in  W,D is the distance to the star in meter.</string>
+    <string name="pi_fact_1"> Pi is defined as the ratio of a circle\'s circumference to its diameter.</string>
+    <string name="pi_fact_9">Albert Einstein was born on Pi-day, March the 14th.</string>
+    <string name="pi_fact_11">If you write "3.14" on piece of papper and hold it up to a mirror, it reflects the word "PIE".</string>
+    <string name="pi_fact_8"> The identity e^(i*pi) + 1 = 0  is called Eulers identity and was discovered by Leonhard Euler in 1743. The identity is considered to be one the most beautiful equation in mathematics as it assembles the five most fundamentals numbers in mathematics: 0, 1, the unit of imaginary numbers ´i´, the base of natural logarithm ´e´ and ofcourse pi.</string>
+    <string name="pi_fact_3"> "Pi-day" is celebrated on March the 14th which was chosen to resemble the approximation 3,14. Many people like to start the celebration around 1:59 pm which combined with the date ressembles 3.14159, which is an even better approximation of Pi.</string>
+    <string name="pi_fact_12">Around year 1644 Pietro Mengoli posed what is called the basel problem. the problem consisted of calculating the sum of infinite series:</string>
+    <string name="pi_fact_13">∑(1/n^2)</string>
+    <string name="pi_fact_14">This problem was solved by Leonhard Euler in 1743, who showed that ∑(1/n^2) → Pi^2/6 as n → ∞.</string>
+    <string name="pi_fact_7"> The worlds record for memorizing the value of Pi was won by the Chinese Chao Lu, whom in 2005 memorized and recited the value up to the 67 890 first decimal places.</string>
+    <string name="pi_fact_intro">The number Pi has a thousand year old story. Ever since the babylonians around 2000 years b.c estimated the value of pi to 25/8, mathematicians and civilizations have struggled and attempted to get a more precise value and today we have estimations of pi with several billions decimal places. In order to illustrate what an amazing and fascinating number pi is, we have collected some fun facts that we have encountered during the development of the app.</string>
+    <string name="pi_fact_title">10 facts about pi</string>
     <string name="pi">3,14159265</string>
     <string name="project_leader_details">Veronica Randleff \n randleff@kth.se</string>
     <string name="smc_logo_description">The SMC logo</string>

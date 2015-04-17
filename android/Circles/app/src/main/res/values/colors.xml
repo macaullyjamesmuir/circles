@@ -11,5 +11,7 @@
     <color name="medium_gray">#b0bec5</color>
     <color name="dark_gray">#90a4ae</color>
     <color name="darker_gray">#263238</color>
+    
+    <color name="blue_or_maybe_turquoise">#03a9f4</color>
 
 </resources>

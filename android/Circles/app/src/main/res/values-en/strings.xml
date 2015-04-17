@@ -32,7 +32,7 @@
     <string name="instruction_part_two">An approximation of pi will be computed from the drawn circle.</string>
     <string name="language">Språk/Language</string>
     <string name="logo_text">A collaboration between Stockholm matemathic central and students at Royal technical institute(KTH).</string>
-    <string name="main_circle_drawing_message1">Not a good enough circle try again.</string>
+    <string name="main_circle_drawing_message1">Try again!</string>
     <string name="main_sidebar_attribution">A collaboration between Stockholm matemathic central and students at Royal technical institute(KTH).</string>
     <string name="name_AE">Anna-Karin Evert</string>
     <string name="name_AKN">Aphia Kabata</string>

@@ -5,4 +5,11 @@
     <color name="first_header_text">#ffffff</color>
     <color name="second_header_text">#000000</color>
     <color name="third_header_text">#4fc3f7</color>
+
+    <color name="light_gray">#cfd8dc</color>
+    <color name="maybe_medium_gray">#78909c</color>
+    <color name="medium_gray">#b0bec5</color>
+    <color name="dark_gray">#90a4ae</color>
+    <color name="darker_gray">#263238</color>
+
 </resources>

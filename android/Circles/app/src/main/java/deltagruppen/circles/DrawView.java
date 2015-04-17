@@ -11,6 +11,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TableLayout;
 import android.widget.TextView;
@@ -27,7 +28,7 @@ public class DrawView extends RelativeLayout
 
     private ImperfectCircleView imperfectCircleView;
     private ClosestCircleView   closestCircleView;
-    private TableLayout         piCalculationPopup;
+    private LinearLayout         piCalculationPopup;
     private TextView            piMessagePopup;
 
     public DrawView(Context context, AttributeSet attrs)
@@ -46,7 +47,7 @@ public class DrawView extends RelativeLayout
     {
         imperfectCircleView = (ImperfectCircleView) findViewById(R.id.imperfectCircleView);
         closestCircleView   = (ClosestCircleView)   findViewById(R.id.closestCircleView);
-        piCalculationPopup  = (TableLayout)         findViewById(R.id.piCalculationPopup);
+        piCalculationPopup  = (LinearLayout)         findViewById(R.id.piCalculationPopup);
         piMessagePopup      = (TextView)            findViewById(R.id.piMessagePopup);
     }
 
@@ -87,7 +88,7 @@ public class DrawView extends RelativeLayout
             try {
                 ImperfectCircle imperfectCircle = new ImperfectCircle(points);
                 imperfectCircleView.setImperfectCircle(imperfectCircle);
-                TextView approximationTextView = (TextView) piCalculationPopup.findViewById(R.id.piApproximation);
+                TextView approximationTextView = (TextView) piCalculationPopup.findViewById(R.id.pi_approximation_field);
 
                 double l = imperfectCircle.getPerimeterLength();
                 double a = Math.abs(imperfectCircle.getArea());

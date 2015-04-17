@@ -1,0 +1,301 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="deltagruppen.circles.PiInfo"
+    android:id="@+id/pi_info_layout">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/header_field"
+        android:background="#ff26a69a"
+        android:id="@+id/pi_info_header_field">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pi_fact_title"
+            android:id="@+id/textView5"
+            android:textColor="@color/first_header_text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/font_header_text"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin_big"
+        android:layout_below="@+id/pi_info_header_field">
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin_big"
+                android:layout_marginStart="@dimen/activity_vertical_margin_big"
+                android:layout_marginLeft="@dimen/activity_vertical_margin_big"
+                android:layout_marginEnd="@dimen/activity_vertical_margin_big"
+                android:layout_marginRight="@dimen/activity_vertical_margin_big"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_size_medium"
+                    android:id="@+id/pi_fact_single_pane_intro_text"
+                    android:text="@string/pi_fact_intro"/>
+
+                <LinearLayout
+                    android:layout_width="500dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin_big"
+                    android:layout_below="@+id/pi_fact_single_pane_intro_text"
+                    android:layout_centerHorizontal="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue_or_maybe_turquoise"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="1)"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="@string/pi_fact_1"/>
+                            </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin_medium">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue_or_maybe_turquoise"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="2)"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="@string/pi_fact_2"/>
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin_medium">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue_or_maybe_turquoise"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="3)"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="@string/pi_fact_3"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin_medium">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue_or_maybe_turquoise"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="4)"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="@string/pi_fact_4"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin_medium"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/font_size_small"
+                        android:text="@string/pi_fact_5"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_size_small"
+                        android:text="@string/pi_fact_6"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin_medium"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin_medium">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue_or_maybe_turquoise"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="5)"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="@string/pi_fact_7"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin_medium">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue_or_maybe_turquoise"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="6)"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="@string/pi_fact_8"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin_medium">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue_or_maybe_turquoise"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="7)"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="@string/pi_fact_9"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin_medium">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue_or_maybe_turquoise"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="8)"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="@string/pi_fact_10"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin_medium">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue_or_maybe_turquoise"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="9)"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="@string/pi_fact_11"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin_medium">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blue_or_maybe_turquoise"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="10)"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/font_size_small"
+                            android:text="@string/pi_fact_12"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin_medium"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="@dimen/font_size_small"
+                        android:text="@string/pi_fact_13"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_size_small"
+                        android:text="@string/pi_fact_14"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin_medium"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+            </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

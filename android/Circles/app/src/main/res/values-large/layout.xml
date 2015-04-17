@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="activity_pi_info" type="layout">@layout/activity_pi_info_double_pane</item>
+
+</resources>

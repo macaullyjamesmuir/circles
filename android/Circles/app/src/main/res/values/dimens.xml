@@ -3,6 +3,8 @@
     <dimen name="about_page_width">1200dp</dimen>
     <dimen name="about_page_width2">1100dp</dimen>
 
+    <dimen name="activity_horizontal_margin_bigger">60dp</dimen>
+    <dimen name="activity_vertical_margin_bigger">60dp</dimen>
     <dimen name="activity_horizontal_margin_big">20dp</dimen>
     <dimen name="activity_vertical_margin_big">20dp</dimen>
     <dimen name="activity_horizontal_margin_medium">10dp</dimen>

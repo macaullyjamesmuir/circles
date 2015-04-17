@@ -278,33 +278,6 @@
 
         <TableRow
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_marginBottom="10dp">
-
-            <ImageButton
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:id="@+id/imageButton2"
-                android:layout_column="0"
-                android:background="#ff4caf50"
-                android:cropToPadding="false"
-                android:src="@drawable/ic_trophy_white_24dp" />
-
-            <Button
-                android:layout_width="280dp"
-                android:layout_height="40dp"
-                android:textSize="20sp"
-                android:text="@string/highscore"
-                android:id="@+id/button"
-                android:layout_column="1"
-                android:background="#ff4caf50"
-                android:singleLine="true"
-                android:textColor="#ffffffff"
-                android:gravity="center_vertical" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="fill_parent"
             android:layout_height="fill_parent">
 
             <ImageButton

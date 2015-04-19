@@ -35,10 +35,10 @@
 
         <TextView
             android:id="@+id/piMessagePopup"
-            android:layout_width="108dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/main_circle_drawing_message1"
-            android:background="@color/medium_gray"
+            android:background="#ffffff"
             android:textColor="@color/darker_gray"
             android:gravity="center"
             android:textSize="@dimen/font_size_medium"

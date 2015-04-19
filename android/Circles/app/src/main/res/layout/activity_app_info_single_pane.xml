@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="@dimen/activity_vertical_margin_big">
+            android:layout_marginTop="@dimen/activity_margin_big">
 
             <TextView
                 android:layout_width="match_parent"
@@ -74,7 +74,7 @@
                     android:layout_height="174dp"
                     android:id="@+id/imageView2"
                     android:src="@drawable/smc_logo_grey"
-                    android:layout_margin="@dimen/activity_vertical_margin_big" />
+                    android:layout_margin="@dimen/activity_margin_big" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -97,10 +97,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginStart="@dimen/activity_horizontal_margin_biggest"
-                    android:layout_marginLeft="@dimen/activity_horizontal_margin_biggest"
-                    android:layout_marginEnd="@dimen/activity_horizontal_margin_biggest"
-                    android:layout_marginRight="@dimen/activity_horizontal_margin_biggest">
+                    android:layout_marginStart="@dimen/activity_margin_biggest"
+                    android:layout_marginLeft="@dimen/activity_margin_biggest"
+                    android:layout_marginEnd="@dimen/activity_margin_biggest"
+                    android:layout_marginRight="@dimen/activity_margin_biggest">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -110,7 +110,7 @@
                         android:textSize="@dimen/font_size_small"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
-                        android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -118,7 +118,7 @@
                         android:id="@+id/project_leader_details_text_field"
                         android:text="@string/about_app_project_leader_details"
                         android:textSize="@dimen/font_size_small"
-                        android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -128,7 +128,7 @@
                         android:textSize="@dimen/font_size_small"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
-                        android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -136,7 +136,7 @@
                         android:id="@+id/info_name_PS_text_view"
                         android:text="@string/name_PS"
                         android:textSize="@dimen/font_size_small"
-                        android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -146,7 +146,7 @@
                         android:textSize="@dimen/font_size_small"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
-                        android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -196,7 +196,7 @@
                         android:id="@+id/name_name_JYI_text_view"
                         android:text="@string/name_JYI"
                         android:textSize="@dimen/font_size_small"
-                        android:layout_marginBottom="@dimen/activity_vertical_margin_bigger"/>
+                        android:layout_marginBottom="@dimen/activity_margin_bigger"/>
 
                     </LinearLayout>
 
@@ -213,7 +213,7 @@
                         android:textSize="@dimen/font_size_small"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
-                        android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -228,7 +228,7 @@
                         android:id="@+id/name_AM_text_field"
                         android:text="@string/name_AM"
                         android:textSize="@dimen/font_size_small"
-                        android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -238,7 +238,7 @@
                         android:textSize="@dimen/font_size_small"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
-                        android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -246,7 +246,7 @@
                         android:id="@+id/name_name_MM_text_view"
                         android:text="@string/name_MM"
                         android:textSize="@dimen/font_size_small"
-                        android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                     </LinearLayout>
 

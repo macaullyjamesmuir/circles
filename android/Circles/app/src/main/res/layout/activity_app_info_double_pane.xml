@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/app_info_intro_text_field"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="@dimen/activity_vertical_margin_big">
+            android:layout_marginBottom="@dimen/activity_margin_big">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -58,7 +58,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/app_info_big_text"
-                android:layout_marginBottom="@dimen/activity_vertical_margin_big">
+                android:layout_marginBottom="@dimen/activity_margin_big">
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -108,7 +108,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:layout_weight="1"
-                        android:layout_marginBottom="@dimen/activity_vertical_margin_medium">
+                        android:layout_marginBottom="@dimen/activity_margin_medium">
 
                         <LinearLayout
                             android:orientation="vertical"
@@ -171,7 +171,7 @@
                         android:layout_height="fill_parent"
                         android:orientation="horizontal"
                         android:layout_weight="1"
-                        android:layout_marginBottom="@dimen/activity_vertical_margin_medium">
+                        android:layout_marginBottom="@dimen/activity_margin_medium">
 
                         <LinearLayout
                             android:orientation="vertical"
@@ -226,7 +226,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:layout_weight="1"
-                        android:layout_marginBottom="@dimen/activity_vertical_margin_medium">
+                        android:layout_marginBottom="@dimen/activity_margin_medium">
 
                         <LinearLayout
                             android:orientation="vertical"

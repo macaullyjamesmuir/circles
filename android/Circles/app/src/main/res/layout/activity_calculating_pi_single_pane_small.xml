@@ -47,7 +47,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:textSize="@dimen/font_size_medium"
-                    android:layout_marginBottom="@dimen/activity_horizontal_margin_big"
+                    android:layout_marginBottom="@dimen/activity_margin_big"
                     android:text="@string/pi_calculation_intro"
                     android:id="@+id/textView12"
                     android:layout_margin="@dimen/activity_margin_big"/>
@@ -60,10 +60,10 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/calculating_pi_intro_text_field"
-                android:layout_marginStart="@dimen/activity_horizontal_margin_biggest"
-                android:layout_marginLeft="@dimen/activity_horizontal_margin_biggest"
-                android:layout_marginEnd="@dimen/activity_horizontal_margin_biggest"
-                android:layout_marginRight="@dimen/activity_horizontal_margin_biggest">
+                android:layout_marginStart="@dimen/activity_margin_biggest"
+                android:layout_marginLeft="@dimen/activity_margin_biggest"
+                android:layout_marginEnd="@dimen/activity_margin_biggest"
+                android:layout_marginRight="@dimen/activity_margin_biggest">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -71,7 +71,7 @@
                     android:text="@string/pi_calculation_part1"
                     android:id="@+id/textView27"
                     android:textSize="@dimen/font_size_small"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                    android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -79,7 +79,7 @@
                     android:text="@string/pi_calculation_part2"
                     android:id="@+id/textView39"
                     android:textSize="@dimen/font_size_small"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                    android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -87,7 +87,7 @@
                     android:id="@+id/imageView3"
                     android:background="@drawable/calculating_pi_formula1"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                    android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -95,14 +95,14 @@
                     android:text="@string/pi_calculation_part3"
                     android:id="@+id/textView31"
                     android:textSize="@dimen/font_size_small"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                    android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/pi_calculation_part4"
                     android:textSize="@dimen/font_size_small"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                    android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -110,7 +110,7 @@
                     android:text="@string/pi_calculation_part5"
                     android:id="@+id/textView34"
                     android:textSize="@dimen/font_size_small"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                    android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -118,7 +118,7 @@
                     android:id="@+id/imageView4"
                     android:background="@drawable/calculating_pi_formula2"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin_medium"/>
+                    android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -128,7 +128,7 @@
                     android:layout_gravity="center_horizontal"
                     android:textSize="@dimen/font_size_small"
                     android:id="@+id/textView50"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin_bigger"/>
+                    android:layout_marginBottom="@dimen/activity_margin_bigger"/>
 
             </LinearLayout>
         </RelativeLayout>

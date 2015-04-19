@@ -6,7 +6,7 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="@dimen/header_field"
+        android:layout_height="@dimen/header_field_small"
         android:background="#ff26a69a"
         android:id="@+id/pi_info_header_field">
 
@@ -19,7 +19,7 @@
             android:textColor="@color/first_header_text"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:textSize="@dimen/font_header_text"/>
+            android:textSize="@dimen/font_size_big"/>
 
         </RelativeLayout>
 

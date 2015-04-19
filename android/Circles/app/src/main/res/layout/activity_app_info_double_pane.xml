@@ -24,14 +24,15 @@
                 android:textSize="@dimen/font_header_text"
                 android:textColor="@color/first_header_text"
                 android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true"/>
+                android:layout_centerHorizontal="true"
+                android:id="@+id/app_info_double_pane_text_view_1" />
 
-            </RelativeLayout>
+        </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="@dimen/about_page_width"
             android:layout_height="wrap_content"
-            android:id="@+id/app_info_text_field1"
+            android:id="@+id/app_info_intro_text_field"
             android:layout_below="@+id/app_info_header_field"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="@dimen/activity_vertical_margin_big">
@@ -39,17 +40,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/app_info_text_view"
                 android:text="@string/about_perfect_pi_description"
-                android:textSize="@dimen/font_size_medium"/>
+                android:textSize="@dimen/font_size_medium"
+                android:id="@+id/app_info_double_pane_text_view_2" />
 
-            </RelativeLayout>
+        </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="@dimen/about_page_width2"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/app_info_text_field1">
+            android:layout_below="@id/app_info_intro_text_field">
 
 
 
@@ -69,10 +70,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/head_students"
+                        android:text="@string/about_app_head_students"
                         android:textSize="@dimen/font_size_big"
-                        android:textColor="@color/third_header_text"/>
-                    </LinearLayout>
+                        android:textColor="@color/third_header_text"
+                        android:id="@+id/app_info_double_pane_text_view_3"/>
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="fill_parent"
@@ -82,12 +84,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/head_math_center"
+                        android:text="@string/about_app_head_math_center"
                         android:textSize="@dimen/font_size_big"
-                        android:textColor="@color/third_header_text"/>
+                        android:textColor="@color/third_header_text"
+                        android:id="@+id/app_info_double_pane_text_view_4"/>
 
-                    </LinearLayout>
                 </LinearLayout>
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_below="@id/app_info_big_text"
@@ -118,7 +121,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/head_project_leader_text_view"
-                                android:text="@string/head_project_leader"
+                                android:text="@string/about_app_head_project_leader"
                                 android:textSize="@dimen/font_size_small"
                                 android:textStyle="bold"
                                 android:textColor="@color/third_header_text"/>
@@ -127,10 +130,10 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/project_leader_details_text_field"
-                                android:text="@string/project_leader_details"
+                                android:text="@string/about_app_project_leader_details"
                                 android:textSize="@dimen/font_size_small"/>
 
-                            </LinearLayout>
+                        </LinearLayout>
 
                         <LinearLayout
                             android:orientation="vertical"
@@ -142,7 +145,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/head_user_testing_text_view"
-                                android:text="@string/head_user_testing"
+                                android:text="@string/about_app_head_user_testing"
                                 android:textSize="@dimen/font_size_small"
                                 android:textStyle="bold"
                                 android:textColor="@color/third_header_text"/>
@@ -161,8 +164,8 @@
                                 android:text="@string/name_AM"
                                 android:textSize="@dimen/font_size_small"/>
 
-                            </LinearLayout>
                         </LinearLayout>
+                    </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="fill_parent"
@@ -181,7 +184,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/head_design_and_gui_text_view"
-                                android:text="@string/head_guiux"
+                                android:text="@string/about_app_head_guiux"
                                 android:textSize="@dimen/font_size_small"
                                 android:textStyle="bold"
                                 android:textColor="@color/third_header_text"/>
@@ -193,7 +196,7 @@
                                 android:text="@string/name_PS"
                                 android:textSize="@dimen/font_size_small"/>
 
-                            </LinearLayout>
+                        </LinearLayout>
 
                         <LinearLayout
                             android:orientation="vertical"
@@ -202,22 +205,22 @@
                             android:layout_weight="1">
 
                             <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/head_lead_programmer_text_view"
-                            android:text="@string/head_lead_programmer"
-                            android:textSize="@dimen/font_size_small"
-                            android:textStyle="bold"
-                            android:textColor="@color/third_header_text"/>
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/head_lead_programmer_text_view"
+                                android:text="@string/about_app_head_lead_programmer"
+                                android:textSize="@dimen/font_size_small"
+                                android:textStyle="bold"
+                                android:textColor="@color/third_header_text"/>
                             <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/name_name_MM_text_view"
-                            android:text="@string/name_MM"
-                            android:textSize="@dimen/font_size_small"/>
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/name_name_MM_text_view"
+                                android:text="@string/name_MM"
+                                android:textSize="@dimen/font_size_small"/>
 
-                            </LinearLayout>
                         </LinearLayout>
+                    </LinearLayout>
 
                     <LinearLayout
                         android:orientation="horizontal"
@@ -236,7 +239,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/head_programmers_text_view"
-                                android:text="@string/head_programmers"
+                                android:text="@string/about_app_head_programmers"
                                 android:textSize="@dimen/font_size_small"
                                 android:textStyle="bold"
                                 android:textColor="@color/third_header_text"/>
@@ -290,9 +293,9 @@
                                 android:text="@string/name_JYI"
                                 android:textSize="@dimen/font_size_small"/>
 
-                            </LinearLayout>
                         </LinearLayout>
                     </LinearLayout>
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="fill_parent"
@@ -315,7 +318,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/contact_sl_text_field"
-                            android:text="@string/contact_sl"
+                            android:text="@string/about_app_contact_sl"
                             android:textSize="@dimen/font_size_small"/>
 
                         <ImageView
@@ -331,8 +334,8 @@
                             android:layout_marginTop="70dp" />
 
                     </LinearLayout>
-                    </LinearLayout>
                 </LinearLayout>
-            </RelativeLayout>
+            </LinearLayout>
         </RelativeLayout>
     </RelativeLayout>
+</RelativeLayout>

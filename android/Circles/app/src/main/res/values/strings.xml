@@ -13,17 +13,17 @@
     <string name="actual_pi">Pi</string>
     <string name="app_info_title">Om Perfect Pi</string>
     <string name="closestStrokeColor">#40d81b60</string>
-    <string name="contact_sl">director@math-stockholm.se</string>
-    <string name="hand_arrow_description">hand_arrow</string>
-    <string name="head_guiux">GUI/UX</string>
-    <string name="head_instructions">Frihandsritning av cirkel</string>
-    <string name="head_lead_programmer">Huvudprogrammerare</string>
-    <string name="head_math_center">Stockholms Matematikcentrum</string>
-    <string name="head_programmers">Programmerare</string>
-    <string name="head_project_leader">Projektledare</string>
-    <string name="head_secretary">Sekreterare</string>
-    <string name="head_students">Studenter</string>
-    <string name="head_user_testing">Användartestning</string>
+    <string name="about_app_contact_sl">director@math-stockholm.se</string>
+    <string name="main_hand_arrow_description">hand_arrow</string>
+    <string name="about_app_head_guiux">GUI/UX</string>
+    <string name="main_head_instructions">Frihandsritning av cirkel</string>
+    <string name="about_app_head_lead_programmer">Huvudprogrammerare</string>
+    <string name="about_app_head_math_center">Stockholms Matematikcentrum</string>
+    <string name="about_app_head_programmers">Programmerare</string>
+    <string name="about_app_head_project_leader">Projektledare</string>
+    <string name="about_app_head_secretary">Sekreterare</string>
+    <string name="about_app_head_students">Studenter</string>
+    <string name="about_app_head_user_testing">Användartestning</string>
     <string name="hello_world">Hello world!</string>
     <string name="highscore">High score</string>
     <string name="imperfectFillColor">#00000000</string>
@@ -69,7 +69,7 @@
     <string name="pi_fact_intro">Talet pi har en flera tusen år gammal historia. Sedan Babylonerna ca 2000 år före år noll uppskattade pi till 25/8 så har matematiker och civilisationer kämpat för en mer precis uppskattning av pi ända tills idag då vi har uppskattningar av pi med flera biljoner decimalers noggrannhet. För att illustrera vilket oerhört fascinerande tal pi är så har vi samlat ett urval roliga fakta som vi stött på medan vi utvecklat appen.</string>
     <string name="pi_fact_title">10 fakta om pi</string>
     <string name="pi">3,14159265</string>
-    <string name="project_leader_details">Veronica Randleff \n randleff@kth.se</string>
+    <string name="about_app_project_leader_details">Veronica Randleff \n randleff@kth.se</string>
     <string name="smc_logo_description">The SMC logo</string>
     <string name="teach_me_pi">Läs mer om pi</string>
     <string name="title_activity_about_calculating_pi">AboutCalculatingPi</string>
@@ -77,5 +77,6 @@
     <string name="title_activity_calculating_pi">CalculatingPi</string>
     <string name="title_activity_pi_info">Pi Info</string>
     <string name="your_pi">Ditt pi</string>
+    <string name="main_small_instruction">Draw a circle!</string>
 
 </resources>

@@ -1,0 +1,302 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:circles="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/main_layout"
+    android:background="#eceff1">
+
+    <deltagruppen.circles.DrawView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/main_left_scroll_view"
+        android:layout_toEndOf="@+id/main_left_scroll_view"
+        android:background="#fff"
+        android:id="@+id/linearLayout8">
+
+        <deltagruppen.circles.ImperfectCircleView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            circles:imperfectCircleStrokeWidth="10"
+            circles:imperfectCircleStrokeColor="@string/imperfectStrokeColor"
+            circles:imperfectCircleFillColor="#00000000"
+            android:id="@+id/imperfectCircleView"/>
+
+        <deltagruppen.circles.ClosestCircleView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            circles:closestCircleStrokeColor="@string/closestStrokeColor"
+            circles:closestCircleStrokeWidth="15"
+            android:id="@+id/closestCircleView"/>
+
+        <TextView
+            android:id="@+id/piMessagePopup"
+            android:layout_width="108dp"
+            android:layout_height="50dp"
+            android:text="@string/main_circle_drawing_message1"
+            android:background="@color/medium_gray"
+            android:textColor="@color/darker_gray"
+            android:gravity="center"
+            android:textSize="@dimen/font_size_medium"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/activity_vertical_margin_big"
+            android:padding="10dp"/>
+
+        <LinearLayout
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/piCalculationPopup"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="@dimen/activity_vertical_margin_big"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="39dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="fill_parent"
+                    android:text="@string/your_pi"
+                    android:id="@+id/textView29"
+                    android:background="@color/medium_gray"
+                    android:textColor="@color/darker_gray"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/pi_approximation_field"
+                    android:layout_width="116dp"
+                    android:layout_height="fill_parent"
+                    android:background="@color/light_gray"
+                    android:textColor="@color/maybe_medium_gray"
+                    android:layout_marginRight="4dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/score_popup_dividing_line"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:orientation="horizontal"
+                android:background="@color/dark_gray"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="39dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="fill_parent"
+                    android:text="@string/actual_pi"
+                    android:id="@+id/textView28"
+                    android:background="@color/medium_gray"
+                    android:textColor="@color/darker_gray"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="116dp"
+                    android:layout_height="fill_parent"
+                    android:text="@string/pi"
+                    android:id="@+id/textView30"
+                    android:background="@color/light_gray"
+                    android:textColor="@color/maybe_medium_gray"
+                    android:layout_marginRight="4dp"
+                    android:gravity="center" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </deltagruppen.circles.DrawView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_left_scroll_view">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/medium_gray">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/light_gray"
+                android:paddingLeft="30dp">
+
+                <ImageView
+                    android:layout_width="92dp"
+                    android:layout_height="104dp"
+                    android:id="@+id/imageView"
+                    android:background="@drawable/hand_arrow"
+                    android:layout_margin="@dimen/activity_vertical_margin_medium"
+                    android:contentDescription="@string/main_hand_arrow_description" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_small_instruction"
+                    android:layout_marginStart="@dimen/activity_horizontal_margin_big"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin_big"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin_small"/>
+
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin_medium">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:id="@+id/imageButton3"
+                        android:layout_column="0"
+                        android:background="#ff26a69a"
+                        android:cropToPadding="false"
+                        android:src="@drawable/ic_format_list_numbers_white_24dp"
+                        android:onClick="showPiInfo" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:textSize="20sp"
+                        android:text="@string/about_pi"
+                        android:id="@+id/button2"
+                        android:layout_column="1"
+                        android:background="#ff26a69a"
+                        android:singleLine="true"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#ffffffff"
+                        android:gravity="center_vertical"
+                        android:nestedScrollingEnabled="false"
+                        android:onClick="showPiInfo" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:id="@+id/imageButton4"
+                        android:layout_column="0"
+                        android:background="#ff0097a7"
+                        android:cropToPadding="false"
+                        android:src="@drawable/ic_math_compass_white_24dp"
+                        android:onClick="showCalculatingPiInfo" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:textSize="20sp"
+                        android:text="@string/pi_calculation_title"
+                        android:id="@+id/button3"
+                        android:layout_column="1"
+                        android:background="#ff0097a7"
+                        android:layout_marginBottom="10dp"
+                        android:singleLine="true"
+                        android:textColor="#ffffffff"
+                        android:gravity="center_vertical"
+                        android:onClick="showCalculatingPiInfo"
+                        android:paddingRight="@dimen/activity_vertical_margin_medium"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:id="@+id/imageButton5"
+                        android:layout_column="0"
+                        android:background="#ff5c6bc0"
+                        android:cropToPadding="false"
+                        android:src="@drawable/ic_earth_white_24dp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:textSize="20sp"
+                        android:text="@string/language"
+                        android:id="@+id/button4"
+                        android:layout_column="1"
+                        android:background="#ff5c6bc0"
+                        android:layout_marginBottom="10dp"
+                        android:singleLine="true"
+                        android:textColor="#ffffffff"
+                        android:gravity="center_vertical"
+                        android:paddingRight="@dimen/activity_vertical_margin_medium"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:id="@+id/imageButton6"
+                        android:layout_column="0"
+                        android:background="#ff7e57c2"
+                        android:cropToPadding="false"
+                        android:src="@drawable/ic_information_white_24dp"
+                        android:onClick="showAppInfo" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:textSize="20sp"
+                        android:text="@string/about_app_name"
+                        android:id="@+id/button5"
+                        android:layout_column="1"
+                        android:background="#ff7e57c2"
+                        android:layout_marginBottom="10dp"
+                        android:singleLine="true"
+                        android:textColor="#ffffffff"
+                        android:gravity="center_vertical"
+                        android:onClick="showAppInfo"
+                        android:paddingRight="@dimen/activity_vertical_margin_medium"/>
+                </TableRow>
+            </TableLayout>
+
+            <ImageButton
+                android:layout_width="88dp"
+                android:layout_height="35dp"
+                android:id="@+id/imageButton"
+                android:background="@drawable/smc_logo"
+                android:contentDescription="@string/smc_logo_description"
+                android:layout_marginTop="@dimen/activity_vertical_margin_small"
+                android:layout_marginStart="@dimen/activity_horizontal_margin_small"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin_small"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/main_sidebar_attribution"
+                android:id="@+id/textView33"
+                android:textColor="#ffffffff"
+                android:textSize="12sp"
+                android:layout_margin="@dimen/activity_vertical_margin_small"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

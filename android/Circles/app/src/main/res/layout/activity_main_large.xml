@@ -82,8 +82,8 @@
     </LinearLayout>
 
     <deltagruppen.circles.DrawView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/linearLayout"
         android:layout_toEndOf="@+id/linearLayout"
@@ -91,8 +91,8 @@
         android:id="@+id/linearLayout8">
 
         <deltagruppen.circles.ImperfectCircleView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_alignParentTop="true"
             circles:imperfectCircleStrokeWidth="10"
             circles:imperfectCircleStrokeColor="@string/imperfectStrokeColor"
@@ -217,10 +217,10 @@
         android:layout_marginLeft="130dp"
         android:layout_marginStart="117dp"
         android:textColor="#ffffffff"
-        android:textSize="12sp"
+        android:textSize="10dp"
         android:layout_toStartOf="@+id/linearLayout8"
         android:layout_alignTop="@+id/imageButton"
-        android:layout_toLeftOf="@+id/linearLayout8" />
+        android:layout_toLeftOf="@+id/linearLayout8"/>
 
     <TableLayout
         android:layout_width="320dp"

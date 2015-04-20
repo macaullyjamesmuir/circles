@@ -3,11 +3,11 @@
 
     <string name="app_name">Perfect Pi</string>
     <string name="about_app_name">Om Perfect Pi</string>
-    <string name="about_calculating_pi_header">Beräkning av Pi</string>
+    <string name="about_calculating_pi_header">Beräkning av pi</string>
     <string name="about_perfect_pi_description">Perfect Pi är ett samarbete mellan Stockholms Matematikcentrum (SMC) och studenter från programmet Civilingenjör Datateknik vid KTH i syfte att väcka intresse för matematik i allmänhet och pi i synnerhet. Projektet är ett Open Source-projekt licenserat under Apache License Version 2.0 (http://www.apache.org/license). Källkoden finns att tillgå på https://github.com/deltagruppen/circles/.</string>
     <string name="about_perfect_pi_header">Om Perfect Pi</string>
-    <string name="about_pi_header">Fakta om Pi</string>
-    <string name="about_pi_title">Fakta om Pi</string>
+    <string name="about_pi_header">Fakta om pi</string>
+    <string name="about_pi_title">Fakta om pi</string>
     <string name="about_pi">Fakta om pi</string>
     <string name="action_settings">Settings</string>
     <string name="actual_pi">Pi</string>
@@ -52,18 +52,18 @@
     <string name="pi_calculation_part6"> Slutligen sätts cirkelns area och omkrets in i den isoperimetriska olikheten och ut kommer ett väl uppskattat &#x3c0;-värde för den ritade cirkeln! </string>
     <string name="pi_calculation_title">Beräkning av pi</string>
     <string name="pi_fact_2">Pi är ett irrationellt tal och kan därför inte skrivas som ett bråk och har en oändlig decimalutveckling. Två populära approximationer man brukar använda sig av är 3,14 och 22/7. </string>
-    <string name="pi_fact_10">Ca 250 år f.kr beräknade Arkimedes en approximation av pi genom att ta fram en algoritm som gick ut på att låsa in en cirkel mellan två polygoner. Genom att beräkna omkretsen av dessa polygoner hittade han att värdet för Pi låg mellan 223/71 och 22/7. På grund av detta kallas Pi även för Arkimedes konstant. </string>
+    <string name="pi_fact_10">Ca 250 år f.kr beräknade Arkimedes en approximation av pi genom att ta fram en algoritm som gick ut på att låsa in en cirkel mellan två polygoner. Genom att beräkna omkretsen av dessa polygoner hittade han att värdet för pi låg mellan 223/71 och 22/7. På grund av detta kallas pi även för Arkimedes konstant. </string>
     <string name="pi_fact_5">I = L/ (4*pi*d²)</string>
     <string name="pi_fact_4">Pi används inom astronomi och astrofysik för att beräkna banor och storlekar av himlakroppar. Copernicus och Galileo använde sig utav pi för att approximera storleken av jorden och dess avstånd till månen. Ett exempel på hur pi används inom astronomi är vid beräkning av intensiteten av en stjärnas ljus, vilket görs med formeln: </string>
     <string name="pi_fact_6"> Där I är stjärnans ljusintensitet i W/m², L är ljusstyrkan i W och d är avståndet till stjärnan i meter. </string>
     <string name="pi_fact_1"> Pi är ett tal som ger förhållandet mellan en cirkels omkrets och dess diameter. </string>
     <string name="pi_fact_9"> Albert Einstein föddes på pi-dagen, den 14 mars. </string>
-    <string name="pi_fact_11">Om man skriver “3.14” på en pappersbit och håller upp mot en spegel så återspeglas ordet “PIE”, detta är hur man uttalar Pi på engelska.</string>
+    <string name="pi_fact_11">Om man skriver “3.14” på en pappersbit och håller upp mot en spegel så återspeglas ordet “PIE”, detta är hur man uttalar pi på engelska.</string>
     <string name="pi_fact_8"> Identiteten e^(i*pi) + 1 = 0 kallas för Eulers identitet och upptäcktes av Leonhard Euler 1743. Denna identitet anses av många vara den vackraste ekvationen i hela matematiken eftersom det kopplar ihop fem av matematikens mest fundamentala tal: 0, 1, den imiginära enheten i, basen för den naturliga logaritmen e och, såklart, pi. </string>
     <string name="pi_fact_3"> Pi-dagen firas den 14 mars vilket valdes för att likna närmevärdet 3,14. Många väljer även att börja firandet vid 1:59 på dagen som kombinerat med datumet ger en ännu noggrannare approximation av pi: 3,14159. </string>
     <string name="pi_fact_12">Runt 1644 formulerade Pietro Mengoli det som kallas för baselproblemet, problemet gick ut på att man skulle beräkna värdet av summan för oändliga serier nämligen:</string>
     <string name="pi_fact_13">∑(1/n^2)</string>
-    <string name="pi_fact_14">Detta löstes vid 1743 av Euler som bevisade att ∑(1/n^2) går mot Pi^2/6 då n → ∞.</string>
+    <string name="pi_fact_14">Detta löstes vid 1743 av Euler som bevisade att ∑(1/n^2) går mot pi^2/6 då n → ∞.</string>
     <string name="pi_fact_7"> Världsrekordet på att memorera decimalutvecklingen av pi sattes senast år 2005 av kinesen Chao Lu, då han från minnet läste upp de 67 890 första decimalplatserna. </string>
     <string name="pi_fact_intro">Talet pi har en flera tusen år gammal historia. Sedan Babylonerna ca 2000 år före år noll uppskattade pi till 25/8 så har matematiker och civilisationer kämpat för en mer precis uppskattning av pi ända tills idag då vi har uppskattningar av pi med flera biljoner decimalers noggrannhet. För att illustrera vilket oerhört fascinerande tal pi är så har vi samlat ett urval roliga fakta som vi stött på medan vi utvecklat appen.</string>
     <string name="pi_fact_title">10 fakta om pi</string>

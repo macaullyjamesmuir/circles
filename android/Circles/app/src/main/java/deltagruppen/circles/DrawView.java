@@ -13,17 +13,15 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.widget.TableLayout;
 import android.widget.TextView;
 
-import java.text.NumberFormat;
 import java.util.LinkedList;
-import java.util.Locale;
 
 public class DrawView extends RelativeLayout
 {
     private final LinkedList<PointF>  points;
     private Path                      path;
+    private static int                StrokeWidth = 10;
     private final Paint               paint;
 
     private ImperfectCircleView imperfectCircleView;
@@ -38,7 +36,7 @@ public class DrawView extends RelativeLayout
         paint  = new Paint();
         path   = new Path();
         paint.setStyle(Paint.Style.STROKE);
-        paint.setStrokeWidth(10);
+        paint.setStrokeWidth(StrokeWidth);
         paint.setColor(Color.BLACK);
     }
 
@@ -100,13 +98,8 @@ public class DrawView extends RelativeLayout
 
                 approximationTextView.setText(s);
 
-                //Only show closest circle and the popup when pi is below 3.8
-                if (pi < 3.8) {
-                    closestCircleView.setImperfectCircle(imperfectCircle);
-                    piCalculationPopup.setVisibility(View.VISIBLE);
-                }
-
-
+                piCalculationPopup.setVisibility(View.VISIBLE);
+                closestCircleView.setImperfectCircle(imperfectCircle);
             }
             catch (IllegalArgumentException e) {
                 Log.i("DrawView", "Not a circle :(");

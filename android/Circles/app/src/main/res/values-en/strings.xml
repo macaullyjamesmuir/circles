@@ -66,7 +66,7 @@
     <string name="pi_fact_14">This problem was solved by Leonhard Euler in 1743, who showed that ∑(1/n^2) → pi^2/6 as n → ∞.</string>
     <string name="pi_fact_7"> The worlds record for memorizing the value of pi was won by the Chinese Chao Lu, whom in 2005 memorized and recited the value up to the 67 890 first decimal places.</string>
     <string name="pi_fact_intro">The number pi has a thousand year old story. Ever since the babylonians around 2000 years b.c estimated the value of pi to 25/8, mathematicians and civilizations have struggled and attempted to get a more precise value and today we have estimations of pi with several billions decimal places. In order to illustrate what an amazing and fascinating number pi is, we have collected some fun facts that we have encountered during the development of the app.</string>
-    <string name="pi_fact_title">10 facts about pi</string>
+    <string name="pi_fact_title"> Facts about pi</string>
     <string name="pi">3,14159265</string>
     <string name="about_app_project_leader_details">Veronica Randleff \n randleff@kth.se</string>
     <string name="smc_logo_description">The SMC logo</string>

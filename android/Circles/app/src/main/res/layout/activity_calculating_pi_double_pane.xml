@@ -22,6 +22,11 @@
 
     </RelativeLayout>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calculating_pi_header_field">
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -224,4 +229,5 @@
             </RelativeLayout>
             </LinearLayout>
         </LinearLayout>
+        </ScrollView>
     </RelativeLayout>

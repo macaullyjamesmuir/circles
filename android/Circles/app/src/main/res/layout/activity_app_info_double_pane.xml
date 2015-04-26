@@ -180,6 +180,24 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:id="@+id/head_secretary_text_view"
+                            android:text="@string/head_secretary"
+                            android:textSize="@dimen/font_size_small"
+                            android:textStyle="bold"
+                            android:textColor="@color/third_header_text"
+                            android:layout_marginBottom="@dimen/activity_margin_medium"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/name_name_JYI_text_view"
+                            android:text="@string/name_JYI"
+                            android:textSize="@dimen/font_size_small"
+                            android:layout_marginBottom="@dimen/activity_margin_medium"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:id="@+id/head_programmers_text_view"
                             android:text="@string/about_app_head_programmers"
                             android:textSize="@dimen/font_size_small"
@@ -218,17 +236,12 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/name_name_JYI_text_view"
-                            android:text="@string/name_JYI"
-                            android:textSize="@dimen/font_size_small"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:id="@+id/name_name_MM_text_view"
                             android:text="@string/name_MM"
                             android:textSize="@dimen/font_size_small"
                             android:layout_marginBottom="@dimen/activity_margin_medium"/>
+
+
 
                     </LinearLayout>
 

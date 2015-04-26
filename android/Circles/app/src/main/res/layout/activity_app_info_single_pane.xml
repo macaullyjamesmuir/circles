@@ -121,6 +121,8 @@
                         android:textSize="@dimen/font_size_small"
                         android:layout_marginBottom="@dimen/activity_margin_medium"/>
 
+
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -148,20 +150,6 @@
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
                         android:layout_marginBottom="@dimen/activity_margin_medium"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/name_name_AM_text_view2"
-                        android:text="@string/name_AM"
-                        android:textSize="@dimen/font_size_small"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/name_AL_text_view"
-                        android:text="@string/name_AE"
-                        android:textSize="@dimen/font_size_small"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -194,8 +182,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/name_name_JYI_text_view"
-                        android:text="@string/name_JYI"
+                        android:id="@+id/name_name_MM_text_view"
+                        android:text="@string/name_MM"
                         android:textSize="@dimen/font_size_small"
                         android:layout_marginBottom="@dimen/activity_margin_bigger"/>
 
@@ -234,8 +222,8 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/head_lead_programmer_text_view"
-                        android:text="@string/about_app_head_lead_programmer"
+                        android:id="@+id/head_secretary_text_view"
+                        android:text="@string/head_secretary"
                         android:textSize="@dimen/font_size_small"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
@@ -244,10 +232,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/name_name_MM_text_view"
-                        android:text="@string/name_MM"
-                        android:textSize="@dimen/font_size_small"
-                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
+                        android:id="@+id/name_name_JYI_text_view"
+                        android:text="@string/name_JYI"
+                        android:textSize="@dimen/font_size_small"/>
 
                     </LinearLayout>
 

@@ -15,7 +15,7 @@
     <string name="about_app_head_guiux">GUI/UX</string>
     <string name="main_head_instructions">Draw a circle</string>
     <string name="about_app_head_lead_programmer">Chief programmer</string>
-    <string name="about_app_head_math_center">Stockholms Mathematics central</string>
+    <string name="about_app_head_math_center">Stockholms Mathematics Centre</string>
     <string name="about_app_head_programmers">Programmers</string>
     <string name="about_app_head_project_leader">Project leader</string>
     <string name="about_app_head_secretary">Secretary</string>
@@ -30,7 +30,7 @@
     <string name="language_popup_title">Change language</string>
     <string name="language_popup_swe">Svenska</string>
     <string name="language_popup_eng">English</string>
-    <string name="logo_text">A collaboration between Stockholm matemathic central and students at Royal technical institute(KTH).</string>
+    <string name="logo_text">A collaboration between Stockholm matemathic centre and students at Royal technical institute(KTH).</string>
     <string name="main_circle_drawing_message1">Try again!</string>
     <string name="main_sidebar_attribution">A collaboration between Stockholm matemathics centre and students at KTH Royal Institute of Technology.</string>
     <string name="name_AE">Anna-Karin Evert</string>
@@ -74,5 +74,6 @@
     <string name="title_activity_calculating_pi">CalculatingPi</string>
     <string name="title_activity_pi_info">Pi Info</string>
     <string name="your_pi">Your pi</string>
+    <string name="head_secretary">Secretary</string>
 
 </resources>

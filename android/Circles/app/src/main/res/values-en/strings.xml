@@ -5,9 +5,6 @@
     <string name="about_calculating_pi_header">Calculation of pi</string>
     <string name="about_perfect_pi_description">Perfect Pi is a collaboration between Stockholm Mathematics Centre(SMC) and students from the computer science faculty at KTH in order to arise interest for mathematics in general and pi especially. The project is an Open source project licensed under Apache License Version 2.0 (http://www.apache.org/license). The source code is available on https://github.com/deltagruppen/circles/.</string>
     <string name="about_perfect_pi_header">About Perfect Pi</string>
-    <string name="about_pi_header">Facts about pi</string>
-    <string name="about_pi_title">Facts about pi</string>
-    <string name="about_pi">Facts about pi</string>
     <string name="action_settings">Settings</string>
     <string name="actual_pi">Pi</string>
     <string name="app_info_title">About Perfect Pi</string>
@@ -62,11 +59,9 @@
     <string name="pi_fact_1"> Pi is defined as the ratio of a circle\'s circumference to its diameter.</string>
     <string name="pi_fact_9">Albert Einstein was born on pi-day, March the 14th.</string>
     <string name="pi_fact_11">If you write "3.14" on piece of papper and hold it up to a mirror, it reflects the word "PIE".</string>
-    <string name="pi_fact_8"> The identity e^(i*&#x3c0;) + 1 = 0  is called Eulers identity and was discovered by Leonhard Euler in 1743. The identity is considered to be one the most beautiful equation in mathematics as it assembles the five most fundamentals numbers in mathematics: 0, 1, the unit of imaginary numbers ´i´, the base of natural logarithm ´e´ and ofcourse pi.</string>
+    <string name="pi_fact_8"> Euler\'s identity is considered to be one the most beautiful equation in mathematics and was discovered by Leonhard Euler in 1743. It assembles the five most fundamentals numbers in mathematics: 0, 1, the unit of imaginary numbers ´i´, the base of natural logarithm ´e´ and of course pi.</string>
     <string name="pi_fact_3"> "Pi-day" is celebrated on March the 14th which was chosen to resemble the approximation 3,14. Many people like to start the celebration around 1:59 pm which combined with the date ressembles 3.14159, which is an even better approximation of pi.</string>
-    <string name="pi_fact_12">Around year 1644 Pietro Mengoli posed what is called the basel problem. the problem consisted of calculating the sum of infinite series:</string>
-    <string name="pi_fact_13">∑(1/n^2)</string>
-    <string name="pi_fact_14">This problem was solved by Leonhard Euler in 1743, who showed that ∑(1/n^2) → &#x3c0;^2/6 as n → ∞.</string>
+    <string name="pi_fact_12">Around year 1644 Pietro Mengoli posed what is called the basel problem. the problem consisted of calculating the sum of infinite series. This problem was solved by Leonhard Euler in 1743, who showed that</string>
     <string name="pi_fact_7"> The worlds record for memorizing the value of pi was won by the Chinese Chao Lu, whom in 2005 memorized and recited the value up to the 67 890 first decimal places.</string>
     <string name="pi_fact_intro">The number pi has a thousand year old story. Ever since the babylonians around 2000 years b.c estimated the value of pi to 25/8, mathematicians and civilizations have struggled and attempted to get a more precise value and today we have estimations of pi with several billions decimal places. In order to illustrate what an amazing and fascinating number pi is, we have collected some fun facts that we have encountered during the development of the app.</string>
     <string name="pi_fact_title"> Facts about pi</string>

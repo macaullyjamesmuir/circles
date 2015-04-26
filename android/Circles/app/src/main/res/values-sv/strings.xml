@@ -6,9 +6,6 @@
     <string name="about_calculating_pi_header">Beräkning av pi</string>
     <string name="about_perfect_pi_description">Perfect Pi är ett samarbete mellan Stockholms Matematikcentrum (SMC) och studenter från programmet Civilingenjör Datateknik vid KTH i syfte att väcka intresse för matematik i allmänhet och pi i synnerhet. Projektet är ett Open Source-projekt licenserat under Apache License Version 2.0 (http://www.apache.org/license). Källkoden finns att tillgå på https://github.com/deltagruppen/circles/.</string>
     <string name="about_perfect_pi_header">Om Perfect Pi</string>
-    <string name="about_pi_header">Fakta om pi</string>
-    <string name="about_pi_title">Fakta om pi</string>
-    <string name="about_pi">Fakta om pi</string>
     <string name="action_settings">Settings</string>
     <string name="actual_pi">Pi</string>
     <string name="app_info_title">Om Perfect Pi</string>
@@ -69,7 +66,7 @@
     <string name="pi_fact_14">Detta löstes vid 1743 av Euler som bevisade att ∑(1/n^2) går mot pi^2/6 då n → ∞.</string>
     <string name="pi_fact_7"> Världsrekordet på att memorera decimalutvecklingen av pi sattes senast år 2005 av kinesen Chao Lu, då han från minnet läste upp de 67 890 första decimalplatserna. </string>
     <string name="pi_fact_intro">Talet pi har en flera tusen år gammal historia. Sedan Babylonerna ca 2000 år före år noll uppskattade pi till 25/8 så har matematiker och civilisationer kämpat för en mer precis uppskattning av pi ända tills idag då vi har uppskattningar av pi med flera biljoner decimalers noggrannhet. För att illustrera vilket oerhört fascinerande tal pi är så har vi samlat ett urval roliga fakta som vi stött på medan vi utvecklat appen.</string>
-    <string name="pi_fact_title">10 fakta om pi</string>
+    <string name="pi_fact_title">Fakta om pi</string>
     <string name="pi">3,14159265</string>
     <string name="about_app_project_leader_details">Veronica Randleff \n randleff@kth.se</string>
     <string name="smc_logo_description">The SMC logo</string>

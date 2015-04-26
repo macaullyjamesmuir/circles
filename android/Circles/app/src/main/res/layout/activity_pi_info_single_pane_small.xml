@@ -135,13 +135,13 @@
                         android:text="@string/pi_fact_4"/>
                     </LinearLayout>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="62dp"
                     android:layout_marginTop="@dimen/activity_margin_medium"
                     android:layout_gravity="center_horizontal"
-                    android:textSize="@dimen/font_size_small"
-                    android:text="@string/pi_fact_5"/>
+                    android:background="@drawable/pi_fact_formula1"
+                    android:id="@+id/pi_fact_formula1_field" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -191,6 +191,14 @@
                         android:textSize="@dimen/font_size_small"
                         android:text="@string/pi_fact_8"/>
                     </LinearLayout>
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="@dimen/activity_margin_medium"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/pi_fact_formula2"
+                    android:id="@+id/pi_fact_formula2_field" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -269,28 +277,19 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/font_size_small"
-                        android:text="@string/pi_fact_12"/>
+                        android:text="@string/pi_fact_12" />
                     </LinearLayout>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageView
+                    android:layout_width="145dp"
+                    android:layout_height="72dp"
                     android:layout_marginTop="@dimen/activity_margin_medium"
                     android:layout_gravity="center_horizontal"
-                    android:textSize="@dimen/font_size_small"
-                    android:text="@string/pi_fact_13"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="@dimen/font_size_small"
-                    android:text="@string/pi_fact_14"
-                    android:layout_marginTop="@dimen/activity_margin_medium"
-                    android:layout_marginStart="30dp"
-                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/pi_fact_formula3"
+                    android:id="@+id/pi_fact_formula3_field"
                     android:layout_marginBottom="@dimen/activity_margin_bigger"/>
 
-                </LinearLayout>
+            </LinearLayout>
             </RelativeLayout>
         </ScrollView>
     </RelativeLayout>

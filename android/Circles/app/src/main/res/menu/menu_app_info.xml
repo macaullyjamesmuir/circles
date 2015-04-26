@@ -2,12 +2,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context="deltagruppen.circles.AppInfo">
 
-    <item android:id="@+id/action_settings" android:title="@string/pi_fact_title"
+    <item android:id="@+id/action_settings" android:title="@string/about_app_name"
         android:orderInCategory="100" app:showAsAction="never"
-        android:onClick="showPiInfo"/>
-
-    <item android:id="@+id/textView" android:title="@string/about_calculating_pi_header"
-        android:orderInCategory="100" app:showAsAction="never"
-        android:onClick="showCalculatingPiInfo"/>
+        android:onClick="showAppInfo"/>
 
 </menu>

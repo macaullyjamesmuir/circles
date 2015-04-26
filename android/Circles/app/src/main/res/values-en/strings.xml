@@ -25,7 +25,7 @@
     <string name="highscore">High score</string>
     <string name="imperfectFillColor">#00000000</string>
     <string name="imperfectStrokeColor">#263238</string>
-    <string name="instruction_part_one">Try to draw a circle as round as possible. An approximation of &#928; will be computed from the drawn circle.</string>
+    <string name="instruction_part_one">Try to draw a circle as round as possible. An approximation of &#x3c0; will be computed from the drawn circle.</string>
     <string name="language">Språk/Language</string>
     <string name="language_popup_title">Change language</string>
     <string name="language_popup_swe">Svenska</string>

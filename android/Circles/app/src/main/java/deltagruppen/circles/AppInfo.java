@@ -43,13 +43,8 @@ public class AppInfo extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void showPiInfo(MenuItem item) {
-        Intent intent = new Intent(this, PiInfo.class);
-        startActivity(intent);
-    }
-
-    public void showCalculatingPiInfo(MenuItem item) {
-        Intent intent = new Intent(this, CalculatingPi.class);
+    public void showAppInfo(MenuItem item) {
+        Intent intent = new Intent(this, AppInfo.class);
         startActivity(intent);
     }
 }

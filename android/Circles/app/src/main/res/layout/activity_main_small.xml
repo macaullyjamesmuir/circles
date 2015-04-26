@@ -136,7 +136,7 @@
                 android:paddingLeft="30dp">
 
                 <ImageView
-                    android:layout_width="92dp"
+                    android:layout_width="97dp"
                     android:layout_height="104dp"
                     android:id="@+id/hand_animation"
                     android:layout_margin="@dimen/activity_margin_medium"

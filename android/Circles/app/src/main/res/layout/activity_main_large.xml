@@ -26,7 +26,7 @@
             android:id="@+id/shortdesc">
 
             <ImageView
-                android:layout_width="92dp"
+                android:layout_width="97dp"
                 android:layout_height="104dp"
                 android:id="@+id/hand_animation"
                 android:layout_marginStart="18dp"

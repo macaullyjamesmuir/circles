@@ -8,6 +8,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -15,10 +18,12 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
         setTitle(getString(R.string.app_name));
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_main);
+
+
     }
 
 
@@ -72,6 +77,30 @@ public class MainActivity extends ActionBarActivity {
     public void showCalculatingPiInfo(View view) {
         Intent intent = new Intent(this, CalculatingPi.class);
         startActivity(intent);
+    }
+
+    public void changeLanguage(View view) {
+        languagePopup();
+    }
+
+    public void languagePopup() {
+
+        new AlertDialog.Builder(this)
+                .setTitle(R.string.language_popup_title)
+                .setPositiveButton(R.string.language_popup_swe, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        //TODO Change language to SWE
+                        Toast.makeText(getApplicationContext(), "Make this button change language.", Toast.LENGTH_SHORT).show();
+                    }
+                })
+                .setNegativeButton(R.string.language_popup_eng, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        //TODO Change language to ENG
+                        Toast.makeText(getApplicationContext(), "Make this button change language.", Toast.LENGTH_SHORT).show();
+                    }
+                })
+                .show();
+
     }
 
 }

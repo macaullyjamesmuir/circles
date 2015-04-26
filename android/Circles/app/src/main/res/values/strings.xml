@@ -30,6 +30,9 @@
     <string name="imperfectStrokeColor">#263238</string>
     <string name="instruction_part_one">Försök att rita en så rund cirkel som möjligt till höger. Ett närmervärde på &#x3c0; kommer att beräknas utefter den ritade cirkeln.</string>
     <string name="language">Språk/Language</string>
+    <string name="language_popup_title">Byt språk</string>
+    <string name="language_popup_swe">Svenska</string>
+    <string name="language_popup_eng">English</string>
     <string name="logo_text">Ett samarbete mellan Stockholms Matemetikcentrum och KTH-studenter .</string>
     <string name="main_circle_drawing_message1">Försök igen!</string>
     <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter</string>

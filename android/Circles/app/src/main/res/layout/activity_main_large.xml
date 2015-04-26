@@ -302,7 +302,8 @@
                 android:layout_marginBottom="10dp"
                 android:singleLine="true"
                 android:textColor="#ffffffff"
-                android:gravity="center_vertical" />
+                android:gravity="center_vertical"
+                android:onClick="changeLanguage"/>
         </TableRow>
 
         <TableRow

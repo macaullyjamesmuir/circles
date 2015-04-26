@@ -30,6 +30,9 @@
     <string name="imperfectStrokeColor">#263238</string>
     <string name="instruction_part_one">Try to draw a circle as round as possible. An approximation of pi will be computed from the drawn circle.</string>
     <string name="language">Språk/Language</string>
+    <string name="language_popup_title">Change language</string>
+    <string name="language_popup_swe">Svenska</string>
+    <string name="language_popup_eng">English</string>
     <string name="logo_text">A collaboration between Stockholm matemathic central and students at Royal technical institute(KTH).</string>
     <string name="main_circle_drawing_message1">Try again!</string>
     <string name="main_sidebar_attribution">A collaboration between Stockholm matemathics centre and students at KTH Royal Institute of Technology.</string>

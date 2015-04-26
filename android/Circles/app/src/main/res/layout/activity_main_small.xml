@@ -243,7 +243,8 @@
                         android:singleLine="true"
                         android:textColor="#ffffffff"
                         android:gravity="center_vertical"
-                        android:paddingRight="@dimen/activity_margin_medium"/>
+                        android:paddingRight="@dimen/activity_margin_medium"
+                        android:onClick="changeLanguage"/>
                 </TableRow>
 
                 <TableRow

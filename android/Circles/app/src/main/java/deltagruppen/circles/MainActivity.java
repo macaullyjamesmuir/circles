@@ -3,6 +3,7 @@ package deltagruppen.circles;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+import android.graphics.drawable.AnimationDrawable;
 import android.support.v7.app.ActionBarActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,7 +14,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
-import android.widget.Toast;
+import android.widget.ImageView;
 
 import java.util.Locale;
 
@@ -26,6 +27,19 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // The sollution to animation was found on https://stackoverflow.com/questions/15022152/how-to-animate-gif-images-in-an-android
+        final ImageView animImageView = (ImageView) findViewById(R.id.hand_animation);
+        animImageView.setBackgroundResource(R.drawable.hand_animation);
+        animImageView.post(new Runnable() {
+            @Override
+            public void run() {
+                AnimationDrawable frameAnimation =
+                        (AnimationDrawable) animImageView.getBackground();
+                frameAnimation.start();
+            }
+        });
+
         setTitle(getString(R.string.app_name));
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -112,7 +126,7 @@ public class MainActivity extends ActionBarActivity {
 
     /**
      * Taken from https://stackoverflow.com/questions/12908289/how-change-language-of-app-on-user-select-language
-     * @param lang
+     * @param lang The language code for the language which should be used
      */
 
     public void setLocale(String lang) {

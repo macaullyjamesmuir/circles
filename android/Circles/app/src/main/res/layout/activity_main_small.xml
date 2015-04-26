@@ -138,8 +138,7 @@
                 <ImageView
                     android:layout_width="92dp"
                     android:layout_height="104dp"
-                    android:id="@+id/imageView"
-                    android:background="@drawable/hand_arrow"
+                    android:id="@+id/hand_animation"
                     android:layout_margin="@dimen/activity_margin_medium"
                     android:contentDescription="@string/main_hand_arrow_description" />
 

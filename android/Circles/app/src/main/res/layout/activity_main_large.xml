@@ -28,8 +28,7 @@
             <ImageView
                 android:layout_width="92dp"
                 android:layout_height="104dp"
-                android:id="@+id/imageView"
-                android:background="@drawable/hand_arrow"
+                android:id="@+id/hand_animation"
                 android:layout_marginStart="18dp"
                 android:layout_marginLeft="18dp"
                 android:layout_margin="18dp"

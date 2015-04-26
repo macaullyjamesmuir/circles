@@ -1,9 +1,12 @@
 package deltagruppen.circles;
 
 import android.content.pm.ActivityInfo;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.support.v7.app.ActionBarActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -12,8 +15,12 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.widget.Toast;
 
+import java.util.Locale;
+
 
 public class MainActivity extends ActionBarActivity {
+
+    Locale myLocale;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,18 +96,34 @@ public class MainActivity extends ActionBarActivity {
                 .setTitle(R.string.language_popup_title)
                 .setPositiveButton(R.string.language_popup_swe, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        //TODO Change language to SWE
-                        Toast.makeText(getApplicationContext(), "Make this button change language.", Toast.LENGTH_SHORT).show();
+                        setLocale("sv");
                     }
                 })
                 .setNegativeButton(R.string.language_popup_eng, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        //TODO Change language to ENG
-                        Toast.makeText(getApplicationContext(), "Make this button change language.", Toast.LENGTH_SHORT).show();
+                        setLocale("en");
                     }
                 })
                 .show();
 
+    }
+
+
+
+    /**
+     * Taken from https://stackoverflow.com/questions/12908289/how-change-language-of-app-on-user-select-language
+     * @param lang
+     */
+
+    public void setLocale(String lang) {
+        myLocale = new Locale(lang);
+        Resources res = getResources();
+        DisplayMetrics dm = res.getDisplayMetrics();
+        Configuration conf = res.getConfiguration();
+        conf.locale = myLocale;
+        res.updateConfiguration(conf, dm);
+        Intent refresh = new Intent(this, MainActivity.class);
+        startActivity(refresh);
     }
 
 }

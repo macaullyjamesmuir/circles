@@ -91,7 +91,8 @@ public class DrawView extends RelativeLayout
                 double a = Math.abs(imperfectCircle.getArea());
                 double pi = l*l / (4*a);
                 String s = String.valueOf(pi);
-                s = s.replace('.', ',');
+                char c = getResources().getString(R.string.number_separation).charAt(0);
+                s = s.replace('.', c);
 
                 s = s.substring(0, Math.min(s.length(), 10));
 

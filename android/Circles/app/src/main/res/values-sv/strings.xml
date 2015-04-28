@@ -78,5 +78,6 @@
     <string name="your_pi">Ditt pi</string>
     <string name="head_secretary">Sekreterare</string>
     <string name="main_small_instruction">Rita en cirkel!</string>
+    <string name="number_separation">,</string>
 
 </resources>

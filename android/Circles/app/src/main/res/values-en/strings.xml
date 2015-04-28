@@ -76,5 +76,6 @@
     <string name="your_pi">Your pi</string>
     <string name="head_secretary">Secretary</string>
     <string name="main_small_instruction">Draw a circle!</string>
+    <string name="number_separation">.</string>
 
 </resources>

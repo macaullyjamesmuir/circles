@@ -76,7 +76,7 @@
     <string name="title_activity_calculating_pi">CalculatingPi</string>
     <string name="title_activity_pi_info">Pi Info</string>
     <string name="your_pi">Ditt pi</string>
-    <string name="main_small_instruction">Draw a circle!</string>
     <string name="head_secretary">Sekreterare</string>
+    <string name="main_small_instruction">Rita en cirkel!</string>
 
 </resources>

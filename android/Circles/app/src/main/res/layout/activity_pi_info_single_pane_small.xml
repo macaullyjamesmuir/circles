@@ -51,10 +51,8 @@
                 android:layout_marginTop="@dimen/activity_margin_big"
                 android:layout_below="@+id/pi_fact_single_pane_intro_text"
                 android:layout_centerHorizontal="true"
-                android:layout_marginStart="@dimen/activity_margin_biggest"
-                android:layout_marginLeft="@dimen/activity_margin_biggest"
-                android:layout_marginEnd="@dimen/activity_margin_biggest"
-                android:layout_marginRight="@dimen/activity_margin_biggest">
+                android:layout_marginLeft="@dimen/activity_margin_big"
+                android:layout_marginRight="@dimen/activity_margin_big">
 
                 <LinearLayout
                     android:layout_width="wrap_content"

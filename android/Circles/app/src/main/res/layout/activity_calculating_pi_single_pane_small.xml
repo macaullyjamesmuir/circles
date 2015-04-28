@@ -60,10 +60,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/calculating_pi_intro_text_field"
-                android:layout_marginStart="@dimen/activity_margin_biggest"
-                android:layout_marginLeft="@dimen/activity_margin_biggest"
-                android:layout_marginEnd="@dimen/activity_margin_biggest"
-                android:layout_marginRight="@dimen/activity_margin_biggest">
+                android:layout_marginRight="@dimen/activity_margin_more_big"
+                android:layout_marginLeft="@dimen/activity_margin_more_big">
 
                 <TextView
                     android:layout_width="wrap_content"

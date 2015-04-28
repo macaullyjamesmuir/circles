@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context="deltagruppen.circles.PiInfo">
+    xmlns:tools="http://schemas.android.com/tools" tools:context="perfectpi.circles.PiInfo">
 
     <item android:id="@+id/textView" android:title="@string/about_app_name"
         android:orderInCategory="100" app:showAsAction="never"

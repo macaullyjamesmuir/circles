@@ -1,4 +1,4 @@
-package deltagruppen.circles;
+package perfectpi.circles;
 
 import android.graphics.PointF;
 
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
-import deltagruppen.circles.math.LineSegment;
+import perfectpi.circles.math.LineSegment;
 
 /**
  * Represents an imperfect circle drawn by the user.

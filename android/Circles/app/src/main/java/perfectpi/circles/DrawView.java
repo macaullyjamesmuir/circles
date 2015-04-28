@@ -1,4 +1,4 @@
-package deltagruppen.circles;
+package perfectpi.circles;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -8,7 +8,6 @@ import android.graphics.Path;
 import android.graphics.PointF;
 import android.support.annotation.NonNull;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -102,7 +101,6 @@ public class DrawView extends RelativeLayout
                 closestCircleView.setImperfectCircle(imperfectCircle);
             }
             catch (IllegalArgumentException e) {
-                Log.i("DrawView", "Not a circle :(");
             }
         }
         if (!piCalculationPopup.isShown()) {

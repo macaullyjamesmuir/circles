@@ -1,4 +1,4 @@
-package deltagruppen.circles;
+package perfectpi.circles;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;

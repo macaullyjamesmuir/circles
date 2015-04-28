@@ -1,9 +1,10 @@
-package deltagruppen.circles;
+package perfectpi.circles;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.DashPathEffect;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PointF;
@@ -11,46 +12,48 @@ import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.view.View;
 
-import java.util.List;
-
 /**
- * A view of an imperfect circle.
+ * A view containing the "closest" circle to an imperfect
+ * circle. Closest is defined as the circle with the same
+ * area as the imperfect circle and midpoint in the centroid
+ * of the imperfect circle.
  */
-public class ImperfectCircleView
+public class ClosestCircleView
     extends View
 {
     private final Path  path;
     private final Paint paint;
-    private final int   fillColor;
-    private final int   strokeColor;
-
 
     /**
-     * Create a new ImperfectCircleView.
+     * Create a new ClosestCircleView.
      * @param context Something to pass to super().
      * @param attrs   The style attributes to use.
      */
-    public ImperfectCircleView(Context context, AttributeSet attrs) {
+    public ClosestCircleView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         path = new Path();
         paint = new Paint();
+        paint.setStrokeWidth(10);
+        paint.setColor(Color.RED);
+        paint.setStyle(Paint.Style.STROKE);
+        paint.setPathEffect(new DashPathEffect(new float[]{50, 20}, 0));
 
         TypedArray styledAttributes = context.getTheme().obtainStyledAttributes(
                 attrs,
-                R.styleable.ImperfectCircleView,
+                R.styleable.ClosestCircleView,
                 0,
                 0
         );
 
         try {
-            fillColor   = Color.parseColor(styledAttributes.getString(R.styleable.ImperfectCircleView_imperfectCircleFillColor));
-            strokeColor = Color.parseColor(styledAttributes.getString(R.styleable.ImperfectCircleView_imperfectCircleStrokeColor));
-            paint.setStrokeWidth(styledAttributes.getFloat(R.styleable.ImperfectCircleView_imperfectCircleStrokeWidth, 0));
+            String colorString = styledAttributes.getString(R.styleable.ClosestCircleView_closestCircleStrokeColor);
+            float  strokeWidth = styledAttributes.getFloat(R.styleable.ClosestCircleView_closestCircleStrokeWidth, 0);
+            paint.setColor(Color.parseColor(colorString));
+            paint.setStrokeWidth(strokeWidth);
         } finally {
             styledAttributes.recycle();
         }
-
     }
 
     /**
@@ -60,28 +63,24 @@ public class ImperfectCircleView
     @Override
     protected void onDraw(Canvas canvas)
     {
-        paint.setStyle(Paint.Style.STROKE);
-        paint.setColor(strokeColor);
-        canvas.drawPath(path, paint);
-
-        paint.setStyle(Paint.Style.FILL);
-        paint.setColor(fillColor);
         canvas.drawPath(path, paint);
     }
 
     /**
-     * Set the imperfect circle to draw. The new circle will be
-     * drawn immediately.
+     * Set the imperfect circle that the closest circle should be drawn from.
+     * The new closest circle will be drawn immediately.
      * @param imperfectCircle An imperfect circle.
      */
     public void setImperfectCircle(@NonNull ImperfectCircle imperfectCircle)
     {
-        List<PointF> points = imperfectCircle.getPoints();
+        PointF midPoint = imperfectCircle.getCentroid();
 
-        path.moveTo(points.get(0).x, points.get(0).y);
-        for (PointF point : imperfectCircle.getPoints()) {
-            path.lineTo(point.x, point.y);
-        }
+        path.addCircle(
+            midPoint.x,
+            midPoint.y,
+            (float) Math.sqrt(Math.abs(imperfectCircle.getArea()) / Math.PI),
+            Path.Direction.CW
+        );
 
         invalidate();
     }

@@ -1,4 +1,4 @@
-package deltagruppen.circles.math;
+package perfectpi.circles.math;
 
 import org.apache.commons.math3.geometry.euclidean.twod.Vector2D;
 import org.junit.Test;

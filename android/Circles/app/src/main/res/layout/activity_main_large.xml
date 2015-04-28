@@ -70,7 +70,7 @@
         </GridLayout>
     </LinearLayout>
 
-    <deltagruppen.circles.DrawView
+    <perfectpi.circles.DrawView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
@@ -79,7 +79,7 @@
         android:background="#fff"
         android:id="@+id/linearLayout8">
 
-        <deltagruppen.circles.ImperfectCircleView
+        <perfectpi.circles.ImperfectCircleView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"
@@ -88,7 +88,7 @@
             circles:imperfectCircleFillColor="#00000000"
             android:id="@+id/imperfectCircleView"/>
 
-        <deltagruppen.circles.ClosestCircleView
+        <perfectpi.circles.ClosestCircleView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_alignParentTop="true"
@@ -178,7 +178,7 @@
             </LinearLayout>
         </LinearLayout>
 
-    </deltagruppen.circles.DrawView>
+    </perfectpi.circles.DrawView>
 
     <ImageButton
         android:layout_width="88dp"

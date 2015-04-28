@@ -1,4 +1,4 @@
-package deltagruppen.circles;
+package perfectpi.circles;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -9,13 +9,13 @@ import android.view.MenuItem;
 import android.view.WindowManager;
 
 
-public class AppInfo extends ActionBarActivity {
+public class PiInfo extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle(getString(R.string.app_name));
-        setContentView(R.layout.activity_app_info);
+        setContentView(R.layout.activity_pi_info);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
     }
@@ -24,7 +24,7 @@ public class AppInfo extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_app_info, menu);
+        getMenuInflater().inflate(R.menu.menu_pi_info, menu);
         return true;
     }
 

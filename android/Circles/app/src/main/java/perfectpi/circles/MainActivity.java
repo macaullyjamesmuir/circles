@@ -18,9 +18,9 @@ import android.widget.ImageView;
 
 import java.util.Locale;
 
-
 public class MainActivity extends ActionBarActivity {
 
+    // Used when changing the language.
     Locale myLocale;
 
     @Override
@@ -28,7 +28,8 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // The sollution to animation was found on https://stackoverflow.com/questions/15022152/how-to-animate-gif-images-in-an-android
+        // Code for animation in the main view. The solution to animation was found on
+        // https://stackoverflow.com/questions/15022152/how-to-animate-gif-images-in-an-android
         final ImageView animImageView = (ImageView) findViewById(R.id.hand_animation);
         animImageView.setBackgroundResource(R.drawable.hand_animation);
         animImageView.post(new Runnable() {
@@ -43,10 +44,7 @@ public class MainActivity extends ActionBarActivity {
         setTitle(getString(R.string.app_name));
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
-
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -70,36 +68,42 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void showPiInfo(MenuItem item) {
-        Intent intent = new Intent(this, PiInfo.class);
-        startActivity(intent);
-    }
-
+    /**
+     * Start the pi info activity.
+     */
     public void showPiInfo(View view) {
         Intent intent = new Intent(this, PiInfo.class);
         startActivity(intent);
     }
 
+    /**
+     * Start the app info activity.
+     */
     public void showAppInfo(MenuItem item) {
         Intent intent = new Intent(this, AppInfo.class);
         startActivity(intent);
     }
 
+    /**
+     * Start the app info activity.
+     */
     public void showAppInfo(View view) {
         Intent intent = new Intent(this, AppInfo.class);
         startActivity(intent);
     }
 
+    /**
+     * Start the calculating pi activity.
+     */
     public void showCalculatingPiInfo(View view) {
         Intent intent = new Intent(this, CalculatingPi.class);
         startActivity(intent);
     }
 
+    /**
+     * Activates the language popup.
+     */
     public void changeLanguage(View view) {
-        languagePopup();
-    }
-
-    public void languagePopup() {
 
         new AlertDialog.Builder(this)
                 .setTitle(R.string.language_popup_title)
@@ -114,12 +118,11 @@ public class MainActivity extends ActionBarActivity {
                     }
                 })
                 .show();
-
     }
 
 
-
     /**
+     * Code for changing to a specified language.
      * Taken from https://stackoverflow.com/questions/12908289/how-change-language-of-app-on-user-select-language
      * @param lang The language code for the language which should be used
      */

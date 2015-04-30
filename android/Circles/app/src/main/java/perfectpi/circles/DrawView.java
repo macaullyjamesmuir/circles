@@ -20,12 +20,12 @@ public class DrawView extends RelativeLayout
 {
     private final LinkedList<PointF>  points;
     private Path                      path;
-    private static int                StrokeWidth = 10;
+    private static int                StrokeWidth = 10; // R.integer.stroke_width;
     private final Paint               paint;
 
     private ImperfectCircleView imperfectCircleView;
     private ClosestCircleView   closestCircleView;
-    private LinearLayout         piCalculationPopup;
+    private LinearLayout        piCalculationPopup;
     private TextView            piMessagePopup;
 
     public DrawView(Context context, AttributeSet attrs)
@@ -36,7 +36,7 @@ public class DrawView extends RelativeLayout
         path   = new Path();
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(StrokeWidth);
-        paint.setColor(Color.BLACK);
+        paint.setColor(getResources().getColor(R.color.circle));
     }
 
     @Override
@@ -44,7 +44,7 @@ public class DrawView extends RelativeLayout
     {
         imperfectCircleView = (ImperfectCircleView) findViewById(R.id.imperfectCircleView);
         closestCircleView   = (ClosestCircleView)   findViewById(R.id.closestCircleView);
-        piCalculationPopup  = (LinearLayout)         findViewById(R.id.piCalculationPopup);
+        piCalculationPopup  = (LinearLayout)        findViewById(R.id.piCalculationPopup);
         piMessagePopup      = (TextView)            findViewById(R.id.piMessagePopup);
     }
 
@@ -91,9 +91,12 @@ public class DrawView extends RelativeLayout
                 double a = Math.abs(imperfectCircle.getArea());
                 double pi = l*l / (4*a);
                 String s = String.valueOf(pi);
+
+                // Insert appropriate separator for number depending on language.
                 char c = getResources().getString(R.string.number_separation).charAt(0);
                 s = s.replace('.', c);
 
+                // Use at most 10 decimals
                 s = s.substring(0, Math.min(s.length(), 10));
 
                 approximationTextView.setText(s);

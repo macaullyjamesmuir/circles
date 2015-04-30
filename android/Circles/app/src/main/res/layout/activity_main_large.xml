@@ -84,7 +84,7 @@
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"
             circles:imperfectCircleStrokeWidth="10"
-            circles:imperfectCircleStrokeColor="@string/imperfectStrokeColor"
+            circles:imperfectCircleStrokeColor="@color/circle"
             circles:imperfectCircleFillColor="#00000000"
             android:id="@+id/imperfectCircleView"/>
 
@@ -103,11 +103,11 @@
             android:text="@string/main_circle_drawing_message1"
             android:textColor="@color/darker_gray"
             android:gravity="center"
-            android:textSize="@dimen/font_size_medium"
+            android:textSize="@dimen/font_m"
             android:visibility="gone"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="@dimen/activity_margin_big"
+            android:layout_marginBottom="@dimen/margin_s"
             android:padding="10dp"/>
 
         <LinearLayout
@@ -117,7 +117,7 @@
             android:id="@+id/piCalculationPopup"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
-            android:paddingBottom="@dimen/activity_margin_big"
+            android:paddingBottom="@dimen/margin_s"
             android:visibility="gone">
 
             <LinearLayout

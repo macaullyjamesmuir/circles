@@ -43,6 +43,9 @@ public class PiInfo extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * Start the app info activity.
+     */
     public void showAppInfo(MenuItem item) {
         Intent intent = new Intent(this, AppInfo.class);
         startActivity(intent);

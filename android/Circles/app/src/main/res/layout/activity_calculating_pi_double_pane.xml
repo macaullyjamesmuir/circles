@@ -6,7 +6,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/header_field"
+        android:layout_height="@dimen/field_l"
         android:background="#ff0097a7"
         android:id="@+id/calculating_pi_header_field">
 
@@ -16,7 +16,7 @@
             android:text="@string/pi_calculation_title"
             android:id="@+id/textView5"
             android:textColor="@color/first_header_text"
-            android:textSize="@dimen/font_header_text"
+            android:textSize="@dimen/font_xl"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"/>
 
@@ -32,27 +32,27 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/calculating_pi_header_field"
-        android:layout_margin="@dimen/activity_margin_big">
+        android:layout_margin="@dimen/margin_s">
 
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/pi_calculation_intro"
             android:id="@+id/textView12"
-            android:textSize="@dimen/font_size_medium" />
+            android:textSize="@dimen/font_m" />
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/activity_margin_big">
+            android:layout_margin="@dimen/margin_s">
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:layout_marginRight="@dimen/activity_margin_bigger"
-                android:layout_marginLeft="@dimen/activity_margin_bigger">
+                android:layout_marginRight="@dimen/margin_l"
+                android:layout_marginLeft="@dimen/margin_l">
 
                 <TableLayout
                     android:layout_width="match_parent"
@@ -143,7 +143,7 @@
                             android:id="@+id/textView31"
                             android:paddingLeft="10dp"
                             android:textSize="18sp"
-                            android:layout_marginBottom="@dimen/activity_margin_bigger"/>
+                            android:layout_marginBottom="@dimen/margin_l"/>
 
                     </TableRow>
 

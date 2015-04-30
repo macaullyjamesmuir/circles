@@ -43,6 +43,9 @@ public class AppInfo extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * Start the app info activity. (Restarts it)
+     */
     public void showAppInfo(MenuItem item) {
         Intent intent = new Intent(this, AppInfo.class);
         startActivity(intent);

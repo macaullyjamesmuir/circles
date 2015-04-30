@@ -6,7 +6,7 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="@dimen/header_field_small"
+        android:layout_height="@dimen/field_m"
         android:background="#ff26a69a"
         android:id="@+id/pi_info_header_field">
 
@@ -19,7 +19,7 @@
             android:textColor="@color/first_header_text"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:textSize="@dimen/font_size_big"/>
+            android:textSize="@dimen/font_l"/>
 
         </RelativeLayout>
 
@@ -32,27 +32,27 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/activity_margin_big"
+            android:layout_margin="@dimen/margin_s"
             android:baselineAligned="false">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/font_size_medium"
+                android:textSize="@dimen/font_m"
                 android:id="@+id/pi_fact_single_pane_intro_text"
                 android:text="@string/pi_fact_intro"
-                android:layout_marginLeft="@dimen/activity_margin_medium"
-                android:layout_marginStart="@dimen/activity_margin_medium"/>
+                android:layout_marginLeft="@dimen/margin_xs"
+                android:layout_marginStart="@dimen/margin_xs"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginTop="@dimen/activity_margin_big"
+                android:layout_marginTop="@dimen/margin_s"
                 android:layout_below="@+id/pi_fact_single_pane_intro_text"
                 android:layout_centerHorizontal="true"
-                android:layout_marginLeft="@dimen/activity_margin_big"
-                android:layout_marginRight="@dimen/activity_margin_big">
+                android:layout_marginLeft="@dimen/margin_s"
+                android:layout_marginRight="@dimen/margin_s">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -63,13 +63,13 @@
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:textColor="@color/blue_or_maybe_turquoise"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="1)"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="@string/pi_fact_1"/>
                         </LinearLayout>
 
@@ -77,19 +77,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginTop="@dimen/activity_margin_medium">
+                    android:layout_marginTop="@dimen/margin_xs">
 
                     <TextView
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:textColor="@color/blue_or_maybe_turquoise"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="2)"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="@string/pi_fact_2"/>
                     </LinearLayout>
 
@@ -97,19 +97,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginTop="@dimen/activity_margin_medium">
+                    android:layout_marginTop="@dimen/margin_xs">
 
                     <TextView
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:textColor="@color/blue_or_maybe_turquoise"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="3)"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="@string/pi_fact_3"/>
                 </LinearLayout>
 
@@ -117,26 +117,26 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginTop="@dimen/activity_margin_medium">
+                    android:layout_marginTop="@dimen/margin_xs">
 
                     <TextView
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:textColor="@color/blue_or_maybe_turquoise"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="4)"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="@string/pi_fact_4"/>
                     </LinearLayout>
 
                 <ImageView
                     android:layout_width="125dp"
                     android:layout_height="62dp"
-                    android:layout_marginTop="@dimen/activity_margin_medium"
+                    android:layout_marginTop="@dimen/margin_xs"
                     android:layout_gravity="center_horizontal"
                     android:background="@drawable/pi_fact_formula1"
                     android:id="@+id/pi_fact_formula1_field" />
@@ -144,9 +144,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/font_size_small"
+                    android:textSize="@dimen/font_s"
                     android:text="@string/pi_fact_6"
-                    android:layout_marginTop="@dimen/activity_margin_medium"
+                    android:layout_marginTop="@dimen/margin_xs"
                     android:layout_marginStart="30dp"
                     android:layout_marginLeft="30dp"/>
 
@@ -154,19 +154,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginTop="@dimen/activity_margin_medium">
+                    android:layout_marginTop="@dimen/margin_xs">
 
                     <TextView
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:textColor="@color/blue_or_maybe_turquoise"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="5)"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="@string/pi_fact_7"/>
                     </LinearLayout>
 
@@ -174,26 +174,26 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginTop="@dimen/activity_margin_medium">
+                    android:layout_marginTop="@dimen/margin_xs">
 
                     <TextView
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:textColor="@color/blue_or_maybe_turquoise"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="6)"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="@string/pi_fact_8"/>
                     </LinearLayout>
 
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="25dp"
-                    android:layout_marginTop="@dimen/activity_margin_medium"
+                    android:layout_marginTop="@dimen/margin_xs"
                     android:layout_gravity="center_horizontal"
                     android:background="@drawable/pi_fact_formula2"
                     android:id="@+id/pi_fact_formula2_field" />
@@ -202,19 +202,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginTop="@dimen/activity_margin_medium">
+                    android:layout_marginTop="@dimen/margin_xs">
 
                     <TextView
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:textColor="@color/blue_or_maybe_turquoise"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="7)"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="@string/pi_fact_9"/>
                     </LinearLayout>
 
@@ -222,19 +222,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginTop="@dimen/activity_margin_medium">
+                    android:layout_marginTop="@dimen/margin_xs">
 
                     <TextView
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:textColor="@color/blue_or_maybe_turquoise"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="8)"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="@string/pi_fact_10"/>
                     </LinearLayout>
 
@@ -242,19 +242,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginTop="@dimen/activity_margin_medium">
+                    android:layout_marginTop="@dimen/margin_xs">
 
                     <TextView
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:textColor="@color/blue_or_maybe_turquoise"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="9)"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="@string/pi_fact_11"/>
                     </LinearLayout>
 
@@ -262,30 +262,30 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginTop="@dimen/activity_margin_medium">
+                    android:layout_marginTop="@dimen/margin_xs">
 
                     <TextView
                         android:layout_width="30dp"
                         android:layout_height="wrap_content"
                         android:textColor="@color/blue_or_maybe_turquoise"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="10)"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:text="@string/pi_fact_12" />
                     </LinearLayout>
 
                 <ImageView
                     android:layout_width="145dp"
                     android:layout_height="72dp"
-                    android:layout_marginTop="@dimen/activity_margin_medium"
+                    android:layout_marginTop="@dimen/margin_xs"
                     android:layout_gravity="center_horizontal"
                     android:background="@drawable/pi_fact_formula3"
                     android:id="@+id/pi_fact_formula3_field"
-                    android:layout_marginBottom="@dimen/activity_margin_bigger"/>
+                    android:layout_marginBottom="@dimen/margin_l"/>
 
             </LinearLayout>
             </RelativeLayout>

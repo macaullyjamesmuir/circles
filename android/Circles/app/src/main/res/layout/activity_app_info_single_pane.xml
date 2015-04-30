@@ -6,7 +6,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/header_field"
+        android:layout_height="@dimen/field_l"
         android:background="#ff7e57c2"
         android:id="@+id/app_info_header_field">
 
@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/about_app_name"
-            android:textSize="@dimen/font_header_text"
+            android:textSize="@dimen/font_xl"
             android:textColor="@color/first_header_text"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
@@ -31,15 +31,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="@dimen/activity_margin_big">
+            android:layout_marginTop="@dimen/margin_s">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/about_perfect_pi_description"
                 android:layout_gravity="center_horizontal"
-                android:textSize="@dimen/font_size_medium"
-                android:layout_margin="@dimen/activity_margin_big"
+                android:textSize="@dimen/font_m"
+                android:layout_margin="@dimen/margin_s"
                 android:id="@+id/app_info_single_pane_text_view_2"/>
 
             <LinearLayout
@@ -52,7 +52,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/about_app_head_math_center"
-                    android:textSize="@dimen/font_size_big"
+                    android:textSize="@dimen/font_l"
                     android:textColor="@color/third_header_text"/>
 
                 <TextView
@@ -60,27 +60,27 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/name_sl_text_field"
                     android:text="@string/name_sl"
-                    android:textSize="@dimen/font_size_small"/>
+                    android:textSize="@dimen/font_s"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/contact_sl_text_field"
                     android:text="@string/about_app_contact_sl"
-                    android:textSize="@dimen/font_size_small"/>
+                    android:textSize="@dimen/font_s"/>
 
                 <ImageView
                     android:layout_width="442dp"
                     android:layout_height="174dp"
                     android:id="@+id/imageView2"
                     android:src="@drawable/smc_logo_grey"
-                    android:layout_margin="@dimen/activity_margin_big" />
+                    android:layout_margin="@dimen/margin_s" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/about_app_head_students"
-                    android:textSize="@dimen/font_size_big"
+                    android:textSize="@dimen/font_l"
                     android:textColor="@color/third_header_text"
                     android:id="@+id/app_info_single_pane_text_view_3"
                     android:layout_gravity="center_horizontal"/>
@@ -92,34 +92,34 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="@dimen/activity_margin_small">
+                android:layout_marginTop="@dimen/margin_xxs">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginStart="@dimen/activity_margin_bigger"
-                    android:layout_marginLeft="@dimen/activity_margin_bigger"
-                    android:layout_marginEnd="@dimen/activity_margin_biggest"
-                    android:layout_marginRight="@dimen/activity_margin_biggest">
+                    android:layout_marginStart="@dimen/margin_l"
+                    android:layout_marginLeft="@dimen/margin_l"
+                    android:layout_marginEnd="@dimen/margin_xl"
+                    android:layout_marginRight="@dimen/margin_xl">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/head_project_leader_text_view"
                         android:text="@string/about_app_head_project_leader"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
-                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
+                        android:layout_marginBottom="@dimen/margin_xs"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/project_leader_details_text_field"
                         android:text="@string/about_app_project_leader_details"
-                        android:textSize="@dimen/font_size_small"
-                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
+                        android:textSize="@dimen/font_s"
+                        android:layout_marginBottom="@dimen/margin_xs"/>
 
 
 
@@ -128,64 +128,64 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/head_design_and_gui_text_view"
                         android:text="@string/about_app_head_guiux"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
-                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
+                        android:layout_marginBottom="@dimen/margin_xs"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/info_name_PS_text_view"
                         android:text="@string/name_PS"
-                        android:textSize="@dimen/font_size_small"
-                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
+                        android:textSize="@dimen/font_s"
+                        android:layout_marginBottom="@dimen/margin_xs"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/head_programmers_text_view"
                         android:text="@string/about_app_head_programmers"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
-                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
+                        android:layout_marginBottom="@dimen/margin_xs"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_name_AKN_text_view"
                         android:text="@string/name_AKN"
-                        android:textSize="@dimen/font_size_small"/>
+                        android:textSize="@dimen/font_s"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_name_CEG_text_view"
                         android:text="@string/name_CEG"
-                        android:textSize="@dimen/font_size_small"/>
+                        android:textSize="@dimen/font_s"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_nameCA_text_view"
                         android:text="@string/name_CA"
-                        android:textSize="@dimen/font_size_small"/>
+                        android:textSize="@dimen/font_s"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_name_DJ_text_view"
                         android:text="@string/name_DJ"
-                        android:textSize="@dimen/font_size_small"/>
+                        android:textSize="@dimen/font_s"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_name_MM_text_view"
                         android:text="@string/name_MM"
-                        android:textSize="@dimen/font_size_small"
-                        android:layout_marginBottom="@dimen/activity_margin_bigger"/>
+                        android:textSize="@dimen/font_s"
+                        android:layout_marginBottom="@dimen/margin_l"/>
 
                     </LinearLayout>
 
@@ -199,42 +199,42 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/head_user_testing_text_view"
                         android:text="@string/about_app_head_user_testing"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
-                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
+                        android:layout_marginBottom="@dimen/margin_xs"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_AE_text_field"
                         android:text="@string/name_AE"
-                        android:textSize="@dimen/font_size_small"/>
+                        android:textSize="@dimen/font_s"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_AM_text_field"
                         android:text="@string/name_AM"
-                        android:textSize="@dimen/font_size_small"
-                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
+                        android:textSize="@dimen/font_s"
+                        android:layout_marginBottom="@dimen/margin_xs"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/head_secretary_text_view"
                         android:text="@string/head_secretary"
-                        android:textSize="@dimen/font_size_small"
+                        android:textSize="@dimen/font_s"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
-                        android:layout_marginBottom="@dimen/activity_margin_medium"/>
+                        android:layout_marginBottom="@dimen/margin_xs"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_name_JYI_text_view"
                         android:text="@string/name_JYI"
-                        android:textSize="@dimen/font_size_small"/>
+                        android:textSize="@dimen/font_s"/>
 
                     </LinearLayout>
 

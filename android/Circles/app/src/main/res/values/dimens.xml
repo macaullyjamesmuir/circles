@@ -1,21 +1,20 @@
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="about_page_width">1200dp</dimen>
-    <dimen name="about_page_width2">1100dp</dimen>
 
-    <dimen name="activity_margin_biggest_still">100dp</dimen>
-    <dimen name="activity_margin_biggest">80dp</dimen>
-    <dimen name="activity_margin_bigger">60dp</dimen>
-    <dimen name="activity_margin_more_big">30dp</dimen>
-    <dimen name="activity_margin_big">20dp</dimen>
-    <dimen name="activity_margin_medium">10dp</dimen>
-    <dimen name="activity_margin_small">5dp</dimen>
+    <dimen name="margin_xxl">100dp</dimen>
+    <dimen name="margin_xl">80dp</dimen>
+    <dimen name="margin_l">60dp</dimen>
+    <dimen name="margin_m">30dp</dimen>
+    <dimen name="margin_s">20dp</dimen>
+    <dimen name="margin_xs">10dp</dimen>
+    <dimen name="margin_xxs">5dp</dimen>
 
-    <dimen name="font_header_text">83sp</dimen>
-    <dimen name="font_size_big">33sp</dimen>
-    <dimen name="font_size_medium">20sp</dimen>
-    <dimen name="font_size_small">18sp</dimen>
-    <dimen name="font_size_xsmall">16sp</dimen>
-    <dimen name="header_field">130dp</dimen>
-    <dimen name="header_field_small">50dp</dimen>
+    <dimen name="font_xl">83sp</dimen>
+    <dimen name="font_l">33sp</dimen>
+    <dimen name="font_m">20sp</dimen>
+    <dimen name="font_s">18sp</dimen>
+    <dimen name="font_xs">16sp</dimen>
+
+    <dimen name="field_l">130dp</dimen>
+    <dimen name="field_m">50dp</dimen>
+
 </resources>

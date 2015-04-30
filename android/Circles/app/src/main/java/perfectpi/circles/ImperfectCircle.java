@@ -17,6 +17,9 @@ public class ImperfectCircle
 {
 
     private final List<PointF> points;
+
+    // Value for checking proximity between points will depend on the
+    // stroke width of drawn path.
     private static double      DMax = 10;
 
 
@@ -98,7 +101,10 @@ public class ImperfectCircle
             }
         }
 
+        // If no proximity or intersection is found then use all drawn points
         points = new ArrayList<>(input.subList(0,input.size()));
+
+        // Add the first point once again
         points.add(input.get(0));
     }
 
@@ -204,6 +210,7 @@ public class ImperfectCircle
      * A point which is to close to the last point will be removed.
      * If the distance between two points is too great new points will
      * be inserted in the list.
+     *
      * @param input The given list of points
      */
     public void normalizeInput(List<PointF> input)
@@ -238,6 +245,7 @@ public class ImperfectCircle
 
     /**
      * Find the distance between two points
+     *
      * @param p1 First point
      * @param p2 Second point
      * @return Distance
@@ -275,6 +283,7 @@ public class ImperfectCircle
     /**
      * Check to se if the line segments are in accepted proximity of each other and find
      * the smallest difference between the end points.
+     *
      * @param s1 First line segment
      * @param s2 Second line segment
      * @return True or false

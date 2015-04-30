@@ -40,11 +40,11 @@
             android:text="@string/main_circle_drawing_message1"
             android:textColor="@color/darker_gray"
             android:gravity="center"
-            android:textSize="@dimen/font_size_medium"
+            android:textSize="@dimen/font_m"
             android:visibility="gone"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="@dimen/activity_margin_big"
+            android:layout_marginBottom="@dimen/margin_s"
             android:padding="10dp"/>
 
         <LinearLayout
@@ -54,7 +54,7 @@
             android:id="@+id/piCalculationPopup"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
-            android:paddingBottom="@dimen/activity_margin_big"
+            android:paddingBottom="@dimen/margin_s"
             android:visibility="gone">
 
             <LinearLayout
@@ -139,23 +139,23 @@
                     android:layout_width="97dp"
                     android:layout_height="104dp"
                     android:id="@+id/hand_animation"
-                    android:layout_margin="@dimen/activity_margin_medium"
+                    android:layout_margin="@dimen/margin_xs"
                     android:contentDescription="@string/main_hand_arrow_description" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/main_small_instruction"
-                    android:layout_marginStart="@dimen/activity_margin_big"
-                    android:layout_marginLeft="@dimen/activity_margin_big"
-                    android:layout_marginBottom="@dimen/activity_margin_small"/>
+                    android:layout_marginStart="@dimen/margin_s"
+                    android:layout_marginLeft="@dimen/margin_s"
+                    android:layout_marginBottom="@dimen/margin_xxs"/>
 
             </LinearLayout>
 
             <TableLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/activity_margin_medium">
+                android:layout_marginTop="@dimen/margin_xs">
 
                 <TableRow
                     android:layout_width="wrap_content"
@@ -214,7 +214,7 @@
                         android:textColor="#ffffffff"
                         android:gravity="center_vertical"
                         android:onClick="showCalculatingPiInfo"
-                        android:paddingRight="@dimen/activity_margin_medium"/>
+                        android:paddingRight="@dimen/margin_xs"/>
                 </TableRow>
 
                 <TableRow
@@ -242,7 +242,7 @@
                         android:singleLine="true"
                         android:textColor="#ffffffff"
                         android:gravity="center_vertical"
-                        android:paddingRight="@dimen/activity_margin_medium"
+                        android:paddingRight="@dimen/margin_xs"
                         android:onClick="changeLanguage"/>
                 </TableRow>
 
@@ -273,7 +273,7 @@
                         android:textColor="#ffffffff"
                         android:gravity="center_vertical"
                         android:onClick="showAppInfo"
-                        android:paddingRight="@dimen/activity_margin_medium"/>
+                        android:paddingRight="@dimen/margin_xs"/>
                 </TableRow>
             </TableLayout>
 
@@ -283,9 +283,9 @@
                 android:id="@+id/imageButton"
                 android:background="@drawable/smc_logo"
                 android:contentDescription="@string/smc_logo_description"
-                android:layout_marginTop="@dimen/activity_margin_small"
-                android:layout_marginStart="@dimen/activity_margin_small"
-                android:layout_marginLeft="@dimen/activity_margin_small"/>
+                android:layout_marginTop="@dimen/margin_xxs"
+                android:layout_marginStart="@dimen/margin_xxs"
+                android:layout_marginLeft="@dimen/margin_xxs"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -295,7 +295,7 @@
                 android:id="@+id/textView33"
                 android:textColor="#ffffffff"
                 android:textSize="12sp"
-                android:layout_margin="@dimen/activity_margin_small"/>
+                android:layout_margin="@dimen/margin_xxs"/>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

@@ -1,48 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">Perfect Pi</string>
-    <string name="about_app_name">About Perfect Pi</string>
-    <string name="about_calculating_pi_header">Calculation of pi</string>
-    <string name="about_perfect_pi_description">Perfect Pi is a collaboration between Stockholm Mathematics Centre (SMC) and computer science students at KTH in order to arouse interest for mathematics in general and pi especially. The project is an Open source project licensed under Apache License Version 2.0 (http://www.apache.org/license). The source code is available on https://github.com/deltagruppen/circles/.</string>
-    <string name="about_perfect_pi_header">About Perfect Pi</string>
-    <string name="action_settings">Settings</string>
-    <string name="actual_pi">Pi</string>
-    <string name="app_info_title">About Perfect Pi</string>
-    <string name="calculating_pi_title">Calculation of pi</string>
     <string name="closestStrokeColor">#40d81b60</string>
-    <string name="about_app_contact_sl">director@math-stockholm.se</string>
-    <string name="main_hand_arrow_description">hand_arrow</string>
-    <string name="about_app_head_guiux">GUI/UX</string>
-    <string name="main_head_instructions">Draw a circle</string>
-    <string name="about_app_head_lead_programmer">Chief programmer</string>
-    <string name="about_app_head_math_center">Stockholm Mathematics Centre</string>
-    <string name="about_app_head_programmers">Programmers</string>
-    <string name="about_app_head_project_leader">Project leader</string>
-    <string name="about_app_head_secretary">Secretary</string>
-    <string name="about_app_head_students">Students</string>
-    <string name="about_app_head_user_testing">User testing</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="highscore">High score</string>
     <string name="imperfectFillColor">#00000000</string>
     <string name="imperfectStrokeColor">#263238</string>
-    <string name="instruction_part_one">Try to draw a circle as round as possible. An approximation of &#x3c0; will be computed from the drawn circle.</string>
-    <string name="language">Språk/Language</string>
-    <string name="language_popup_title">Change language</string>
-    <string name="language_popup_swe">Svenska</string>
+    <string name="number_separation">.</string>
+    <string name="pi_number">3.14159265</string>
+    <string name="pi">Pi</string>
+    <string name="settings">Settings</string>
+    <string name="smc_logo_description">The SMC logo</string>
+    <string name="your_pi">Your pi</string>
+
+    <string name="app_info_alenskog">Christoffer Alenskog</string>
+    <string name="app_info_description">Perfect Pi is a collaboration between Stockholm Mathematics Centre (SMC) and computer science students at KTH in order to arouse interest for mathematics in general and pi especially. The project is an Open source project licensed under Apache License Version 2.0 (http://www.apache.org/license). The source code is available on https://github.com/deltagruppen/circles/.</string>
+    <string name="app_info_evert">Anna-Karin Evert</string>
+    <string name="app_info_ghouch">Chaimae El Ghouch</string>
+    <string name="app_info_guiux">GUI/UX</string>
+    <string name="app_info_isse">Jamila Yusuf Isse</string>
+    <string name="app_info_johansson">Dante Johansson</string>
+    <string name="app_info_kabata">Aphia Kabata</string>
+    <string name="app_info_linusson_info">director@math-stockholm.se</string>
+    <string name="app_info_linusson">Professor Svante Linusson</string>
+    <string name="app_info_mattison">Alfrida Mattison</string>
+    <string name="app_info_muir">Macaully James Muir</string>
+    <string name="app_info_programmers">Programmers</string>
+    <string name="app_info_project_leader">Project leader</string>
+    <string name="app_info_randleff_info">Veronica Randleff \n randleff@kth.se</string>
+    <string name="app_info_schwermer">Patrik Schwermer</string>
+    <string name="app_info_secretary">Secretary</string>
+    <string name="app_info_smc">Stockholm Mathematics Centre</string>
+    <string name="app_info_students">Students</string>
+    <string name="app_info_title">About Perfect Pi</string>
+    <string name="app_info_user_testing">User testing</string>
+
+
     <string name="language_popup_eng">English</string>
-    <string name="logo_text">A collaboration between Stockholm matemathics centre and students at Royal technical institute(KTH).</string>
+    <string name="language_popup_swe">Svenska</string>
+    <string name="language_popup_title">Change language</string>
+    <string name="language">Language</string>
+
     <string name="main_circle_drawing_message1">Try again!</string>
+    <string name="main_hand_arrow_description">hand_arrow</string>
+    <string name="main_head_instructions">Draw a circle</string>
+    <string name="main_instruction">Try to draw a circle as round as possible. An approximation of &#x3c0; will be computed from the drawn circle.</string>
     <string name="main_sidebar_attribution">A collaboration between Stockholm matemathics centre and students at KTH Royal Institute of Technology.</string>
-    <string name="name_AE">Anna-Karin Evert</string>
-    <string name="name_AKN">Aphia Kabata</string>
-    <string name="name_AM">Alfrida Mattison</string>
-    <string name="name_CA">Christoffer Alenskog</string>
-    <string name="name_CEG">Chaimae El Ghouch</string>
-    <string name="name_DJ">Dante Johansson</string>
-    <string name="name_JYI">Jamila Yusuf Isse</string>
-    <string name="name_MM">Macaully James Muir</string>
-    <string name="name_PS">Patrik Schwermer</string>
-    <string name="name_sl">Professor Svante Linusson</string>
+    <string name="main_small_instruction">Draw a circle!</string>
+
     <string name="pi_calculation_intro">The number &#x3c0; is the ratio between a circles perimeter and it\'s diameter. In Perfect Pi the goal is to draw a circle with that same ratio. Unfortunately this is impossible. To begin with &#x3c0; has an infinite amount of decimals so however close you get it\'s always possible to get even closer. There are also technical limitations. The display consists of pixels which form a grid. So all figures drawn are represented by patterns of horizontal and vertical lines which when zoomed out can be made to look like round shapes. But if you\'re really good and witty you can still get a value close to &#x3c0;.</string>
     <string name="pi_calculation_part1">The computations are based on the isoperimetric inequality. It says that for all closed curves the inequality 4&#x3c0;A ≤ L&#xb2; is true. This means that if you multiply a closed curve\'s area (A) with 4&#x3c0; the result will always be less or equal to the perimeter (L) squared.</string>
     <string name="pi_calculation_part2">By rewriting the isoperimetric inequality we end up with a relationship that can be used to compute the &#x3c0;-value for a curve (I).</string>
@@ -50,32 +54,20 @@
     <string name="pi_calculation_part4">Getting the length of the perimeter is easily done by adding the length of all the lines together. Calculating the area is a bit more tricky if you want a good result.</string>
     <string name="pi_calculation_part5">To calculate the area we use the following expression:</string>
     <string name="pi_calculation_part6">Finally the values are put into the isoperimetric inequality and out pops an incredibly accurate &#x3c0;-value for the drawn figure.</string>
-    <string name="pi_calculation_title">Calculating &#x3c0;</string>
-    <string name="pi_fact_2">Pi is an irrational number, therefore it cannot be written as a fraction and it has an infinite decimal expansion. Two well-used approximations of pi are 3.14 and 22/7.</string>
-    <string name="pi_fact_10">About 250 b.c. Archimedes calculated an approximation of pi by using an algorithm that consists of engraving a circle in between two polygons. By computing the circumference he found that the value of pi was between 223/71 and 22/7. Because of this pi is also called Archimedes constant.</string>
-    <string name="pi_fact_5">I = L/ (4*&#x3c0;*d²)</string>
-    <string name="pi_fact_4">Pi is used in astronomy and astrology to calculate paths and celestial bodies. Copernicus and Galileo used pi to approximate the size of the earth and the distance to the moon. An example on how pi is used in astronomy is when calculating the apparent brightness (intensity) of a star using the following formula:</string>
-    <string name="pi_fact_6">Where I is the apparent brightness of the star in W/m²,  L is the luminosity of the star in  W,D is the distance to the star in meter.</string>
+    <string name="title_activity_calculating_pi">Calculating &#x3c0;</string>
+
     <string name="pi_fact_1">The number &#x3c0; is defined as the ratio of a circle\'s circumference to its diameter.</string>
-    <string name="pi_fact_9">Albert Einstein was born on pi-day, March the 14th 1879.</string>
-    <string name="pi_fact_11">If you write "3.14" on a piece of paper and hold it up to a mirror, it reflects the word "PIE".</string>
-    <string name="pi_fact_8"> Euler\'s identity is considered to be one of the most beautiful equations in mathematics and was discovered by Leonhard Euler in 1743. It assembles the five most fundamentals numbers in mathematics: 0, 1, the unit of imaginary numbers ´i´, the base of natural logarithm ´e´ and of course &#x3c0;.</string>
+    <string name="pi_fact_2">Pi is an irrational number, therefore it cannot be written as a fraction and it has an infinite decimal expansion. Two well-used approximations of pi are 3.14 and 22/7.</string>
     <string name="pi_fact_3"> "Pi-day" is celebrated on March the 14th which was chosen to resemble the approximation 3.14. Many people like to start the celebration around 1:59 pm which combined with the date resembles 3.14159, which is an even better approximation of pi.</string>
-    <string name="pi_fact_12">Around year 1644 Pietro Mengoli posed what is called the Basel problem. The problem consisted of calculating the sum of the infinite series. This problem was solved by Leonhard Euler in 1743, who showed that:</string>
-    <string name="pi_fact_7"> The worlds record for memorizing the value of pi was won by the Chinese Chao Lu, whom in 2005 memorized and recited the value up to the 67 890 first decimal places.</string>
+    <string name="pi_fact_4">Pi is used in astronomy and astrology to calculate paths and celestial bodies. Copernicus and Galileo used pi to approximate the size of the earth and the distance to the moon. An example on how pi is used in astronomy is when calculating the apparent brightness (intensity) of a star using the following formula:</string>
+    <string name="pi_fact_5">Where I is the apparent brightness of the star in W/m²,  L is the luminosity of the star in  W,D is the distance to the star in meter.</string>
+    <string name="pi_fact_6"> The worlds record for memorizing the value of pi was won by the Chinese Chao Lu, whom in 2005 memorized and recited the value up to the 67 890 first decimal places.</string>
+    <string name="pi_fact_7"> Euler\'s identity is considered to be one of the most beautiful equations in mathematics and was discovered by Leonhard Euler in 1743. It assembles the five most fundamentals numbers in mathematics: 0, 1, the unit of imaginary numbers ´i´, the base of natural logarithm ´e´ and of course &#x3c0;.</string>
+    <string name="pi_fact_8">Albert Einstein was born on pi-day, March the 14th 1879.</string>
+    <string name="pi_fact_9">About 250 b.c. Archimedes calculated an approximation of pi by using an algorithm that consists of engraving a circle in between two polygons. By computing the circumference he found that the value of pi was between 223/71 and 22/7. Because of this pi is also called Archimedes constant.</string>
+    <string name="pi_fact_10">If you write "3.14" on a piece of paper and hold it up to a mirror, it reflects the word "PIE".</string>
+    <string name="pi_fact_11">Around year 1644 Pietro Mengoli posed what is called the Basel problem. The problem consisted of calculating the sum of the infinite series. This problem was solved by Leonhard Euler in 1743, who showed that:</string>
     <string name="pi_fact_intro">The number &#x3c0; has a several thousand year old story. Ever since the babylonians around 2000 b.c. estimated the value of pi to 25/8, mathematicians and civilizations have struggled and attempted to get a more precise value and today we have estimations of pi with several billions decimal places. We have collected some fun facts that we have encountered during the development of the app.</string>
-    <string name="pi_fact_title"> Fun facts about &#x3c0;</string>
-    <string name="pi">3.14159265</string>
-    <string name="about_app_project_leader_details">Veronica Randleff \n randleff@kth.se</string>
-    <string name="smc_logo_description">The SMC logo</string>
-    <string name="teach_me_pi">Read more about pi</string>
-    <string name="title_activity_about_calculating_pi">AboutCalculatingPi</string>
-    <string name="title_activity_app_info">App Info</string>
-    <string name="title_activity_calculating_pi">CalculatingPi</string>
-    <string name="title_activity_pi_info">Pi Info</string>
-    <string name="your_pi">Your pi</string>
-    <string name="head_secretary">Secretary</string>
-    <string name="main_small_instruction">Draw a circle!</string>
-    <string name="number_separation">.</string>
+    <string name="title_activity_pi_info"> Fun facts about &#x3c0;</string>
 
 </resources>

@@ -2,47 +2,50 @@
 <resources>
 
     <string name="app_name">Perfect Pi</string>
-    <string name="about_app_name">Om Perfect Pi</string>
-    <string name="about_calculating_pi_header">Beräkning av pi</string>
-    <string name="about_perfect_pi_description">Perfect Pi är ett samarbete mellan Stockholms Matematikcentrum (SMC) och studenter från programmet Civilingenjör Datateknik vid KTH i syfte att väcka intresse för matematik i allmänhet och pi i synnerhet. Projektet är ett Open Source-projekt licenserat under Apache License Version 2.0 (http://www.apache.org/license). Källkoden finns att tillgå på https://github.com/deltagruppen/circles/.</string>
-    <string name="about_perfect_pi_header">Om Perfect Pi</string>
-    <string name="action_settings">Settings</string>
-    <string name="actual_pi">Pi</string>
-    <string name="app_info_title">Om Perfect Pi</string>
     <string name="closestStrokeColor">#40d81b60</string>
-    <string name="about_app_contact_sl">director@math-stockholm.se</string>
-    <string name="main_hand_arrow_description">hand_arrow</string>
-    <string name="about_app_head_guiux">GUI/UX</string>
-    <string name="main_head_instructions">Rita en cirkel</string>
-    <string name="about_app_head_lead_programmer">Huvudprogrammerare</string>
-    <string name="about_app_head_math_center">Stockholms Matematikcentrum</string>
-    <string name="about_app_head_programmers">Programmerare</string>
-    <string name="about_app_head_project_leader">Projektledare</string>
-    <string name="about_app_head_secretary">Sekreterare</string>
-    <string name="about_app_head_students">Studenter</string>
-    <string name="about_app_head_user_testing">Användartestning</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="highscore">High score</string>
     <string name="imperfectFillColor">#00000000</string>
     <string name="imperfectStrokeColor">#263238</string>
-    <string name="instruction_part_one">Försök att rita en så rund cirkel som möjligt till höger. Ett närmervärde på &#x3c0; kommer att beräknas utefter den ritade cirkeln.</string>
-    <string name="language">Språk/Language</string>
-    <string name="language_popup_title">Byt språk</string>
-    <string name="language_popup_swe">Svenska</string>
+    <string name="number_separation">,</string>
+    <string name="pi_number">3,14159265</string>
+    <string name="pi">Pi</string>
+    <string name="settings">Settings</string>
+    <string name="smc_logo_description">The SMC logo</string>
+    <string name="your_pi">Ditt pi</string>
+
+    <string name="app_info_alenskog">Christoffer Alenskog</string>
+    <string name="app_info_description">Perfect Pi är ett samarbete mellan Stockholms Matematikcentrum (SMC) och studenter från programmet Civilingenjör Datateknik vid KTH i syfte att väcka intresse för matematik i allmänhet och pi i synnerhet. Projektet är ett Open Source-projekt licenserat under Apache License Version 2.0 (http://www.apache.org/license). Källkoden finns att tillgå på https://github.com/deltagruppen/circles/.</string>
+    <string name="app_info_evert">Anna-Karin Evert</string>
+    <string name="app_info_ghouch">Chaimae El Ghouch</string>
+    <string name="app_info_guiux">GUI/UX</string>
+    <string name="app_info_isse">Jamila Yusuf Isse</string>
+    <string name="app_info_johansson">Dante Johansson</string>
+    <string name="app_info_kabata">Aphia Kabata</string>
+    <string name="app_info_linusson_info">director@math-stockholm.se</string>
+    <string name="app_info_linusson">Professor Svante Linusson</string>
+    <string name="app_info_mattison">Alfrida Mattison</string>
+    <string name="app_info_muir">Macaully James Muir</string>
+    <string name="app_info_programmers">Programmerare</string>
+    <string name="app_info_project_leader">Projektledare</string>
+    <string name="app_info_randleff_info">Veronica Randleff \n randleff@kth.se</string>
+    <string name="app_info_schwermer">Patrik Schwermer</string>
+    <string name="app_info_secretary">Sekreterare</string>
+    <string name="app_info_smc">Stockholms Matematikcentrum</string>
+    <string name="app_info_students">Studenter</string>
+    <string name="app_info_title">Om Perfect Pi</string>
+    <string name="app_info_user_testing">Användartestning</string>
+
     <string name="language_popup_eng">English</string>
-    <string name="logo_text">Ett samarbete mellan Stockholms Matemetikcentrum och KTH-studenter .</string>
+    <string name="language_popup_swe">Svenska</string>
+    <string name="language_popup_title">Byt språk</string>
+    <string name="language">Språk/Language</string>
+
     <string name="main_circle_drawing_message1">Försök igen!</string>
+    <string name="main_hand_arrow_description">hand_arrow</string>
+    <string name="main_head_instructions">Rita en cirkel</string>
+    <string name="main_instruction">Försök att rita en så rund cirkel som möjligt till höger. Ett närmervärde på &#x3c0; kommer att beräknas utefter den ritade cirkeln.</string>
     <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter</string>
-    <string name="name_AE">Anna-Karin Evert</string>
-    <string name="name_AKN">Aphia Kabata</string>
-    <string name="name_AM">Alfrida Mattison</string>
-    <string name="name_CA">Christoffer Alenskog</string>
-    <string name="name_CEG">Chaimae El Ghouch</string>
-    <string name="name_DJ">Dante Johansson</string>
-    <string name="name_JYI">Jamila Yusuf Isse</string>
-    <string name="name_MM">Macaully James Muir</string>
-    <string name="name_PS">Patrik Schwermer</string>
-    <string name="name_sl">Professor Svante Linusson</string>
+    <string name="main_small_instruction">Rita en cirkel!</string>
+
     <string name="pi_calculation_intro"> Talet &#x3c0; är förhållandet mellan en cirkels omkrets och diameter. I Perfect Pi är målet att rita en cirkel med samma förhållande. Det är tyvärr omöjligt. &#x3c0; är till att börja med en oändlig decimalutveckling så hur nära man än kommer kan man alltid komma lite närmre. Det finns också tekniska begränsningar. Displayen består av pixlar uppdelade i ett rutnät. Alla figurer man skapar består därmed av kantiga former. Zoomar man ut kan man inte längre urskilja kanterna och saker ser istället runda, raka och fina ut. Men är man riktigt duktig så kan man trots dessa begränsningar få ett värde nära &#x3c0;! </string>
     <string name="pi_calculation_part1"> Beräkningarna för figurerna som ritas bygger på den isoperimetriska olikheten. Den isoperimetriska olikheten säger att det är sant för alla slutna kurvor att 4&#x3c0;A ≤ L&#xb2;. Det betyder att om man multiplicerar en sluten kurvas area (A) med 4&#x3c0; så kommer resultatet alltid att vara mindre eller lika med omkretsen (L) kvadrerat.  </string>
     <string name="pi_calculation_part2"> Genom att skriva om den isoperimetriska olikheten fås ett samband för att beräkna en kurvas &#x3c0;-värde.  </string>
@@ -50,34 +53,20 @@
     <string name="pi_calculation_part4"> Att beräkna omkretsen är trivialt och görs genom att addera längden av alla linjer som skapats mellan punkterna. Att beräkna arean kräver mer försiktighet ifall man önskar ett bra resultat.</string>
     <string name="pi_calculation_part5"> För beräkning av arean används denna formel:</string>
     <string name="pi_calculation_part6"> Slutligen sätts cirkelns area och omkrets in i den isoperimetriska olikheten och ut kommer ett väl uppskattat &#x3c0;-värde för den ritade figuren. </string>
-    <string name="pi_calculation_title">Beräkning av &#x3c0;</string>
-    <string name="pi_fact_2">Pi är ett irrationellt tal och kan därför inte skrivas som ett bråk och har en oändlig decimalutveckling. Två populära approximationer man brukar använda sig av är 3,14 och 22/7. </string>
-    <string name="pi_fact_10">Ca 250 f.kr. beräknade Arkimedes en approximation av pi genom att ta fram en algoritm som gick ut på att låsa in en cirkel mellan två polygoner. Genom att beräkna omkretsen av dessa polygoner hittade han att värdet för pi låg mellan 223/71 och 22/7. På grund av detta kallas pi även för Arkimedes konstant. </string>
-    <string name="pi_fact_5">I = L/ (4*pi*d²)</string>
-    <string name="pi_fact_4">Pi används inom astronomi och astrofysik för att beräkna banor och storlekar av himlakroppar. Copernicus och Galileo använde sig utav pi för att approximera storleken av jorden och dess avstånd till månen. Ett exempel på hur pi används inom astronomi är vid beräkning av intensiteten av en stjärnas ljus, vilket görs med formeln: </string>
-    <string name="pi_fact_6"> Där I är stjärnans ljusintensitet i W/m², L är ljusstyrkan i W och d är avståndet till stjärnan i meter. </string>
+    <string name="title_activity_calculating_pi">Beräkning av &#x3c0;</string>
+
     <string name="pi_fact_1"> Pi är ett tal som ger förhållandet mellan en cirkels omkrets och dess diameter. </string>
-    <string name="pi_fact_9"> Albert Einstein föddes på pi-dagen, den 14 mars 1879. </string>
-    <string name="pi_fact_11">Om man skriver “3,14” på en pappersbit och håller upp mot en spegel så återspeglas ordet “PIE”, detta är hur man uttalar pi på engelska.</string>
-    <string name="pi_fact_8"> Eulers identitet anses av många vara den vackraste ekvationen i hela matematiken och upptäcktes av Leonhard Euler 1743. Den kopplar ihop fem av matematikens mest fundamentala tal: 0, 1, den imaginära enheten i, basen för den naturliga logaritmen e och, såklart, &#x3c0;. </string>
+    <string name="pi_fact_2">Pi är ett irrationellt tal och kan därför inte skrivas som ett bråk och har en oändlig decimalutveckling. Två populära approximationer man brukar använda sig av är 3,14 och 22/7. </string>
     <string name="pi_fact_3"> Pi-dagen firas den 14 mars vilket valdes för att likna närmevärdet 3,14. Många väljer även att börja firandet vid 1:59 på dagen som kombinerat med datumet ger en ännu noggrannare approximation av pi: 3,14159. </string>
-    <string name="pi_fact_12">Runt 1644 formulerade Pietro Mengoli det som kallas för Baselproblemet. Problemet gick ut på att man skulle beräkna värdet av summan för oändliga serier nämligen:</string>
-    <string name="pi_fact_13">∑(1/n^2)</string>
-    <string name="pi_fact_14">Detta löstes vid 1743 av Euler som bevisade att ∑(1/n^2) går mot pi^2/6 då n → ∞.</string>
-    <string name="pi_fact_7"> Världsrekordet på att memorera decimalutvecklingen av pi sattes senast år 2005 av kinesen Chao Lu, då han från minnet läste upp de 67 890 första decimalplatserna. </string>
+    <string name="pi_fact_4">Pi används inom astronomi och astrofysik för att beräkna banor och storlekar av himlakroppar. Copernicus och Galileo använde sig utav pi för att approximera storleken av jorden och dess avstånd till månen. Ett exempel på hur pi används inom astronomi är vid beräkning av intensiteten av en stjärnas ljus, vilket görs med formeln: </string>
+    <string name="pi_fact_5"> Där I är stjärnans ljusintensitet i W/m², L är ljusstyrkan i W och d är avståndet till stjärnan i meter. </string>
+    <string name="pi_fact_6"> Världsrekordet på att memorera decimalutvecklingen av pi sattes senast år 2005 av kinesen Chao Lu, då han från minnet läste upp de 67 890 första decimalplatserna. </string>
+    <string name="pi_fact_7"> Eulers identitet anses av många vara den vackraste ekvationen i hela matematiken och upptäcktes av Leonhard Euler 1743. Den kopplar ihop fem av matematikens mest fundamentala tal: 0, 1, den imaginära enheten i, basen för den naturliga logaritmen e och, såklart, &#x3c0;. </string>
+    <string name="pi_fact_8"> Albert Einstein föddes på pi-dagen, den 14 mars 1879. </string>
+    <string name="pi_fact_9">Ca 250 f.kr. beräknade Arkimedes en approximation av pi genom att ta fram en algoritm som gick ut på att låsa in en cirkel mellan två polygoner. Genom att beräkna omkretsen av dessa polygoner hittade han att värdet för pi låg mellan 223/71 och 22/7. På grund av detta kallas pi även för Arkimedes konstant. </string>
+    <string name="pi_fact_10">Om man skriver “3,14” på en pappersbit och håller upp mot en spegel så återspeglas ordet “PIE”, detta är hur man uttalar pi på engelska.</string>
+    <string name="pi_fact_11">Runt 1644 formulerade Pietro Mengoli det som kallas för Baselproblemet. Problemet gick ut på att man skulle beräkna värdet av summan för oändliga serier nämligen:</string><string name="pi_fact_13">∑(1/n^2)</string>
     <string name="pi_fact_intro">Talet pi har en flera tusen år gammal historia. Sedan Babylonierna ca 2000 f.kr. uppskattade pi till 25/8 så har matematiker och civilisationer kämpat för en mer precis uppskattning av pi ända tills idag då vi har uppskattningar av pi med flera biljoner decimalers noggrannhet. Vi har samlat ett urval roliga fakta som vi stött på medan vi utvecklat appen.</string>
-    <string name="pi_fact_title">Roliga fakta om &#x3c0;</string>
-    <string name="pi">3,14159265</string>
-    <string name="about_app_project_leader_details">Veronica Randleff \n randleff@kth.se</string>
-    <string name="smc_logo_description">The SMC logo</string>
-    <string name="teach_me_pi">Läs mer om pi</string>
-    <string name="title_activity_about_calculating_pi">AboutCalculatingPi</string>
-    <string name="title_activity_app_info">App Info</string>
-    <string name="title_activity_calculating_pi">CalculatingPi</string>
-    <string name="title_activity_pi_info">Pi Info</string>
-    <string name="your_pi">Ditt pi</string>
-    <string name="head_secretary">Sekreterare</string>
-    <string name="main_small_instruction">Rita en cirkel!</string>
-    <string name="number_separation">,</string>
+    <string name="title_activity_pi_info">Roliga fakta om &#x3c0;</string>
 
 </resources>

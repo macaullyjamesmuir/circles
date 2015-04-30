@@ -21,7 +21,7 @@
 
         <activity
             android:name="perfectpi.circles.PiInfo"
-            android:label="@string/title_activity_pi_info"
+            android:label="@string/title_activity_calculating_pi"
             android:parentActivityName="perfectpi.circles.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -30,7 +30,7 @@
 
         <activity
             android:name="perfectpi.circles.AppInfo"
-            android:label="@string/title_activity_app_info"
+            android:label="@string/app_info_title"
             android:parentActivityName="perfectpi.circles.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

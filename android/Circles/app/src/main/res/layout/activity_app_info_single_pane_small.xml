@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/about_app_name"
+            android:text="@string/app_info_title"
             android:textSize="@dimen/font_l"
             android:textColor="@color/first_header_text"
             android:layout_centerVertical="true"
@@ -36,7 +36,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/about_perfect_pi_description"
+                android:text="@string/app_info_description"
                 android:layout_gravity="center_horizontal"
                 android:textSize="@dimen/font_m"
                 android:layout_margin="@dimen/margin_s"
@@ -51,7 +51,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/about_app_head_math_center"
+                    android:text="@string/app_info_smc"
                     android:textSize="@dimen/font_l"
                     android:textColor="@color/third_header_text"/>
 
@@ -59,14 +59,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/name_sl_text_field"
-                    android:text="@string/name_sl"
+                    android:text="@string/app_info_linusson"
                     android:textSize="@dimen/font_s"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/contact_sl_text_field"
-                    android:text="@string/about_app_contact_sl"
+                    android:text="@string/app_info_linusson_info"
                     android:textSize="@dimen/font_s"/>
 
                 <ImageView
@@ -79,7 +79,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/about_app_head_students"
+                    android:text="@string/app_info_students"
                     android:textSize="@dimen/font_l"
                     android:textColor="@color/third_header_text"
                     android:id="@+id/app_info_single_pane_text_view_3"
@@ -107,7 +107,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/head_project_leader_text_view"
-                        android:text="@string/about_app_head_project_leader"
+                        android:text="@string/app_info_project_leader"
                         android:textSize="@dimen/font_s"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
@@ -117,7 +117,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/project_leader_details_text_field"
-                        android:text="@string/about_app_project_leader_details"
+                        android:text="@string/app_info_randleff_info"
                         android:textSize="@dimen/font_s"
                         android:layout_marginBottom="@dimen/margin_xs"/>
 
@@ -127,7 +127,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/head_design_and_gui_text_view"
-                        android:text="@string/about_app_head_guiux"
+                        android:text="@string/app_info_guiux"
                         android:textSize="@dimen/font_s"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
@@ -137,7 +137,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/info_name_PS_text_view"
-                        android:text="@string/name_PS"
+                        android:text="@string/app_info_schwermer"
                         android:textSize="@dimen/font_s"
                         android:layout_marginBottom="@dimen/margin_xs"/>
 
@@ -145,7 +145,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/head_programmers_text_view"
-                        android:text="@string/about_app_head_programmers"
+                        android:text="@string/app_info_programmers"
                         android:textSize="@dimen/font_s"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
@@ -155,35 +155,35 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_name_AKN_text_view"
-                        android:text="@string/name_AKN"
+                        android:text="@string/app_info_kabata"
                         android:textSize="@dimen/font_s"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_name_CEG_text_view"
-                        android:text="@string/name_CEG"
+                        android:text="@string/app_info_ghouch"
                         android:textSize="@dimen/font_s"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_nameCA_text_view"
-                        android:text="@string/name_CA"
+                        android:text="@string/app_info_alenskog"
                         android:textSize="@dimen/font_s"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_name_DJ_text_view"
-                        android:text="@string/name_DJ"
+                        android:text="@string/app_info_johansson"
                         android:textSize="@dimen/font_s"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_name_MM_text_view"
-                        android:text="@string/name_MM"
+                        android:text="@string/app_info_muir"
                         android:textSize="@dimen/font_s"
                         android:layout_marginBottom="@dimen/margin_l"/>
 
@@ -198,7 +198,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/head_user_testing_text_view"
-                        android:text="@string/about_app_head_user_testing"
+                        android:text="@string/app_info_user_testing"
                         android:textSize="@dimen/font_s"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
@@ -208,14 +208,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_AE_text_field"
-                        android:text="@string/name_AE"
+                        android:text="@string/app_info_evert"
                         android:textSize="@dimen/font_s"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_AM_text_field"
-                        android:text="@string/name_AM"
+                        android:text="@string/app_info_mattison"
                         android:textSize="@dimen/font_s"
                         android:layout_marginBottom="@dimen/margin_xs"/>
 
@@ -223,7 +223,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/head_secretary_text_view"
-                        android:text="@string/head_secretary"
+                        android:text="@string/app_info_secretary"
                         android:textSize="@dimen/font_s"
                         android:textStyle="bold"
                         android:textColor="@color/third_header_text"
@@ -233,7 +233,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/name_name_JYI_text_view"
-                        android:text="@string/name_JYI"
+                        android:text="@string/app_info_isse"
                         android:textSize="@dimen/font_s"/>
 
                 </LinearLayout>

@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pi_fact_title"
+            android:text="@string/title_activity_pi_info"
             android:id="@+id/textView5"
             android:textColor="@color/first_header_text"
             android:layout_centerHorizontal="true"
@@ -166,7 +166,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/font_s"
-                        android:text="@string/pi_fact_6"
+                        android:text="@string/pi_fact_5"
                         android:layout_marginTop="@dimen/margin_xs"
                         android:layout_marginStart="30dp"
                         android:layout_marginLeft="30dp"/>
@@ -188,7 +188,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="@dimen/font_s"
-                            android:text="@string/pi_fact_7"/>
+                            android:text="@string/pi_fact_6"/>
                     </LinearLayout>
 
                 </LinearLayout>
@@ -217,7 +217,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="@dimen/font_s"
-                            android:text="@string/pi_fact_8"/>
+                            android:text="@string/pi_fact_7"/>
                     </LinearLayout>
 
                     <ImageView
@@ -245,7 +245,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="@dimen/font_s"
-                            android:text="@string/pi_fact_9"/>
+                            android:text="@string/pi_fact_8"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -265,7 +265,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="@dimen/font_s"
-                            android:text="@string/pi_fact_10"/>
+                            android:text="@string/pi_fact_9"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -285,7 +285,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="@dimen/font_s"
-                            android:text="@string/pi_fact_11"/>
+                            android:text="@string/pi_fact_10"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -305,7 +305,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="@dimen/font_s"
-                            android:text="@string/pi_fact_12"/>
+                            android:text="@string/pi_fact_11"/>
                     </LinearLayout>
 
                     <ImageView

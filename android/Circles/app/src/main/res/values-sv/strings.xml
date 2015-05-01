@@ -43,7 +43,7 @@
     <string name="main_hand_arrow_description">hand_arrow</string>
     <string name="main_head_instructions">Rita en cirkel</string>
     <string name="main_instruction">Försök att rita en så rund cirkel som möjligt till höger. Ett närmervärde på &#x3c0; kommer att beräknas utefter den ritade cirkeln.</string>
-    <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-sudenter</string>
+    <string name="main_sidebar_attribution">Ett samarbete mellan Stockholms Matematikcentrum och KTH-studenter</string>
     <string name="main_small_instruction">Rita en cirkel!</string>
 
     <string name="pi_calculation_intro"> Talet &#x3c0; är förhållandet mellan en cirkels omkrets och diameter. I Perfect Pi är målet att rita en cirkel med samma förhållande. Det är tyvärr omöjligt. &#x3c0; är till att börja med en oändlig decimalutveckling så hur nära man än kommer kan man alltid komma lite närmre. Det finns också tekniska begränsningar. Displayen består av pixlar uppdelade i ett rutnät. Alla figurer man skapar består därmed av kantiga former. Zoomar man ut kan man inte längre urskilja kanterna och saker ser istället runda, raka och fina ut. Men är man riktigt duktig så kan man trots dessa begränsningar få ett värde nära &#x3c0;! </string>
@@ -65,7 +65,7 @@
     <string name="pi_fact_8"> Albert Einstein föddes på pi-dagen, den 14 mars 1879. </string>
     <string name="pi_fact_9">Ca 250 f.kr. beräknade Arkimedes en approximation av pi genom att ta fram en algoritm som gick ut på att låsa in en cirkel mellan två polygoner. Genom att beräkna omkretsen av dessa polygoner hittade han att värdet för pi låg mellan 223/71 och 22/7. På grund av detta kallas pi även för Arkimedes konstant. </string>
     <string name="pi_fact_10">Om man skriver “3,14” på en pappersbit och håller upp mot en spegel så återspeglas ordet “PIE”, detta är hur man uttalar pi på engelska.</string>
-    <string name="pi_fact_11">Runt 1644 formulerade Pietro Mengoli det som kallas för Baselproblemet. Problemet gick ut på att man skulle beräkna värdet av summan för oändliga serier nämligen:</string><string name="pi_fact_13">∑(1/n^2)</string>
+    <string name="pi_fact_11">Runt 1644 formulerade Pietro Mengoli det som kallas för Baselproblemet. Problemet gick ut på att man skulle beräkna värdet av summan för oändliga serier nämligen:</string>
     <string name="pi_fact_intro">Talet pi har en flera tusen år gammal historia. Sedan Babylonierna ca 2000 f.kr. uppskattade pi till 25/8 så har matematiker och civilisationer kämpat för en mer precis uppskattning av pi ända tills idag då vi har uppskattningar av pi med flera biljoner decimalers noggrannhet. Vi har samlat ett urval roliga fakta som vi stött på medan vi utvecklat appen.</string>
     <string name="title_activity_pi_info">Roliga fakta om &#x3c0;</string>
 

@@ -132,23 +132,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@color/light_gray"
-                android:paddingLeft="30dp">
+                android:background="@color/light_gray">
 
                 <ImageView
-                    android:layout_width="97dp"
+                    android:layout_width="104dp"
                     android:layout_height="104dp"
                     android:id="@+id/hand_animation"
-                    android:layout_margin="@dimen/margin_xs"
-                    android:contentDescription="@string/main_hand_arrow_description" />
+                    android:contentDescription="@string/main_hand_arrow_description"
+                    android:layout_marginTop="@dimen/margin_xs"
+                    android:layout_gravity="center_horizontal" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/main_small_instruction"
-                    android:layout_marginStart="@dimen/margin_s"
-                    android:layout_marginLeft="@dimen/margin_s"
-                    android:layout_marginBottom="@dimen/margin_xxs"/>
+                    android:layout_marginBottom="@dimen/margin_xxs"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="0dp" />
 
             </LinearLayout>
 
@@ -162,17 +163,19 @@
                     android:layout_height="wrap_content">
 
                     <ImageButton
-                        android:layout_width="wrap_content"
+                        android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:id="@+id/imageButton3"
                         android:layout_column="0"
                         android:background="#ff26a69a"
                         android:cropToPadding="false"
                         android:src="@drawable/ic_format_list_numbers_white_24dp"
-                        android:onClick="showPiInfo" />
+                        android:onClick="showPiInfo"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center_vertical" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="40dp"
                         android:textSize="20sp"
                         android:text="@string/title_activity_pi_info"
@@ -182,9 +185,10 @@
                         android:singleLine="true"
                         android:layout_marginBottom="10dp"
                         android:textColor="#ffffffff"
-                        android:gravity="center_vertical"
                         android:nestedScrollingEnabled="false"
-                        android:onClick="showPiInfo" />
+                        android:onClick="showPiInfo"
+                        android:capitalize="none"
+                        android:gravity="center_vertical" />
                 </TableRow>
 
                 <TableRow
@@ -192,7 +196,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageButton
-                        android:layout_width="wrap_content"
+                        android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:id="@+id/imageButton4"
                         android:layout_column="0"
@@ -202,7 +206,7 @@
                         android:onClick="showCalculatingPiInfo" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="40dp"
                         android:textSize="20sp"
                         android:text="@string/title_activity_calculating_pi"
@@ -212,9 +216,10 @@
                         android:layout_marginBottom="10dp"
                         android:singleLine="true"
                         android:textColor="#ffffffff"
-                        android:gravity="center_vertical"
                         android:onClick="showCalculatingPiInfo"
-                        android:paddingRight="@dimen/margin_xs"/>
+                        android:paddingRight="@dimen/margin_xs"
+                        android:gravity="center_vertical"
+                        android:capitalize="none" />
                 </TableRow>
 
                 <TableRow
@@ -222,7 +227,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageButton
-                        android:layout_width="wrap_content"
+                        android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:id="@+id/imageButton5"
                         android:layout_column="0"
@@ -231,7 +236,7 @@
                         android:src="@drawable/ic_earth_white_24dp" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="40dp"
                         android:textSize="20sp"
                         android:text="@string/language"
@@ -241,9 +246,10 @@
                         android:layout_marginBottom="10dp"
                         android:singleLine="true"
                         android:textColor="#ffffffff"
-                        android:gravity="center_vertical"
                         android:paddingRight="@dimen/margin_xs"
-                        android:onClick="changeLanguage"/>
+                        android:onClick="changeLanguage"
+                        android:gravity="center_vertical"
+                        android:capitalize="none" />
                 </TableRow>
 
                 <TableRow
@@ -251,7 +257,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageButton
-                        android:layout_width="wrap_content"
+                        android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:id="@+id/imageButton6"
                         android:layout_column="0"
@@ -261,7 +267,7 @@
                         android:onClick="showAppInfo" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="40dp"
                         android:textSize="20sp"
                         android:text="@string/app_info_title"
@@ -271,9 +277,10 @@
                         android:layout_marginBottom="10dp"
                         android:singleLine="true"
                         android:textColor="#ffffffff"
-                        android:gravity="center_vertical"
                         android:onClick="showAppInfo"
-                        android:paddingRight="@dimen/margin_xs"/>
+                        android:paddingRight="@dimen/margin_xs"
+                        android:gravity="center_vertical"
+                        android:capitalize="none" />
                 </TableRow>
             </TableLayout>
 

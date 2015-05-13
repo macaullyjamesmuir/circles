@@ -100,9 +100,10 @@ public class DrawView extends RelativeLayout
                 s = s.substring(0, Math.min(s.length(), 10));
 
                 approximationTextView.setText(s);
-
-                piCalculationPopup.setVisibility(View.VISIBLE);
-                closestCircleView.setImperfectCircle(imperfectCircle);
+                if (a > 0) {
+                    piCalculationPopup.setVisibility(View.VISIBLE);
+                    closestCircleView.setImperfectCircle(imperfectCircle);
+                }
             }
             catch (IllegalArgumentException e) {
             }

@@ -40,7 +40,7 @@ public class ImperfectCircle
         normalizeInput(input);
 
         // Generate a list of line segments from the input
-        List<LineSegment> segments = new ArrayList<>();
+        List<LineSegment> segments = new ArrayList();
         for (int i = 1; i < input.size(); i++) {
             segments.add(new LineSegment(input.get(i-1), input.get(i)));
         }
@@ -57,7 +57,7 @@ public class ImperfectCircle
                 int k = pointsInProximity(s1, s2);
 
                 if (intersection != null) {
-                    points = new ArrayList<>(input.subList(i, j + 1));
+                    points = new ArrayList(input.subList(i, j + 1));
 
                     // The intersection should be in the list of points
                     points.add(intersection);
@@ -75,25 +75,25 @@ public class ImperfectCircle
                         // In case 1 the first and the last points are closest
                         // to each other.
                         case 1:
-                            points = new ArrayList<>(input.subList(i, j + 1));
+                            points = new ArrayList(input.subList(i, j + 1));
                             points.add(new PointF((float) s1.p1.getX(), (float) s1.p1.getY()));
                             return;
 
                         // In case 2 the second and the last point are closest to each other.
                         case 2:
-                            points = new ArrayList<>(input.subList(i + 1 , j + 1));
+                            points = new ArrayList(input.subList(i + 1 , j + 1));
                             points.add(new PointF((float) s1.p2.getX(), (float) s1.p2.getY()));
                             return;
 
                         // In case 3 the second and the point before the last are closest.
                         case 3:
-                            points = new ArrayList<>(input.subList(i + 1, j));
+                            points = new ArrayList(input.subList(i + 1, j));
                             points.add(new PointF((float) s1.p2.getX(), (float) s1.p2.getY()));
                             return;
 
                         // In case 4 the first and the point before the last are closest.
                         case 4:
-                            points = new ArrayList<>(input.subList(i, j));
+                            points = new ArrayList(input.subList(i, j));
                             points.add(new PointF((float) s1.p1.getX(), (float) s1.p1.getY()));
                             return;
                     }
@@ -102,7 +102,7 @@ public class ImperfectCircle
         }
 
         // If no proximity or intersection is found then use all drawn points
-        points = new ArrayList<>(input.subList(0,input.size()));
+        points = new ArrayList(input.subList(0,input.size()));
 
         // Add the first point once again
         points.add(input.get(0));

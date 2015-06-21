@@ -1,0 +1,20 @@
+<resources>
+
+    <dimen name="margin_xxl">100dp</dimen>
+    <dimen name="margin_xl">80dp</dimen>
+    <dimen name="margin_l">60dp</dimen>
+    <dimen name="margin_m">30dp</dimen>
+    <dimen name="margin_s">20dp</dimen>
+    <dimen name="margin_xs">10dp</dimen>
+    <dimen name="margin_xxs">5dp</dimen>
+
+    <dimen name="font_xl">83sp</dimen>
+    <dimen name="font_l">33sp</dimen>
+    <dimen name="font_m">20sp</dimen>
+    <dimen name="font_s">18sp</dimen>
+    <dimen name="font_xs">16sp</dimen>
+
+    <dimen name="field_l">130dp</dimen>
+    <dimen name="field_m">50dp</dimen>
+
+</resources>

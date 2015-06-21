@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="perfectpi.circles.PiInfo"
+    android:id="@+id/pi_info_layout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/field_l"
+        android:background="#ff0097a7"
+        android:id="@+id/calculating_pi_header_field">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity_calculating_pi"
+            android:id="@+id/textView5"
+            android:textColor="@color/first_header_text"
+            android:textSize="@dimen/font_xl"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calculating_pi_header_field">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:id="@+id/calculating_pi_intro_text_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="@dimen/font_m"
+                    android:layout_marginBottom="@dimen/margin_s"
+                    android:text="@string/pi_calculation_intro"
+                    android:id="@+id/textView12"
+                    android:layout_margin="@dimen/margin_s"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/calculating_pi_intro_text_field"
+                android:layout_marginStart="@dimen/margin_xl"
+                android:layout_marginLeft="@dimen/margin_xl"
+                android:layout_marginEnd="@dimen/margin_xl"
+                android:layout_marginRight="@dimen/margin_xl">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pi_calculation_part1"
+                    android:id="@+id/textView27"
+                    android:textSize="@dimen/font_s"
+                    android:layout_marginBottom="@dimen/margin_xs"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pi_calculation_part2"
+                    android:id="@+id/textView39"
+                    android:textSize="@dimen/font_s"
+                    android:layout_marginBottom="@dimen/margin_xs"/>
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/imageView3"
+                    android:background="@drawable/calculating_pi_formula1"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_xs"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pi_calculation_part3"
+                    android:id="@+id/textView31"
+                    android:textSize="@dimen/font_s"
+                    android:layout_marginBottom="@dimen/margin_xs"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pi_calculation_part4"
+                    android:textSize="@dimen/font_s"
+                    android:layout_marginBottom="@dimen/margin_xs"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pi_calculation_part5"
+                    android:id="@+id/textView34"
+                    android:textSize="@dimen/font_s"
+                    android:layout_marginBottom="@dimen/margin_xs"/>
+
+                <ImageView
+                    android:layout_width="475dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/imageView4"
+                    android:background="@drawable/calculating_pi_formula2"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_xs"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pi_calculation_part6"
+                    android:paddingRight="25dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="@dimen/font_s"
+                    android:id="@+id/textView50"
+                    android:layout_marginBottom="@dimen/margin_l"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

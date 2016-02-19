@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="activity_pi_info" type="layout">@layout/activity_pi_info_double_pane</item>
+    <item name="activity_calculating_pi" type="layout">@layout/activity_calculating_pi_double_pane</item>
+    <item name="activity_app_info" type="layout">@layout/activity_app_info_double_pane</item>
+    <item name="activity_main" type="layout">@layout/activity_main_large</item>
+
+</resources>
